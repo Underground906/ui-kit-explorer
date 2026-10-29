@@ -13,7 +13,7 @@ on:
         description: cap on new pages added per discovery round (live sites)
         default: "20"
       mode:
-        description: explore (find screens), harvest (replay recorded screens, measure component styles) or remeasure (harvest + rewrite layout JSON)
+        description: explore (find screens), harvest (replay recorded screens, measure component styles) remeasure (harvest + rewrite layout JSON) or discover (list every page of the site)
         default: explore
 
 jobs:
@@ -54,6 +54,7 @@ jobs:
             kits/${{ matrix.kit }}/source/app_styles.css
             kits/${{ matrix.kit }}/explore.log
             kits/${{ matrix.kit }}/components.json
+            kits/${{ matrix.kit }}/pages_found.json
             kits/${{ matrix.kit }}/screens/**/*.json
           retention-days: 30
           if-no-files-found: warn

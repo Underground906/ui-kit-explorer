@@ -3,6 +3,9 @@
 # then data variants are marked. Kit folder: kits/<kit>/states.json (page list) and, for source bundles, source/app.html.
 set -u
 K=kits/$1
+if [ "${MODE:-explore}" = "discover" ]; then   # list every page of the site only, no screens
+  DRY=1 python tools/discover_pages.py $K; [ -s $K/pages_found.json ] || exit 1; echo "KIT_DONE $1"; exit 0
+fi
 if [ "${MODE:-explore}" = "harvest" ] || [ "${MODE:-explore}" = "remeasure" ]; then
   [ "$MODE" = "remeasure" ] && export REMEASURE=1   # components only, over the screens already recorded in screens.json
   R=$(python -c "import json;print(' '.join(json.load(open('$K/screens.json'))['roots_done']))")
