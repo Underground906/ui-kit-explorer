@@ -1,116 +1,92 @@
 [
-{
-"id": "dashboard",
-"q": "",
-"pre": [
-"fill:you@store.com=owner@rubik.store",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
-"Sign in"
-],
-"full": true
-},
-{
-"id": "orders",
-"q": "",
-"pre": [
-"fill:you@store.com=owner@rubik.store",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
-"Sign in",
-"Orders"
-],
-"full": true
-},
-{
-"id": "products",
-"q": "",
-"pre": [
-"fill:you@store.com=owner@rubik.store",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
-"Sign in",
-"Products"
-],
-"full": true
-},
-{
-"id": "purchases",
-"q": "",
-"pre": [
-"fill:you@store.com=owner@rubik.store",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
-"Sign in",
-"Purchases"
-],
-"full": true
-},
-{
-"id": "customers",
-"q": "",
-"pre": [
-"fill:you@store.com=owner@rubik.store",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
-"Sign in",
-"Customers"
-],
-"full": true
-},
-{
-"id": "accounts",
-"q": "",
-"pre": [
-"fill:you@store.com=owner@rubik.store",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
-"Sign in",
-"Accounts"
-],
-"full": true
-},
-{
-"id": "reports",
-"q": "",
-"pre": [
-"fill:you@store.com=owner@rubik.store",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
-"Sign in",
-"Reports"
-],
-"full": true
-},
-{
-"id": "dropshipping",
-"q": "",
-"pre": [
-"fill:you@store.com=owner@rubik.store",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
-"Sign in",
-"Dropshipping"
-],
-"full": true
-},
-{
-"id": "online-store",
-"q": "",
-"pre": [
-"fill:you@store.com=owner@rubik.store",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
-"Sign in",
-"Online Store"
-],
-"full": true
-},
-{
-"id": "settings",
-"q": "",
-"pre": [
-"fill:you@store.com=owner@rubik.store",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
-"Sign in",
-"Settings"
-],
-"full": true
-},
-{
-"id": "signin",
-"q": "",
-"full": true
-}
+ {
+  "id": "accounts-invoices",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22accounts.invoices%22%7D",
+  "full": true
+ },
+ {
+  "id": "customers-groups",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22customers.groups%22%7D",
+  "full": true
+ },
+ {
+  "id": "dropship-find",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22dropship.find%22%7D",
+  "full": true
+ },
+ {
+  "id": "dropship-payment",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22dropship.payment%22%7D",
+  "full": true
+ },
+ {
+  "id": "orders-draft",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22orders.draft%22%7D",
+  "full": true
+ },
+ {
+  "id": "orders-incomplete",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22orders.incomplete%22%7D",
+  "full": true
+ },
+ {
+  "id": "orders-return",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22orders.return%22%7D",
+  "full": true
+ },
+ {
+  "id": "products-brands",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22products.brands%22%7D",
+  "full": true
+ },
+ {
+  "id": "products-categories",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22products.categories%22%7D",
+  "full": true
+ },
+ {
+  "id": "products-inventory",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22products.inventory%22%7D",
+  "full": true
+ },
+ {
+  "id": "products-transfers",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22products.transfers%22%7D",
+  "full": true
+ },
+ {
+  "id": "products-units",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22products.units%22%7D",
+  "full": true
+ },
+ {
+  "id": "products-variations",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22products.variations%22%7D",
+  "full": true
+ },
+ {
+  "id": "purchases-returns",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22purchases.returns%22%7D",
+  "full": true
+ },
+ {
+  "id": "purchases-suppliers",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22purchases.suppliers%22%7D",
+  "full": true
+ },
+ {
+  "id": "reports-activity",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22reports.activity%22%7D",
+  "full": true
+ },
+ {
+  "id": "reports-sales",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22reports.sales%22%7D",
+  "full": true
+ },
+ {
+  "id": "reports-staff",
+  "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22reports.staff%22%7D",
+  "full": true
+ }
 ]
