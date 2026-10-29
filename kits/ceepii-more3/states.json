@@ -1,0 +1,16 @@
+[
+ {"id": "pay-done", "q": "", "url": "https://ceepii-nextjs-template.vercel.app/pay-done", "full": true},
+ {"id": "authors-jane-smith", "q": "", "url": "https://ceepii-nextjs-template.vercel.app/authors/jane-smith", "full": true},
+ {"id": "authors-john-doe", "q": "", "url": "https://ceepii-nextjs-template.vercel.app/authors/john-doe", "full": true},
+ {"id": "authors-royal-sergei", "q": "", "url": "https://ceepii-nextjs-template.vercel.app/authors/royal-sergei", "full": true},
+ {"id": "stay-categories-maldives", "q": "", "url": "https://ceepii-nextjs-template.vercel.app/stay-categories/maldives", "full": true},
+ {"id": "add-listing-2", "q": "", "url": "https://ceepii-nextjs-template.vercel.app/add-listing/2", "full": true},
+ {"id": "add-listing-3", "q": "", "url": "https://ceepii-nextjs-template.vercel.app/add-listing/3", "full": true},
+ {"id": "add-listing-4", "q": "", "url": "https://ceepii-nextjs-template.vercel.app/add-listing/4", "full": true},
+ {"id": "add-listing-5", "q": "", "url": "https://ceepii-nextjs-template.vercel.app/add-listing/5", "full": true},
+ {"id": "add-listing-6", "q": "", "url": "https://ceepii-nextjs-template.vercel.app/add-listing/6", "full": true},
+ {"id": "add-listing-7", "q": "", "url": "https://ceepii-nextjs-template.vercel.app/add-listing/7", "full": true},
+ {"id": "add-listing-8", "q": "", "url": "https://ceepii-nextjs-template.vercel.app/add-listing/8", "full": true},
+ {"id": "add-listing-9", "q": "", "url": "https://ceepii-nextjs-template.vercel.app/add-listing/9", "full": true},
+ {"id": "add-listing-10", "q": "", "url": "https://ceepii-nextjs-template.vercel.app/add-listing/10", "full": true}
+]
