@@ -4,8 +4,7 @@
 "q": "defaultRoute=dashboard",
 "full": true,
 "pre": [
-"fill:you@hospital.org=admin@hospital.org",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+"Fill in",
 "press:Enter"
 ]
 },
@@ -14,8 +13,7 @@
 "q": "defaultRoute=patients",
 "full": true,
 "pre": [
-"fill:you@hospital.org=admin@hospital.org",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+"Fill in",
 "press:Enter"
 ]
 },
@@ -24,8 +22,7 @@
 "q": "defaultRoute=appointment",
 "full": true,
 "pre": [
-"fill:you@hospital.org=admin@hospital.org",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+"Fill in",
 "press:Enter"
 ]
 },
@@ -34,8 +31,7 @@
 "q": "defaultRoute=doctors",
 "full": true,
 "pre": [
-"fill:you@hospital.org=admin@hospital.org",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+"Fill in",
 "press:Enter"
 ]
 },
@@ -44,8 +40,7 @@
 "q": "defaultRoute=departement",
 "full": true,
 "pre": [
-"fill:you@hospital.org=admin@hospital.org",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+"Fill in",
 "press:Enter"
 ]
 },
@@ -54,8 +49,7 @@
 "q": "defaultRoute=staff",
 "full": true,
 "pre": [
-"fill:you@hospital.org=admin@hospital.org",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+"Fill in",
 "press:Enter"
 ]
 },
@@ -64,8 +58,7 @@
 "q": "defaultRoute=ai",
 "full": true,
 "pre": [
-"fill:you@hospital.org=admin@hospital.org",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+"Fill in",
 "press:Enter"
 ]
 },
@@ -74,8 +67,7 @@
 "q": "defaultRoute=pharmacy",
 "full": true,
 "pre": [
-"fill:you@hospital.org=admin@hospital.org",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+"Fill in",
 "press:Enter"
 ]
 },
@@ -84,8 +76,7 @@
 "q": "defaultRoute=billing",
 "full": true,
 "pre": [
-"fill:you@hospital.org=admin@hospital.org",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+"Fill in",
 "press:Enter"
 ]
 },
@@ -94,8 +85,7 @@
 "q": "defaultRoute=report",
 "full": true,
 "pre": [
-"fill:you@hospital.org=admin@hospital.org",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+"Fill in",
 "press:Enter"
 ]
 },
@@ -104,8 +94,7 @@
 "q": "defaultRoute=lab",
 "full": true,
 "pre": [
-"fill:you@hospital.org=admin@hospital.org",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+"Fill in",
 "press:Enter"
 ]
 },
@@ -114,8 +103,7 @@
 "q": "defaultRoute=settings",
 "full": true,
 "pre": [
-"fill:you@hospital.org=admin@hospital.org",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+"Fill in",
 "press:Enter"
 ]
 },
@@ -124,8 +112,7 @@
 "q": "defaultRoute=support",
 "full": true,
 "pre": [
-"fill:you@hospital.org=admin@hospital.org",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+"Fill in",
 "press:Enter"
 ]
 },
@@ -134,8 +121,7 @@
 "q": "defaultRoute=integration",
 "full": true,
 "pre": [
-"fill:you@hospital.org=admin@hospital.org",
-"fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+"Fill in",
 "press:Enter"
 ]
 },
