@@ -165,7 +165,10 @@ async def main():
             if not path and not os.environ.get("CDP_URL") and not os.environ.get("PROFILE_DIR"):   # each page starts clean (not in a logged-in browser: that would sign it out): a theme toggle or saved filter from another page must not leak in
                 await pg.context.clear_cookies()   # a previous role's session cookie must not carry into the next login
                 await pg.evaluate("() => { try { localStorage.clear(); sessionStorage.clear() } catch (e) {} }")
-                await pg.reload(wait_until="load", timeout=120000)
+                if st.get("spa"):   # the app may have moved to a client-only route that 404s on reload
+                    await pg.goto(st["url"], wait_until="load", timeout=120000)
+                else:
+                    await pg.reload(wait_until="load", timeout=120000)
             if (not path and not os.environ.get("CDP_URL") and not os.environ.get("PROFILE_DIR")) or st.get("spa"):   # spa: deep links 404, so every visit (clicked paths too) walks in from the start page
                 for label in st.get("pre", []):   # login / setup steps: "fill:<placeholder>=<value>" or a label to click
                     try:

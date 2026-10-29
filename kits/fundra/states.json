@@ -1,5 +1,5 @@
 [
- {"id": "signin", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true},
+ {"id": "signin", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true},
  {"id": "forgot-password", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Forgot password?"]},
  {"id": "signup", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Create an account"]},
  {"id": "dashboard", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Sign in"]},
