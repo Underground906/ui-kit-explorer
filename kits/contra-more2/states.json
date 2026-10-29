@@ -1,0 +1,17 @@
+[
+ {"id": "hire", "q": "", "url": "https://contra.com/hire", "full": true},
+ {"id": "experts", "q": "", "url": "https://contra.com/experts", "full": true},
+ {"id": "top-independents", "q": "", "url": "https://contra.com/top-independents", "full": true},
+ {"id": "companies", "q": "", "url": "https://contra.com/companies", "full": true},
+ {"id": "agencies", "q": "", "url": "https://contra.com/agencies", "full": true},
+ {"id": "partners", "q": "", "url": "https://contra.com/partners", "full": true},
+ {"id": "pro", "q": "", "url": "https://contra.com/pro", "full": true},
+ {"id": "customers", "q": "", "url": "https://contra.com/customers", "full": true},
+ {"id": "events", "q": "", "url": "https://contra.com/events", "full": true},
+ {"id": "hackathons", "q": "", "url": "https://contra.com/hackathons", "full": true},
+ {"id": "blog", "q": "", "url": "https://contra.com/blog", "full": true},
+ {"id": "webflow", "q": "", "url": "https://contra.com/webflow", "full": true},
+ {"id": "relume", "q": "", "url": "https://contra.com/relume", "full": true},
+ {"id": "spline", "q": "", "url": "https://contra.com/spline", "full": true},
+ {"id": "bolt", "q": "", "url": "https://contra.com/bolt", "full": true}
+]
