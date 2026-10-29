@@ -169,6 +169,22 @@ async def main():
             known = {s["sig"]: s["id"] for s in db["screens"]}
             base = await goto(root, [])
             root_title = base["h1"]
+            # page templates: pages whose layout structure (text ignored) matches a page already seen are instances of one
+            # template (freelancer profiles, blog posts, job posts...). Explore 2 examples; record the rest with one shot only.
+            tsig = hashlib.md5(base["structure"].encode()).hexdigest()[:12]
+            tdb = db.setdefault("templates", {})
+            if len(tdb.get(tsig, [])) >= int(os.environ.get("TEMPLATE_EXAMPLES", "2")) and root not in tdb[tsig]:
+                await pg.screenshot(path=str(d / "0.png"), animations="disabled")
+                db["screens"].append({"id": f"{root}/0", "root": root, "depth": 0, "path": [], "parent": None, "via": None, "kind": "page",
+                                      "h1": base["h1"], "overlays": [], "sig": sig(base), "shot": f"screens/{root}/0.png",
+                                      "template_of": tdb[tsig][0], "template_sig": tsig})
+                tdb[tsig].append(root)
+                db["roots_done"].append(root)
+                out_p.write_text(json.dumps(db, ensure_ascii=False, indent=1), encoding="utf-8")
+                print("TEMPLATE", root, "= instance of", tdb[tsig][0], f"({len(tdb[tsig])} pages share this layout)", flush=True)
+                continue
+            if root not in tdb.setdefault(tsig, []):
+                tdb[tsig].append(root)
             queue = [{"id": f"{root}/0", "path": [], "depth": 0, "parent": None, "probe": base}]
             if not screens:
                 await pg.screenshot(path=str(d / "0.png"), animations="disabled")
