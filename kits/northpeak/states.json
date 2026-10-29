@@ -1,20 +1,12 @@
 [
- {
-  "id": "home",
-  "q": "",
-  "url": "https://northpeak-host.netlify.app/",
-  "full": true
- },
- {
-  "id": "forgot-password",
-  "q": "",
-  "url": "https://northpeak-host.netlify.app/forgot-password",
-  "full": true
- },
- {
-  "id": "register",
-  "q": "",
-  "url": "https://northpeak-host.netlify.app/register",
-  "full": true
- }
+ {"id": "home", "q": "", "url": "https://northpeak-host.netlify.app/", "full": true},
+ {"id": "dashboard", "q": "", "url": "https://northpeak-host.netlify.app/dashboard", "full": true},
+ {"id": "accounts", "q": "", "url": "https://northpeak-host.netlify.app/dashboard/accounts", "full": true},
+ {"id": "billing", "q": "", "url": "https://northpeak-host.netlify.app/dashboard/billing", "full": true},
+ {"id": "trade", "q": "", "url": "https://northpeak-host.netlify.app/dashboard/trade", "full": true},
+ {"id": "watchlist", "q": "", "url": "https://northpeak-host.netlify.app/dashboard/watchlist", "full": true},
+ {"id": "research", "q": "", "url": "https://northpeak-host.netlify.app/dashboard/research", "full": true},
+ {"id": "activity", "q": "", "url": "https://northpeak-host.netlify.app/dashboard/activity", "full": true},
+ {"id": "statements", "q": "", "url": "https://northpeak-host.netlify.app/dashboard/statements", "full": true},
+ {"id": "tax", "q": "", "url": "https://northpeak-host.netlify.app/dashboard/tax", "full": true}
 ]
