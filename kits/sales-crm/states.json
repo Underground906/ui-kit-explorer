@@ -1,0 +1,137 @@
+[
+{
+"id": "sdr__dashboard",
+"q": "startPersona=sdr",
+"pre": [
+"Sign in",
+"Dashboard"
+],
+"full": true
+},
+{
+"id": "sdr__pipeline",
+"q": "startPersona=sdr",
+"pre": [
+"Sign in",
+"Pipeline"
+],
+"full": true
+},
+{
+"id": "sdr__contacts",
+"q": "startPersona=sdr",
+"pre": [
+"Sign in",
+"Contacts"
+],
+"full": true
+},
+{
+"id": "sdr__sequences",
+"q": "startPersona=sdr",
+"pre": [
+"Sign in",
+"Sequences"
+],
+"full": true
+},
+{
+"id": "sdr__agent-roster",
+"q": "startPersona=sdr",
+"pre": [
+"Sign in",
+"Agent roster"
+],
+"full": true
+},
+{
+"id": "sdr__approval-queue",
+"q": "startPersona=sdr",
+"pre": [
+"Sign in",
+"Approval queue"
+],
+"full": true
+},
+{
+"id": "sdr__activity-log",
+"q": "startPersona=sdr",
+"pre": [
+"Sign in",
+"Activity log"
+],
+"full": true
+},
+{
+"id": "sdr__reports-forecast",
+"q": "startPersona=sdr",
+"pre": [
+"Sign in",
+"Reports & forecast"
+],
+"full": true
+},
+{
+"id": "sdr__settings",
+"q": "startPersona=sdr",
+"pre": [
+"Sign in",
+"Settings"
+],
+"full": true
+},
+{
+"id": "ae__dashboard",
+"q": "startPersona=ae",
+"pre": [
+"Sign in",
+"Dashboard"
+],
+"full": true
+},
+{
+"id": "ae__pipeline",
+"q": "startPersona=ae",
+"pre": [
+"Sign in",
+"Pipeline"
+],
+"full": true
+},
+{
+"id": "mgr__dashboard",
+"q": "startPersona=mgr",
+"pre": [
+"Sign in",
+"Dashboard"
+],
+"full": true
+},
+{
+"id": "mgr__pipeline",
+"q": "startPersona=mgr",
+"pre": [
+"Sign in",
+"Pipeline"
+],
+"full": true
+},
+{
+"id": "ops__dashboard",
+"q": "startPersona=ops",
+"pre": [
+"Sign in",
+"Dashboard"
+],
+"full": true
+},
+{
+"id": "ops__pipeline",
+"q": "startPersona=ops",
+"pre": [
+"Sign in",
+"Pipeline"
+],
+"full": true
+}
+]

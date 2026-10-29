@@ -1,0 +1,72 @@
+[
+{
+"id": "signin",
+"q": "startScreen=signin",
+"full": true
+},
+{
+"id": "signup",
+"q": "startScreen=signup",
+"full": true
+},
+{
+"id": "forgot",
+"q": "startScreen=forgot",
+"full": true
+},
+{
+"id": "overview",
+"q": "startScreen=overview",
+"full": true
+},
+{
+"id": "canvas",
+"q": "startScreen=canvas",
+"full": true
+},
+{
+"id": "runs",
+"q": "startScreen=runs",
+"full": true
+},
+{
+"id": "templates",
+"q": "startScreen=templates",
+"full": true
+},
+{
+"id": "connectors",
+"q": "startScreen=connectors",
+"full": true
+},
+{
+"id": "tables",
+"q": "startScreen=tables",
+"full": true
+},
+{
+"id": "ops",
+"q": "startScreen=ops",
+"full": true
+},
+{
+"id": "credits",
+"q": "startScreen=credits",
+"full": true
+},
+{
+"id": "admin",
+"q": "startScreen=admin",
+"full": true
+},
+{
+"id": "profile",
+"q": "startScreen=profile",
+"full": true
+},
+{
+"id": "settings",
+"q": "startScreen=settings",
+"full": true
+}
+]

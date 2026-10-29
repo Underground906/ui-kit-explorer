@@ -1,0 +1,170 @@
+[
+{
+"id": "learner__dashboard",
+"q": "defaultRole=Learner",
+"pre": [
+"Dashboard"
+],
+"full": true
+},
+{
+"id": "learner__course-catalog",
+"q": "defaultRole=Learner",
+"pre": [
+"Course Catalog"
+],
+"full": true
+},
+{
+"id": "learner__my-lessons",
+"q": "defaultRole=Learner",
+"pre": [
+"My Lessons"
+],
+"full": true
+},
+{
+"id": "learner__community",
+"q": "defaultRole=Learner",
+"pre": [
+"Community"
+],
+"full": true
+},
+{
+"id": "learner__notifications",
+"q": "defaultRole=Learner",
+"pre": [
+"Notifications"
+],
+"full": true
+},
+{
+"id": "learner__settings",
+"q": "defaultRole=Learner",
+"pre": [
+"Settings"
+],
+"full": true
+},
+{
+"id": "learner__help-center",
+"q": "defaultRole=Learner",
+"pre": [
+"Help Center"
+],
+"full": true
+},
+{
+"id": "instructor__dashboard",
+"q": "defaultRole=Instructor",
+"pre": [
+"Dashboard"
+],
+"full": true
+},
+{
+"id": "instructor__course-catalog",
+"q": "defaultRole=Instructor",
+"pre": [
+"Course Catalog"
+],
+"full": true
+},
+{
+"id": "instructor__my-lessons",
+"q": "defaultRole=Instructor",
+"pre": [
+"My Lessons"
+],
+"full": true
+},
+{
+"id": "instructor__community",
+"q": "defaultRole=Instructor",
+"pre": [
+"Community"
+],
+"full": true
+},
+{
+"id": "instructor__notifications",
+"q": "defaultRole=Instructor",
+"pre": [
+"Notifications"
+],
+"full": true
+},
+{
+"id": "instructor__settings",
+"q": "defaultRole=Instructor",
+"pre": [
+"Settings"
+],
+"full": true
+},
+{
+"id": "instructor__help-center",
+"q": "defaultRole=Instructor",
+"pre": [
+"Help Center"
+],
+"full": true
+},
+{
+"id": "admin__dashboard",
+"q": "defaultRole=Admin",
+"pre": [
+"Dashboard"
+],
+"full": true
+},
+{
+"id": "admin__course-catalog",
+"q": "defaultRole=Admin",
+"pre": [
+"Course Catalog"
+],
+"full": true
+},
+{
+"id": "admin__my-lessons",
+"q": "defaultRole=Admin",
+"pre": [
+"My Lessons"
+],
+"full": true
+},
+{
+"id": "admin__community",
+"q": "defaultRole=Admin",
+"pre": [
+"Community"
+],
+"full": true
+},
+{
+"id": "admin__notifications",
+"q": "defaultRole=Admin",
+"pre": [
+"Notifications"
+],
+"full": true
+},
+{
+"id": "admin__settings",
+"q": "defaultRole=Admin",
+"pre": [
+"Settings"
+],
+"full": true
+},
+{
+"id": "admin__help-center",
+"q": "defaultRole=Admin",
+"pre": [
+"Help Center"
+],
+"full": true
+}
+]

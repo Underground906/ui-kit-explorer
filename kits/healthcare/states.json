@@ -1,0 +1,77 @@
+[
+{
+"id": "dashboard",
+"q": "defaultRoute=dashboard",
+"full": true
+},
+{
+"id": "patients",
+"q": "defaultRoute=patients",
+"full": true
+},
+{
+"id": "appointment",
+"q": "defaultRoute=appointment",
+"full": true
+},
+{
+"id": "doctors",
+"q": "defaultRoute=doctors",
+"full": true
+},
+{
+"id": "departement",
+"q": "defaultRoute=departement",
+"full": true
+},
+{
+"id": "staff",
+"q": "defaultRoute=staff",
+"full": true
+},
+{
+"id": "ai",
+"q": "defaultRoute=ai",
+"full": true
+},
+{
+"id": "pharmacy",
+"q": "defaultRoute=pharmacy",
+"full": true
+},
+{
+"id": "billing",
+"q": "defaultRoute=billing",
+"full": true
+},
+{
+"id": "report",
+"q": "defaultRoute=report",
+"full": true
+},
+{
+"id": "lab",
+"q": "defaultRoute=lab",
+"full": true
+},
+{
+"id": "settings",
+"q": "defaultRoute=settings",
+"full": true
+},
+{
+"id": "support",
+"q": "defaultRoute=support",
+"full": true
+},
+{
+"id": "integration",
+"q": "defaultRoute=integration",
+"full": true
+},
+{
+"id": "signed-out",
+"q": "forceSignedOut=true",
+"full": true
+}
+]

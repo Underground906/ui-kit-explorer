@@ -1,0 +1,98 @@
+[
+{
+"id": "dashboard",
+"q": "",
+"pre": [
+"Dashboard"
+],
+"full": true
+},
+{
+"id": "agent-roster",
+"q": "",
+"pre": [
+"Agent roster"
+],
+"full": true
+},
+{
+"id": "agent-detail",
+"q": "",
+"pre": [
+"Agent detail"
+],
+"full": true
+},
+{
+"id": "campaigns",
+"q": "",
+"pre": [
+"Campaigns"
+],
+"full": true
+},
+{
+"id": "content-approvals",
+"q": "",
+"pre": [
+"Content approvals"
+],
+"full": true
+},
+{
+"id": "audience-segments",
+"q": "",
+"pre": [
+"Audience segments"
+],
+"full": true
+},
+{
+"id": "budget-bids",
+"q": "",
+"pre": [
+"Budget & bids"
+],
+"full": true
+},
+{
+"id": "journeys",
+"q": "",
+"pre": [
+"Journeys"
+],
+"full": true
+},
+{
+"id": "analytics",
+"q": "",
+"pre": [
+"Analytics"
+],
+"full": true
+},
+{
+"id": "brand-knowledge",
+"q": "",
+"pre": [
+"Brand knowledge"
+],
+"full": true
+},
+{
+"id": "integrations-audit",
+"q": "",
+"pre": [
+"Integrations & audit"
+],
+"full": true
+},
+{
+"id": "settings",
+"q": "",
+"pre": [
+"Settings"
+],
+"full": true
+}
+]

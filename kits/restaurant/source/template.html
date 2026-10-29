@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="9c6670f2-7647-45bd-b436-8f2c584b1a8c"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <script src="33a8c85c-edc9-4346-b40e-5f9b145a3bf2"></script>
+  <style>
+    .app-topbar{ display:none; }
+    .app-backdrop{ display:none; }
+    @media (max-width: 900px){
+      .app-shell{ flex-direction:column !important; height:100vh !important; }
+      .app-topbar{ display:flex !important; }
+      .app-sidebar{ position:fixed !important; top:0; left:0; bottom:0; width:270px !important; z-index:60; transform:translateX(-100%); transition:transform .22s ease; box-shadow:0 12px 40px rgba(16,24,40,.22); }
+      .app-sidebar.nav-open{ transform:translateX(0); }
+      .app-content{ padding-top:56px !important; }
+      .app-backdrop{ display:block !important; position:fixed; inset:0; z-index:50; background:rgba(16,24,40,.4); }
+    }
+  </style>
+</helmet>
+<sc-if value="{{ notAuthed }}" hint-placeholder-val="{{ true }}">
+  <dc-import name="Auth" sc-camel-on-auth="{{ onAuth }}" hint-size="100vw,100vh"></dc-import>
+</sc-if>
+<sc-if value="{{ authed }}" hint-placeholder-val="{{ false }}">
+<div class="app-shell" style="display:flex;height:100vh;width:100vw;overflow:hidden;background:var(--gray-25);font-family:var(--font-component);box-sizing:border-box">
+  <div class="app-topbar" style="height:56px;flex-shrink:0;align-items:center;gap:12px;padding:0 14px;background:var(--general-white);box-shadow:inset 0 -1px 0 0 var(--gray-200);position:fixed;top:0;left:0;right:0;z-index:40;box-sizing:border-box">
+    <div style="width:38px;height:38px;border-radius:9px;box-shadow:inset 0 0 0 1px var(--gray-200);display:flex;align-items:center;justify-content:center;cursor:pointer" sc-camel-on-click="{{ toggleNav }}">
+      <svg width="20" height="20" sc-camel-view-box="0 0 24 24" fill="none" stroke="var(--gray-700)" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+    </div>
+    <div style="display:flex;align-items:center;gap:9px">
+      <div style="width:26px;height:26px;border-radius:7px;background:linear-gradient(150deg,#FD8148 0%,#FC6C2F 55%,#E9581C 100%);display:flex;align-items:center;justify-content:center">
+        <svg width="16" height="16" sc-camel-view-box="0 0 24 24" fill="#fff"><path d="M4 4 L11 9 L4 14 Z"></path><path d="M20 4 L13 9 L20 14 Z"></path><path d="M4 17 L20 17 L20 20 L4 20 Z"></path></svg>
+      </div>
+      <span style="font-family:var(--font-marketing);font-weight:700;font-size:16px;color:var(--gray-950);letter-spacing:-0.02em">Mitai</span>
+    </div>
+  </div>
+  <sc-if value="{{ navOpen }}" hint-placeholder-val="{{ false }}">
+    <div class="app-backdrop" sc-camel-on-click="{{ closeNav }}"></div>
+  </sc-if>
+  <div class="app-sidebar {{ sidebarCls }}" style="width:256px;flex-shrink:0;display:flex;flex-direction:column;background:var(--general-white);box-shadow:inset -1px 0 0 0 var(--gray-200);box-sizing:border-box">
+    <div style="padding:16px 16px 12px 16px;display:flex;flex-direction:column;gap:14px;box-shadow:inset 0 -1px 0 0 var(--gray-100);position:relative">
+      <div style="display:flex;align-items:center;gap:10px;height:32px;padding:0 4px">
+        <div style="width:28px;height:28px;border-radius:8px;background:linear-gradient(150deg,#FD8148 0%,#FC6C2F 55%,#E9581C 100%);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+          <svg width="18" height="18" sc-camel-view-box="0 0 24 24" fill="#fff" style="display:block"><path d="M4 4 L11 9 L4 14 Z"></path><path d="M20 4 L13 9 L20 14 Z"></path><path d="M4 17 L20 17 L20 20 L4 20 Z"></path></svg>
+        </div>
+        <span style="font-family:var(--font-marketing);font-weight:700;font-size:17px;color:var(--gray-950);letter-spacing:-0.02em;white-space:nowrap">Mitai</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;height:40px;padding:0 10px;border-radius:10px;box-shadow:inset 0 0 0 1px var(--gray-200);cursor:pointer" sc-camel-on-click="{{ toggleLoc }}">
+        <span style="display:flex;flex-shrink:0">{{ globeEl }}</span>
+        <div style="display:flex;flex-direction:column;flex:1;min-width:0">
+          <span style="font-size:13px;font-weight:600;line-height:15px;color:var(--gray-950);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">{{ locationName }}</span>
+          <span style="font-size:11px;line-height:13px;color:var(--gray-500)">{{ locationSub }}</span>
+        </div>
+        <span style="display:flex;flex-shrink:0;transition:transform 0.15s">{{ chevronEl }}</span>
+      </div>
+      <sc-if value="{{ locOpen }}" hint-placeholder-val="{{ false }}">
+        <div style="position:absolute;left:16px;right:16px;top:96px;z-index:20;background:var(--general-white);border-radius:12px;box-shadow:0 8px 24px rgba(16,24,40,0.12),inset 0 0 0 1px var(--gray-200);padding:6px;display:flex;flex-direction:column;gap:2px">
+          <sc-for list="{{ locationOptions }}" as="opt" hint-placeholder-count="4">
+            <div style="{{ opt.style }}" sc-camel-on-click="{{ opt.onClick }}">
+              <span style="{{ opt.dotStyle }}"></span>
+              <span style="font-size:13px;font-weight:500;color:var(--gray-900);flex:1">{{ opt.label }}</span>
+              <sc-if value="{{ opt.selected }}" hint-placeholder-val="{{ false }}"><span style="display:flex">{{ checkEl }}</span></sc-if>
+            </div>
+          </sc-for>
+        </div>
+      </sc-if>
+    </div>
+
+    <div style="flex:1;overflow-y:auto;padding:12px;display:flex;flex-direction:column;gap:2px">
+      <span style="font-size:11px;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;color:var(--gray-400);padding:6px 10px 4px 10px">Operations</span>
+      <sc-for list="{{ opsItems }}" as="item" hint-placeholder-count="7">
+        <div style="{{ item.rowStyle }}" sc-camel-on-click="{{ item.onClick }}">
+          <span style="display:flex;flex-shrink:0">{{ item.iconEl }}</span>
+          <span style="font-size:14px;font-weight:500;line-height:18px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1">{{ item.label }}</span>
+          <sc-if value="{{ item.badge }}" hint-placeholder-val="{{ false }}">
+            <span style="{{ item.badgeStyle }}">{{ item.badge }}</span>
+          </sc-if>
+        </div>
+      </sc-for>
+      <span style="font-size:11px;font-weight:600;letter-spacing:0.04em;text-transform:uppercase;color:var(--gray-400);padding:14px 10px 4px 10px">Growth &amp; Insight</span>
+      <sc-for list="{{ growthItems }}" as="item" hint-placeholder-count="2">
+        <div style="{{ item.rowStyle }}" sc-camel-on-click="{{ item.onClick }}">
+          <span style="display:flex;flex-shrink:0">{{ item.iconEl }}</span>
+          <span style="font-size:14px;font-weight:500;line-height:18px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1">{{ item.label }}</span>
+        </div>
+      </sc-for>
+    </div>
+
+    <div style="padding:12px;display:flex;flex-direction:column;gap:8px;box-shadow:inset 0 1px 0 0 var(--gray-100)">
+      <div style="{{ settingsRowStyle }}" sc-camel-on-click="{{ goSettings }}">
+        <span style="display:flex;flex-shrink:0">{{ settingsIconEl }}</span>
+        <span style="font-size:14px;font-weight:500;line-height:18px;flex:1">Settings</span>
+      </div>
+      <div style="position:relative">
+        <sc-if value="{{ profileOpen }}" hint-placeholder-val="{{ false }}">
+          <div style="position:absolute;left:0;right:0;bottom:52px;z-index:20;background:var(--general-white);border-radius:12px;box-shadow:0 8px 24px rgba(16,24,40,0.14),inset 0 0 0 1px var(--gray-200);padding:6px;display:flex;flex-direction:column;gap:2px">
+            <div style="display:flex;align-items:center;gap:10px;height:36px;padding:0 10px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:500;color:var(--gray-800)" sc-camel-on-click="{{ goSettings }}">Account settings</div>
+            <div style="display:flex;align-items:center;gap:10px;height:36px;padding:0 10px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:500;color:var(--gray-800)" sc-camel-on-click="{{ closeProfile }}">Switch account</div>
+            <div style="height:1px;background:var(--gray-100);margin:2px 0"></div>
+            <div style="display:flex;align-items:center;gap:10px;height:36px;padding:0 10px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600;color:var(--red-600)" sc-camel-on-click="{{ signOut }}">Sign out</div>
+          </div>
+        </sc-if>
+        <div style="display:flex;align-items:center;gap:10px;padding:8px;border-radius:10px;box-shadow:inset 0 0 0 1px var(--gray-200);cursor:pointer" sc-camel-on-click="{{ toggleProfile }}" style-hover="background:var(--gray-25)">
+          <x-import component-from-global-scope="EmoraDesignSystem_5b6476.Avatar" name="Dana Okafor" size="{{ 32 }}" hint-size="32px,32px"></x-import>
+          <div style="display:flex;flex-direction:column;flex:1;min-width:0">
+            <span style="font-size:13px;font-weight:600;color:var(--gray-950);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;line-height:15px">Dana Okafor</span>
+            <span style="font-size:11px;color:var(--gray-500);line-height:14px">Group Manager</span>
+          </div>
+          <span style="display:flex;flex-shrink:0">{{ chevronEl }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="app-content" style="flex:1;overflow:auto;position:relative">
+    <sc-if value="{{ isDashboard }}" hint-placeholder-val="{{ true }}">
+      <dc-import name="Dashboard" sc-camel-on-navigate="{{ goTo }}" hint-size="100%,100%"></dc-import>
+    </sc-if>
+    <sc-if value="{{ isSales }}" hint-placeholder-val="{{ false }}">
+      <dc-import name="SalesPOS" sc-camel-on-navigate="{{ goTo }}" hint-size="100%,100%"></dc-import>
+    </sc-if>
+    <sc-if value="{{ isFloor }}" hint-placeholder-val="{{ false }}">
+      <dc-import name="FloorPlan" sc-camel-on-navigate="{{ goTo }}" hint-size="100%,100%"></dc-import>
+    </sc-if>
+    <sc-if value="{{ isReservations }}" hint-placeholder-val="{{ false }}">
+      <dc-import name="Reservations" sc-camel-on-navigate="{{ goTo }}" hint-size="100%,100%"></dc-import>
+    </sc-if>
+    <sc-if value="{{ isOrdering }}" hint-placeholder-val="{{ false }}">
+      <dc-import name="Ordering" sc-camel-on-navigate="{{ goTo }}" hint-size="100%,100%"></dc-import>
+    </sc-if>
+    <sc-if value="{{ isInventory }}" hint-placeholder-val="{{ false }}">
+      <dc-import name="Inventory" sc-camel-on-navigate="{{ goTo }}" hint-size="100%,100%"></dc-import>
+    </sc-if>
+    <sc-if value="{{ isScheduling }}" hint-placeholder-val="{{ false }}">
+      <dc-import name="Scheduling" sc-camel-on-navigate="{{ goTo }}" hint-size="100%,100%"></dc-import>
+    </sc-if>
+    <sc-if value="{{ isReporting }}" hint-placeholder-val="{{ false }}">
+      <dc-import name="Reporting" sc-camel-on-navigate="{{ goTo }}" hint-size="100%,100%"></dc-import>
+    </sc-if>
+    <sc-if value="{{ isGuests }}" hint-placeholder-val="{{ false }}">
+      <dc-import name="Guests" sc-camel-on-navigate="{{ goTo }}" hint-size="100%,100%"></dc-import>
+    </sc-if>
+    <sc-if value="{{ isSettings }}" hint-placeholder-val="{{ false }}">
+      <dc-import name="SettingsScreen" sc-camel-on-navigate="{{ goTo }}" hint-size="100%,100%"></dc-import>
+    </sc-if>
+  </div>
+</div>
+</sc-if>
+</x-dc>
+<script type="text/x-dc" data-dc-script="">
+class Component extends DCLogic {
+  state = { active: 'Dashboard', location: 'Downtown', locOpen: false, profileOpen: false, authed: false, navOpen: false };
+
+  toggleNav = () => this.setState((s) => ({ navOpen: !s.navOpen }));
+  closeNav = () => this.setState({ navOpen: false });
+
+  onAuth = () => this.setState({ authed: true });
+  signOut = () => this.setState({ authed: false, profileOpen: false });
+
+  // hugeicons-style line glyphs (24 viewBox, stroke, rounded) — authored in that visual language
+  ICONS = {
+    dashboard: [{ t: 'rect', p: { x: 3, y: 3, width: 7.5, height: 7.5, rx: 2 } }, { t: 'rect', p: { x: 13.5, y: 3, width: 7.5, height: 7.5, rx: 2 } }, { t: 'rect', p: { x: 3, y: 13.5, width: 7.5, height: 7.5, rx: 2 } }, { t: 'rect', p: { x: 13.5, y: 13.5, width: 7.5, height: 7.5, rx: 2 } }],
+    pos: [{ t: 'rect', p: { x: 2.5, y: 5, width: 19, height: 14, rx: 2.5 } }, { t: 'line', p: { x1: 2.5, y1: 9.5, x2: 21.5, y2: 9.5 } }, { t: 'line', p: { x1: 6, y1: 14.5, x2: 10, y2: 14.5 } }, { t: 'line', p: { x1: 15.5, y1: 14.5, x2: 18, y2: 14.5 } }],
+    floor: [{ t: 'rect', p: { x: 3, y: 3, width: 18, height: 18, rx: 3 } }, { t: 'circle', p: { cx: 8, cy: 8, r: 1.9 } }, { t: 'circle', p: { cx: 16, cy: 8, r: 1.9 } }, { t: 'rect', p: { x: 6, y: 13, width: 12, height: 5, rx: 2 } }],
+    reservations: [{ t: 'rect', p: { x: 3.5, y: 5, width: 17, height: 15, rx: 2.5 } }, { t: 'line', p: { x1: 3.5, y1: 9.5, x2: 20.5, y2: 9.5 } }, { t: 'line', p: { x1: 8, y1: 3, x2: 8, y2: 6.5 } }, { t: 'line', p: { x1: 16, y1: 3, x2: 16, y2: 6.5 } }, { t: 'circle', p: { cx: 12, cy: 14.5, r: 1.6 } }],
+    ordering: [{ t: 'path', p: { d: 'M6.5 8H17.5L16.6 19.3A2 2 0 0 1 14.6 21H9.4A2 2 0 0 1 7.4 19.3Z' } }, { t: 'path', p: { d: 'M9 8V7a3 3 0 0 1 6 0v1' } }],
+    inventory: [{ t: 'path', p: { d: 'M12 3 20 7.5V16.5L12 21 4 16.5V7.5Z' } }, { t: 'path', p: { d: 'M4 7.6 12 12 20 7.6' } }, { t: 'line', p: { x1: 12, y1: 12, x2: 12, y2: 21 } }],
+    scheduling: [{ t: 'rect', p: { x: 3, y: 7, width: 18, height: 13, rx: 2.5 } }, { t: 'path', p: { d: 'M8.5 7V6a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v1' } }, { t: 'line', p: { x1: 3, y1: 12, x2: 21, y2: 12 } }, { t: 'line', p: { x1: 12, y1: 12, x2: 12, y2: 14.5 } }],
+    reporting: [{ t: 'line', p: { x1: 4, y1: 20, x2: 20, y2: 20 } }, { t: 'rect', p: { x: 5.5, y: 11, width: 3.2, height: 7, rx: 1 } }, { t: 'rect', p: { x: 10.4, y: 7, width: 3.2, height: 11, rx: 1 } }, { t: 'rect', p: { x: 15.3, y: 13.5, width: 3.2, height: 4.5, rx: 1 } }],
+    guests: [{ t: 'path', p: { d: 'M4 8.5 7.5 12.5 12 6 16.5 12.5 20 8.5 18.4 18H5.6Z' } }, { t: 'line', p: { x1: 5.6, y1: 20.5, x2: 18.4, y2: 20.5 } }],
+    settings: [{ t: 'circle', p: { cx: 12, cy: 12, r: 3 } }, { t: 'path', p: { d: 'M12 2.5v2.2M12 19.3v2.2M4.2 7l1.9 1.1M17.9 15.9 19.8 17M4.2 17l1.9-1.1M17.9 8.1 19.8 7M2.5 12h2.2M19.3 12h2.2' } }],
+    globe: [{ t: 'circle', p: { cx: 12, cy: 12, r: 9 } }, { t: 'path', p: { d: 'M3 12h18' } }, { t: 'path', p: { d: 'M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18Z' } }],
+    chevron: [{ t: 'path', p: { d: 'M6 9.5 12 15l6-5.5' } }],
+    check: [{ t: 'path', p: { d: 'M4.5 12.5 9.5 17.5 19.5 6.5' } }],
+  };
+
+  OPS = [
+    { key: 'Dashboard', iconKey: 'dashboard', label: 'Dashboard' },
+    { key: 'Sales', iconKey: 'pos', label: 'Sales & POS' },
+    { key: 'Floor', iconKey: 'floor', label: 'Floor Plan' },
+    { key: 'Reservations', iconKey: 'reservations', label: 'Reservations', badge: '12' },
+    { key: 'Ordering', iconKey: 'ordering', label: 'Online Ordering', badge: '5' },
+    { key: 'Inventory', iconKey: 'inventory', label: 'Inventory', badge: '3' },
+    { key: 'Scheduling', iconKey: 'scheduling', label: 'Scheduling' },
+  ];
+
+  GROWTH = [
+    { key: 'Reporting', iconKey: 'reporting', label: 'Reporting' },
+    { key: 'Guests', iconKey: 'guests', label: 'Guests & Loyalty' },
+  ];
+
+  LOCATIONS = [
+    { key: 'All', label: 'All locations', dot: 'var(--gray-400)', sub: 'group view' },
+    { key: 'Downtown', label: 'Downtown', dot: 'var(--primary-500)', sub: 'flagship' },
+    { key: 'Riverside', label: 'Riverside', dot: 'var(--blue-500)', sub: '48 Wharf Ave' },
+    { key: 'Highland Park', label: 'Highland Park', dot: 'var(--orange-500)', sub: '9 Crescent Rd' },
+  ];
+
+  mkIcon(name, size, color) {
+    const spec = this.ICONS[name] || [];
+    const kids = spec.map((el, i) => React.createElement(el.t, { key: i, ...el.p }));
+    return React.createElement('svg', {
+      width: size, height: size, viewBox: '0 0 24 24', fill: 'none',
+      stroke: 'currentColor', strokeWidth: 1.6, strokeLinecap: 'round', strokeLinejoin: 'round',
+      style: { color, display: 'block' },
+    }, kids);
+  }
+
+  goTo = (key) => this.setState({ active: key, locOpen: false, navOpen: false });
+  toggleLoc = () => this.setState((s) => ({ locOpen: !s.locOpen }));
+  toggleProfile = () => this.setState((s) => ({ profileOpen: !s.profileOpen }));
+  closeProfile = () => this.setState({ profileOpen: false });
+  pickLoc = (key) => this.setState({ location: key, locOpen: false });
+
+  rowStyle(isActive) {
+    return {
+      display: 'flex', alignItems: 'center', gap: 10, height: 38,
+      padding: '0 10px', borderRadius: 10, cursor: 'pointer', boxSizing: 'border-box',
+      background: isActive ? 'var(--primary-50)' : 'transparent',
+      color: isActive ? 'var(--primary-700)' : 'var(--gray-700)',
+    };
+  }
+
+  renderVals() {
+    const active = this.state.active;
+    const mapItem = (n) => {
+      const isActive = n.key === active;
+      return {
+        ...n,
+        onClick: () => this.goTo(n.key),
+        rowStyle: this.rowStyle(isActive),
+        iconEl: this.mkIcon(n.iconKey, 20, isActive ? 'var(--primary-600)' : 'var(--gray-500)'),
+        badgeStyle: {
+          fontSize: 11, fontWeight: 600, color: 'var(--gray-600)', background: 'var(--gray-100)',
+          borderRadius: 9999, padding: '1px 7px', lineHeight: '16px',
+        },
+      };
+    };
+    const settingsActive = active === 'Settings';
+    const loc = this.LOCATIONS.find((l) => l.key === this.state.location) || this.LOCATIONS[1];
+    const locationOptions = this.LOCATIONS.map((l) => {
+      const selected = l.key === this.state.location;
+      return {
+        label: l.label,
+        selected,
+        onClick: () => this.pickLoc(l.key),
+        dotStyle: { width: 9, height: 9, borderRadius: '50%', background: l.dot, flexShrink: 0 },
+        style: {
+          display: 'flex', alignItems: 'center', gap: 10, height: 34, padding: '0 10px',
+          borderRadius: 8, cursor: 'pointer', boxSizing: 'border-box',
+          background: selected ? 'var(--gray-50)' : 'transparent',
+        },
+      };
+    });
+    return {
+      opsItems: this.OPS.map(mapItem),
+      growthItems: this.GROWTH.map(mapItem),
+      goSettings: () => { this.setState({ profileOpen: false }); this.goTo('Settings'); },
+      profileOpen: this.state.profileOpen,
+      toggleProfile: this.toggleProfile,
+      closeProfile: this.closeProfile,
+      signOut: this.signOut,
+      settingsRowStyle: this.rowStyle(settingsActive),
+      settingsIconEl: this.mkIcon('settings', 20, settingsActive ? 'var(--primary-600)' : 'var(--gray-500)'),
+      globeEl: this.mkIcon('globe', 18, 'var(--gray-500)'),
+      chevronEl: this.mkIcon('chevron', 16, 'var(--gray-400)'),
+      checkEl: this.mkIcon('check', 15, 'var(--primary-600)'),
+      goTo: this.goTo,
+      authed: this.state.authed,
+      notAuthed: !this.state.authed,
+      onAuth: this.onAuth,
+      navOpen: this.state.navOpen,
+      toggleNav: this.toggleNav,
+      closeNav: this.closeNav,
+      sidebarCls: this.state.navOpen ? 'nav-open' : '',
+      toggleLoc: this.toggleLoc,
+      locOpen: this.state.locOpen,
+      locationOptions,
+      locationName: loc.key === 'All' ? 'All locations' : loc.label,
+      locationSub: loc.key === 'All' ? '3 locations' : loc.sub,
+      isDashboard: active === 'Dashboard',
+      isSales: active === 'Sales',
+      isFloor: active === 'Floor',
+      isReservations: active === 'Reservations',
+      isOrdering: active === 'Ordering',
+      isInventory: active === 'Inventory',
+      isScheduling: active === 'Scheduling',
+      isReporting: active === 'Reporting',
+      isGuests: active === 'Guests',
+      isSettings: settingsActive,
+    };
+  }
+}
+</script>
+
+
+</body></html>

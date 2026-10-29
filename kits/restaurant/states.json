@@ -1,0 +1,101 @@
+[
+{
+"id": "downtown-flagship",
+"q": "",
+"pre": [
+"Sign in",
+"Downtown flagship"
+],
+"full": true
+},
+{
+"id": "dashboard",
+"q": "",
+"pre": [
+"Sign in",
+"Dashboard"
+],
+"full": true
+},
+{
+"id": "sales-pos",
+"q": "",
+"pre": [
+"Sign in",
+"Sales & POS"
+],
+"full": true
+},
+{
+"id": "floor-plan",
+"q": "",
+"pre": [
+"Sign in",
+"Floor Plan"
+],
+"full": true
+},
+{
+"id": "reservations",
+"q": "",
+"pre": [
+"Sign in",
+"Reservations"
+],
+"full": true
+},
+{
+"id": "online-ordering",
+"q": "",
+"pre": [
+"Sign in",
+"Online Ordering"
+],
+"full": true
+},
+{
+"id": "inventory",
+"q": "",
+"pre": [
+"Sign in",
+"Inventory"
+],
+"full": true
+},
+{
+"id": "scheduling",
+"q": "",
+"pre": [
+"Sign in",
+"Scheduling"
+],
+"full": true
+},
+{
+"id": "reporting",
+"q": "",
+"pre": [
+"Sign in",
+"Reporting"
+],
+"full": true
+},
+{
+"id": "guests-loyalty",
+"q": "",
+"pre": [
+"Sign in",
+"Guests & Loyalty"
+],
+"full": true
+},
+{
+"id": "settings",
+"q": "",
+"pre": [
+"Sign in",
+"Settings"
+],
+"full": true
+}
+]
