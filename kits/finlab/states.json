@@ -4,5 +4,71 @@
   "q": "",
   "url": "https://ui8-finlab.vercel.app/",
   "full": true
+ },
+ {
+  "id": "dashboard",
+  "q": "",
+  "url": "https://ui8-finlab.vercel.app/dashboard",
+  "full": true
+ },
+ {
+  "id": "dashboard-statistics",
+  "q": "",
+  "url": "https://ui8-finlab.vercel.app/dashboard/statistics",
+  "full": true
+ },
+ {
+  "id": "dashboard-transaction",
+  "q": "",
+  "url": "https://ui8-finlab.vercel.app/dashboard/transaction",
+  "full": true
+ },
+ {
+  "id": "dashboard-notification",
+  "q": "",
+  "url": "https://ui8-finlab.vercel.app/dashboard/notification",
+  "full": true
+ },
+ {
+  "id": "wallets",
+  "q": "",
+  "url": "https://ui8-finlab.vercel.app/wallets",
+  "full": true
+ },
+ {
+  "id": "wallets-0",
+  "q": "",
+  "url": "https://ui8-finlab.vercel.app/wallets/0",
+  "full": true
+ },
+ {
+  "id": "settings",
+  "q": "",
+  "url": "https://ui8-finlab.vercel.app/settings",
+  "full": true
+ },
+ {
+  "id": "settings-preferences",
+  "q": "",
+  "url": "https://ui8-finlab.vercel.app/settings/preferences",
+  "full": true
+ },
+ {
+  "id": "settings-security",
+  "q": "",
+  "url": "https://ui8-finlab.vercel.app/settings/security",
+  "full": true
+ },
+ {
+  "id": "help-center",
+  "q": "",
+  "url": "https://ui8-finlab.vercel.app/help-center",
+  "full": true
+ },
+ {
+  "id": "login",
+  "q": "",
+  "url": "https://ui8-finlab.vercel.app/login",
+  "full": true
  }
 ]
