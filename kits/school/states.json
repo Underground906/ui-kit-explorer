@@ -1,9 +1,51 @@
 [
 {
-"id": "app",
+"id": "super-admin",
 "q": "",
 "pre": [
-"Continue"
+"Continue",
+"Verify & continue",
+"Super Admin \u00b7 District"
+],
+"full": true
+},
+{
+"id": "school-admin",
+"q": "",
+"pre": [
+"Continue",
+"Verify & continue",
+"School Admin"
+],
+"full": true
+},
+{
+"id": "teacher",
+"q": "",
+"pre": [
+"Continue",
+"Verify & continue",
+"Teacher \u00b7 Algebra II"
+],
+"full": true
+},
+{
+"id": "parent",
+"q": "",
+"pre": [
+"Continue",
+"Verify & continue",
+"Parent of Emma Johnson"
+],
+"full": true
+},
+{
+"id": "student",
+"q": "",
+"pre": [
+"Continue",
+"Verify & continue",
+"Student \u00b7 Emma Johnson"
 ],
 "full": true
 },

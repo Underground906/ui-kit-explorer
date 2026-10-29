@@ -3,6 +3,7 @@
 "id": "app",
 "q": "",
 "pre": [
+"fill:you@store.com=owner@rubik.store",
 "Sign in"
 ],
 "full": true

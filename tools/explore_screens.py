@@ -118,11 +118,23 @@ async def main():
             if not path:   # each page starts clean: a theme toggle or saved filter from another page must not leak in
                 await pg.evaluate("() => { try { localStorage.clear(); sessionStorage.clear() } catch (e) {} }")
                 await pg.reload(wait_until="load", timeout=120000)
-                for label in st.get("pre", []):   # login or setup clicks before exploring (e.g. pick a demo account, Sign in)
+                for label in st.get("pre", []):   # login / setup steps: "fill:<placeholder>=<value>" or a label to click
                     try:
-                        await pg.get_by_text(label, exact=True).first.click(timeout=15000)
-                    except Exception:
-                        await pg.get_by_role("button", name=label).first.click(timeout=15000)
+                        if label.startswith("fill:"):
+                            ph, val = label[5:].split("=", 1)
+                            await pg.get_by_placeholder(ph).first.fill(val, timeout=10000)
+                            continue
+                        for how in (lambda: pg.get_by_text(label, exact=True).first, lambda: pg.get_by_role("button", name=label).first,
+                                    lambda: pg.get_by_text(label).first):
+                            try:
+                                await how().click(timeout=8000)
+                                break
+                            except Exception:
+                                continue
+                        else:
+                            print("   pre step not found:", label, flush=True)
+                    except Exception as ex:
+                        print("   pre step failed:", label, str(ex)[:80], flush=True)
                     await pg.wait_for_timeout(1500)
                 if st.get("pre") and st.get("after_url"):
                     await pg.goto(st["after_url"], wait_until="load", timeout=120000)

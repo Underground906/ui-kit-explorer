@@ -2,72 +2,114 @@
 {
 "id": "dashboard",
 "q": "defaultRoute=dashboard",
-"full": true
+"full": true,
+"pre": [
+"Sign in"
+]
 },
 {
 "id": "patients",
 "q": "defaultRoute=patients",
-"full": true
+"full": true,
+"pre": [
+"Sign in"
+]
 },
 {
 "id": "appointment",
 "q": "defaultRoute=appointment",
-"full": true
+"full": true,
+"pre": [
+"Sign in"
+]
 },
 {
 "id": "doctors",
 "q": "defaultRoute=doctors",
-"full": true
+"full": true,
+"pre": [
+"Sign in"
+]
 },
 {
 "id": "departement",
 "q": "defaultRoute=departement",
-"full": true
+"full": true,
+"pre": [
+"Sign in"
+]
 },
 {
 "id": "staff",
 "q": "defaultRoute=staff",
-"full": true
+"full": true,
+"pre": [
+"Sign in"
+]
 },
 {
 "id": "ai",
 "q": "defaultRoute=ai",
-"full": true
+"full": true,
+"pre": [
+"Sign in"
+]
 },
 {
 "id": "pharmacy",
 "q": "defaultRoute=pharmacy",
-"full": true
+"full": true,
+"pre": [
+"Sign in"
+]
 },
 {
 "id": "billing",
 "q": "defaultRoute=billing",
-"full": true
+"full": true,
+"pre": [
+"Sign in"
+]
 },
 {
 "id": "report",
 "q": "defaultRoute=report",
-"full": true
+"full": true,
+"pre": [
+"Sign in"
+]
 },
 {
 "id": "lab",
 "q": "defaultRoute=lab",
-"full": true
+"full": true,
+"pre": [
+"Sign in"
+]
 },
 {
 "id": "settings",
 "q": "defaultRoute=settings",
-"full": true
+"full": true,
+"pre": [
+"Sign in"
+]
 },
 {
 "id": "support",
 "q": "defaultRoute=support",
-"full": true
+"full": true,
+"pre": [
+"Sign in"
+]
 },
 {
 "id": "integration",
 "q": "defaultRoute=integration",
-"full": true
+"full": true,
+"pre": [
+"Sign in"
+]
 },
 {
 "id": "signed-out",
