@@ -4,5 +4,29 @@
   "q": "",
   "url": "https://tillora-xi.vercel.app/",
   "full": true
+ },
+ {
+  "id": "pos",
+  "q": "",
+  "url": "https://tillora-xi.vercel.app/pos",
+  "full": true
+ },
+ {
+  "id": "orders",
+  "q": "",
+  "url": "https://tillora-xi.vercel.app/orders",
+  "full": true
+ },
+ {
+  "id": "products",
+  "q": "",
+  "url": "https://tillora-xi.vercel.app/products",
+  "full": true
+ },
+ {
+  "id": "inventory",
+  "q": "",
+  "url": "https://tillora-xi.vercel.app/inventory",
+  "full": true
  }
 ]

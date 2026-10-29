@@ -4,5 +4,59 @@
   "q": "",
   "url": "https://teamora-host.netlify.app/",
   "full": true
+ },
+ {
+  "id": "dashboard",
+  "q": "",
+  "url": "https://teamora-host.netlify.app/dashboard",
+  "full": true
+ },
+ {
+  "id": "dashboard-meetings",
+  "q": "",
+  "url": "https://teamora-host.netlify.app/dashboard/meetings",
+  "full": true
+ },
+ {
+  "id": "forgot-password",
+  "q": "",
+  "url": "https://teamora-host.netlify.app/forgot-password",
+  "full": true
+ },
+ {
+  "id": "register",
+  "q": "",
+  "url": "https://teamora-host.netlify.app/register",
+  "full": true
+ },
+ {
+  "id": "dashboard-people",
+  "q": "",
+  "url": "https://teamora-host.netlify.app/dashboard/people",
+  "full": true
+ },
+ {
+  "id": "dashboard-companies",
+  "q": "",
+  "url": "https://teamora-host.netlify.app/dashboard/companies",
+  "full": true
+ },
+ {
+  "id": "dashboard-lists",
+  "q": "",
+  "url": "https://teamora-host.netlify.app/dashboard/lists",
+  "full": true
+ },
+ {
+  "id": "dashboard-analytics",
+  "q": "",
+  "url": "https://teamora-host.netlify.app/dashboard/analytics",
+  "full": true
+ },
+ {
+  "id": "dashboard-workflows",
+  "q": "",
+  "url": "https://teamora-host.netlify.app/dashboard/workflows",
+  "full": true
  }
 ]

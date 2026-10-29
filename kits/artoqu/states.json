@@ -4,5 +4,59 @@
   "q": "",
   "url": "https://finance-dashboard-slice-ui.vercel.app/",
   "full": true
+ },
+ {
+  "id": "dashboard",
+  "q": "",
+  "url": "https://finance-dashboard-slice-ui.vercel.app/dashboard",
+  "full": true
+ },
+ {
+  "id": "dashboard-transactions",
+  "q": "",
+  "url": "https://finance-dashboard-slice-ui.vercel.app/dashboard/transactions",
+  "full": true
+ },
+ {
+  "id": "dashboard-wallet",
+  "q": "",
+  "url": "https://finance-dashboard-slice-ui.vercel.app/dashboard/wallet",
+  "full": true
+ },
+ {
+  "id": "dashboard-contact",
+  "q": "",
+  "url": "https://finance-dashboard-slice-ui.vercel.app/dashboard/contact",
+  "full": true
+ },
+ {
+  "id": "dashboard-statistics",
+  "q": "",
+  "url": "https://finance-dashboard-slice-ui.vercel.app/dashboard/statistics",
+  "full": true
+ },
+ {
+  "id": "dashboard-messages",
+  "q": "",
+  "url": "https://finance-dashboard-slice-ui.vercel.app/dashboard/messages",
+  "full": true
+ },
+ {
+  "id": "dashboard-profile",
+  "q": "",
+  "url": "https://finance-dashboard-slice-ui.vercel.app/dashboard/profile",
+  "full": true
+ },
+ {
+  "id": "forgot-password",
+  "q": "",
+  "url": "https://finance-dashboard-slice-ui.vercel.app/forgot-password",
+  "full": true
+ },
+ {
+  "id": "sign-up",
+  "q": "",
+  "url": "https://finance-dashboard-slice-ui.vercel.app/sign-up",
+  "full": true
  }
 ]

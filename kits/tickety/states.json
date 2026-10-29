@@ -4,5 +4,59 @@
   "q": "",
   "url": "https://tickety-two.vercel.app/",
   "full": true
+ },
+ {
+  "id": "event",
+  "q": "",
+  "url": "https://tickety-two.vercel.app/event",
+  "full": true
+ },
+ {
+  "id": "football",
+  "q": "",
+  "url": "https://tickety-two.vercel.app/football",
+  "full": true
+ },
+ {
+  "id": "contact",
+  "q": "",
+  "url": "https://tickety-two.vercel.app/contact",
+  "full": true
+ },
+ {
+  "id": "account",
+  "q": "",
+  "url": "https://tickety-two.vercel.app/account",
+  "full": true
+ },
+ {
+  "id": "browse",
+  "q": "",
+  "url": "https://tickety-two.vercel.app/browse",
+  "full": true
+ },
+ {
+  "id": "cinema",
+  "q": "",
+  "url": "https://tickety-two.vercel.app/cinema",
+  "full": true
+ },
+ {
+  "id": "concert",
+  "q": "",
+  "url": "https://tickety-two.vercel.app/concert",
+  "full": true
+ },
+ {
+  "id": "bus",
+  "q": "",
+  "url": "https://tickety-two.vercel.app/bus",
+  "full": true
+ },
+ {
+  "id": "train",
+  "q": "",
+  "url": "https://tickety-two.vercel.app/train",
+  "full": true
  }
 ]

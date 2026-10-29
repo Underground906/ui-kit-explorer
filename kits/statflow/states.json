@@ -4,5 +4,59 @@
   "q": "",
   "url": "https://statflow-host.netlify.app/",
   "full": true
+ },
+ {
+  "id": "dashboard-customer",
+  "q": "",
+  "url": "https://statflow-host.netlify.app/dashboard/customer",
+  "full": true
+ },
+ {
+  "id": "dashboard-offers-pay-day",
+  "q": "",
+  "url": "https://statflow-host.netlify.app/dashboard/offers/pay-day",
+  "full": true
+ },
+ {
+  "id": "dashboard-categories-men",
+  "q": "",
+  "url": "https://statflow-host.netlify.app/dashboard/categories/men",
+  "full": true
+ },
+ {
+  "id": "dashboard",
+  "q": "",
+  "url": "https://statflow-host.netlify.app/dashboard",
+  "full": true
+ },
+ {
+  "id": "dashboard-orders",
+  "q": "",
+  "url": "https://statflow-host.netlify.app/dashboard/orders",
+  "full": true
+ },
+ {
+  "id": "dashboard-revenue",
+  "q": "",
+  "url": "https://statflow-host.netlify.app/dashboard/revenue",
+  "full": true
+ },
+ {
+  "id": "dashboard-campaigns",
+  "q": "",
+  "url": "https://statflow-host.netlify.app/dashboard/campaigns",
+  "full": true
+ },
+ {
+  "id": "dashboard-inventory-products",
+  "q": "",
+  "url": "https://statflow-host.netlify.app/dashboard/inventory/products",
+  "full": true
+ },
+ {
+  "id": "dashboard-inventory-stock-alert",
+  "q": "",
+  "url": "https://statflow-host.netlify.app/dashboard/inventory/stock-alert",
+  "full": true
  }
 ]

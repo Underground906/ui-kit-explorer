@@ -4,5 +4,59 @@
   "q": "",
   "url": "https://extraordinary-naiad-4a0c71.netlify.app/",
   "full": true
+ },
+ {
+  "id": "login",
+  "q": "",
+  "url": "https://extraordinary-naiad-4a0c71.netlify.app/login",
+  "full": true
+ },
+ {
+  "id": "overview",
+  "q": "",
+  "url": "https://extraordinary-naiad-4a0c71.netlify.app/overview",
+  "full": true
+ },
+ {
+  "id": "orders",
+  "q": "",
+  "url": "https://extraordinary-naiad-4a0c71.netlify.app/orders",
+  "full": true
+ },
+ {
+  "id": "reservations",
+  "q": "",
+  "url": "https://extraordinary-naiad-4a0c71.netlify.app/reservations",
+  "full": true
+ },
+ {
+  "id": "kitchen",
+  "q": "",
+  "url": "https://extraordinary-naiad-4a0c71.netlify.app/kitchen",
+  "full": true
+ },
+ {
+  "id": "floor-plan",
+  "q": "",
+  "url": "https://extraordinary-naiad-4a0c71.netlify.app/floor-plan",
+  "full": true
+ },
+ {
+  "id": "stock",
+  "q": "",
+  "url": "https://extraordinary-naiad-4a0c71.netlify.app/stock",
+  "full": true
+ },
+ {
+  "id": "staff",
+  "q": "",
+  "url": "https://extraordinary-naiad-4a0c71.netlify.app/staff",
+  "full": true
+ },
+ {
+  "id": "menu",
+  "q": "",
+  "url": "https://extraordinary-naiad-4a0c71.netlify.app/menu",
+  "full": true
  }
 ]

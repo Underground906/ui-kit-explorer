@@ -4,5 +4,59 @@
   "q": "",
   "url": "https://fundra-fintech-dashboard.vercel.app/",
   "full": true
+ },
+ {
+  "id": "signin",
+  "q": "",
+  "url": "https://fundra-fintech-dashboard.vercel.app/signin",
+  "full": true
+ },
+ {
+  "id": "dashboard",
+  "q": "",
+  "url": "https://fundra-fintech-dashboard.vercel.app/dashboard",
+  "full": true
+ },
+ {
+  "id": "accounts",
+  "q": "",
+  "url": "https://fundra-fintech-dashboard.vercel.app/accounts",
+  "full": true
+ },
+ {
+  "id": "analytics",
+  "q": "",
+  "url": "https://fundra-fintech-dashboard.vercel.app/analytics",
+  "full": true
+ },
+ {
+  "id": "cards",
+  "q": "",
+  "url": "https://fundra-fintech-dashboard.vercel.app/cards",
+  "full": true
+ },
+ {
+  "id": "activity",
+  "q": "",
+  "url": "https://fundra-fintech-dashboard.vercel.app/activity",
+  "full": true
+ },
+ {
+  "id": "budgets",
+  "q": "",
+  "url": "https://fundra-fintech-dashboard.vercel.app/budgets",
+  "full": true
+ },
+ {
+  "id": "settings",
+  "q": "",
+  "url": "https://fundra-fintech-dashboard.vercel.app/settings",
+  "full": true
+ },
+ {
+  "id": "forgot-password",
+  "q": "",
+  "url": "https://fundra-fintech-dashboard.vercel.app/forgot-password",
+  "full": true
  }
 ]
