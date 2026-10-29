@@ -130,7 +130,14 @@ async def main():
         if p.exists() and "__" not in sid:
             titles[json.loads(p.read_text(encoding="utf-8"))["title"]] = sid
     async with async_playwright() as pw:
-        if os.environ.get("CDP_URL"):   # drive a browser the user is already logged into (their sessions, their home connection)
+        if os.environ.get("PROFILE_DIR"):   # our own Chrome on a profile the user logged into (their saved sessions, home connection)
+            headed = os.environ.get("PROFILE_HEADED") == "1"   # same mode as login_window.py, window parked off-screen
+            ctx = await pw.chromium.launch_persistent_context(os.environ["PROFILE_DIR"], channel="chrome", headless=not headed,
+                                                              viewport={"width": 1440, "height": 900},
+                                                              args=["--window-position=-2600,0"] if headed else [])
+            b = ctx
+            pg = ctx.pages[0] if ctx.pages else await ctx.new_page()
+        elif os.environ.get("CDP_URL"):   # drive a browser the user is already logged into (their sessions, their home connection)
             cdp = os.environ["CDP_URL"]
             if cdp.startswith("http"):   # Chrome 156 hangs on the http handshake: use the browser's websocket directly
                 import urllib.request
@@ -144,11 +151,19 @@ async def main():
             pg = await b.new_page(viewport={"width": 1440, "height": 900})
         pg_ref.append(pg)
 
+        async def settle():   # apps that paint grey skeleton loaders first: wait until they are gone (max ~8s)
+            for _ in range(16):
+                busy = await pg.evaluate("""() => [...document.querySelectorAll('[class*="skeleton"],[class*="animate-pulse"],[aria-busy="true"]')].some(e => { const r = e.getBoundingClientRect(); return r.width > 40 && r.height > 8 && r.top < innerHeight })""")
+                if not busy:
+                    return
+                await pg.wait_for_timeout(500)
+
         async def goto(root, path):
             st = STATES[root]
             await pg.set_viewport_size({"width": 1440, "height": 900})
             await pg.goto(st.get("url") or APP + "?" + st["q"], wait_until="load", timeout=120000)
-            if not path and not os.environ.get("CDP_URL"):   # each page starts clean (not in a logged-in browser: that would sign it out): a theme toggle or saved filter from another page must not leak in
+            if not path and not os.environ.get("CDP_URL") and not os.environ.get("PROFILE_DIR"):   # each page starts clean (not in a logged-in browser: that would sign it out): a theme toggle or saved filter from another page must not leak in
+                await pg.context.clear_cookies()   # a previous role's session cookie must not carry into the next login
                 await pg.evaluate("() => { try { localStorage.clear(); sessionStorage.clear() } catch (e) {} }")
                 await pg.reload(wait_until="load", timeout=120000)
                 for label in st.get("pre", []):   # login / setup steps: "fill:<placeholder>=<value>" or a label to click
@@ -176,10 +191,12 @@ async def main():
                 if st.get("pre") and st.get("after_url"):
                     await pg.goto(st["after_url"], wait_until="load", timeout=120000)
             await pg.wait_for_timeout(900)
+            await settle()
             for k in path:
                 if not await pg.evaluate(CLICK, k):
                     return None
                 await pg.wait_for_timeout(450)
+                await settle()
             return await pg.evaluate(PROBE)
 
         for n_root, root in enumerate(ROOTS):
@@ -245,6 +262,7 @@ async def main():
                                 break
                         ok = await pg.evaluate(CLICK, c["key"])
                         await pg.wait_for_timeout(550)
+                        await settle()
                         after = await pg.evaluate(PROBE) if ok else None
                     except Exception as ex:   # a click that navigates the browser mid-measurement (real URL sites)
                         try:
