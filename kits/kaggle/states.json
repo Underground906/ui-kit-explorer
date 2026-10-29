@@ -1,0 +1,11 @@
+[
+ {"id": "home", "q": "", "url": "https://www.kaggle.com/", "full": true},
+ {"id": "discussions", "q": "", "url": "https://www.kaggle.com/discussions", "full": true},
+ {"id": "discussions-general", "q": "", "url": "https://www.kaggle.com/discussions/general", "full": true},
+ {"id": "competitions", "q": "", "url": "https://www.kaggle.com/competitions", "full": true},
+ {"id": "datasets", "q": "", "url": "https://www.kaggle.com/datasets", "full": true},
+ {"id": "code", "q": "", "url": "https://www.kaggle.com/code", "full": true},
+ {"id": "models", "q": "", "url": "https://www.kaggle.com/models", "full": true},
+ {"id": "learn", "q": "", "url": "https://www.kaggle.com/learn", "full": true},
+ {"id": "rankings", "q": "", "url": "https://www.kaggle.com/rankings", "full": true}
+]
