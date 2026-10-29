@@ -1,0 +1,44 @@
+[
+ {
+  "id": "posts-0",
+  "q": "",
+  "url": "https://ui8-simple-social.vercel.app/posts/0",
+  "full": true
+ },
+ {
+  "id": "profiles-0",
+  "q": "",
+  "url": "https://ui8-simple-social.vercel.app/profiles/0",
+  "full": true
+ },
+ {
+  "id": "posts-1",
+  "q": "",
+  "url": "https://ui8-simple-social.vercel.app/posts/1",
+  "full": true
+ },
+ {
+  "id": "profiles-1",
+  "q": "",
+  "url": "https://ui8-simple-social.vercel.app/profiles/1",
+  "full": true
+ },
+ {
+  "id": "who-to-follow",
+  "q": "",
+  "url": "https://ui8-simple-social.vercel.app/who-to-follow",
+  "full": true
+ },
+ {
+  "id": "profile-edit",
+  "q": "",
+  "url": "https://ui8-simple-social.vercel.app/profile/edit",
+  "full": true
+ },
+ {
+  "id": "followers",
+  "q": "",
+  "url": "https://ui8-simple-social.vercel.app/followers",
+  "full": true
+ }
+]

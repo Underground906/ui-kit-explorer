@@ -1,0 +1,26 @@
+[
+ {
+  "id": "forgot-password",
+  "q": "",
+  "url": "https://extraordinary-naiad-4a0c71.netlify.app/forgot-password",
+  "full": true
+ },
+ {
+  "id": "suppliers",
+  "q": "",
+  "url": "https://extraordinary-naiad-4a0c71.netlify.app/suppliers",
+  "full": true
+ },
+ {
+  "id": "reports",
+  "q": "",
+  "url": "https://extraordinary-naiad-4a0c71.netlify.app/reports",
+  "full": true
+ },
+ {
+  "id": "settings",
+  "q": "",
+  "url": "https://extraordinary-naiad-4a0c71.netlify.app/settings",
+  "full": true
+ }
+]

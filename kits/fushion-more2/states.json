@@ -1,0 +1,20 @@
+[
+ {
+  "id": "admin-tools",
+  "q": "",
+  "url": "https://fushion-eta.vercel.app/admin/tools",
+  "full": true
+ },
+ {
+  "id": "admin-users",
+  "q": "",
+  "url": "https://fushion-eta.vercel.app/admin/users",
+  "full": true
+ },
+ {
+  "id": "submit",
+  "q": "",
+  "url": "https://fushion-eta.vercel.app/submit",
+  "full": true
+ }
+]

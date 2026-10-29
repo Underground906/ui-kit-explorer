@@ -1,0 +1,146 @@
+[
+ {
+  "id": "nexlink-demo-pages-blog",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/pages/blog.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-pages-blog-list",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/pages/blog-list.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-components-accordion",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/accordion.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-components-alerts",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/alerts.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-extended-ui-avatar",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/extended-ui/avatar.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-extended-ui-card-action",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/extended-ui/card-action.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-icons-flaticon",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/icons/flaticon.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-icons-fontawesome",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/icons/fontawesome.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-forms-tagify",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/forms/tagify.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-table-tables-datatable",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/table/tables-datatable.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-forms-flatpickr",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/forms/flatpickr.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-table-tables-basic",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/table/tables-basic.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-chart-apexchart",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/chart/apexchart.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-chart-chartjs",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/chart/chartjs.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-maps-jsvectormap",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/maps/jsvectormap.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-maps-leaflet",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/maps/leaflet.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-email-compose",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/email/compose.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-email-inbox",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/email/inbox.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-authentication-forgot-passw",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/authentication/forgot-password-basic.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-authentication-forgot-passw-x",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/authentication/forgot-password-cover.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-ai-new-chat",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/ai/new-chat.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-doc-getting-started",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/doc/getting-started.html",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo",
+  "full": true
+ },
+ {
+  "id": "nexlink-demo-ai-search-chat",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/ai/search-chat.html",
+  "full": true
+ }
+]

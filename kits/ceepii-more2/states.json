@@ -1,0 +1,38 @@
+[
+ {
+  "id": "car-categories",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/car-categories",
+  "full": true
+ },
+ {
+  "id": "experience-categories",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/experience-categories",
+  "full": true
+ },
+ {
+  "id": "flight-categories",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/flight-categories",
+  "full": true
+ },
+ {
+  "id": "stay-categories",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/stay-categories",
+  "full": true
+ },
+ {
+  "id": "subscription",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/subscription",
+  "full": true
+ },
+ {
+  "id": "forgot-password",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/forgot-password",
+  "full": true
+ }
+]

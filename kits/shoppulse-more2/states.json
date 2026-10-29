@@ -1,0 +1,14 @@
+[
+ {
+  "id": "dashboard",
+  "q": "",
+  "url": "https://shoppulse-saas.vercel.app/dashboard",
+  "full": true
+ },
+ {
+  "id": "management-users-usr-001",
+  "q": "",
+  "url": "https://shoppulse-saas.vercel.app/management/users/usr_001",
+  "full": true
+ }
+]

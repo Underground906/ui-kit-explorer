@@ -1,0 +1,32 @@
+[
+ {
+  "id": "account-profile",
+  "q": "",
+  "url": "https://cobalt-template.vercel.app/account/profile",
+  "full": true
+ },
+ {
+  "id": "sign-in",
+  "q": "",
+  "url": "https://cobalt-template.vercel.app/sign-in",
+  "full": true
+ },
+ {
+  "id": "create-account",
+  "q": "",
+  "url": "https://cobalt-template.vercel.app/create-account",
+  "full": true
+ },
+ {
+  "id": "forgot-password",
+  "q": "",
+  "url": "https://cobalt-template.vercel.app/forgot-password",
+  "full": true
+ },
+ {
+  "id": "reset-password",
+  "q": "",
+  "url": "https://cobalt-template.vercel.app/reset-password",
+  "full": true
+ }
+]

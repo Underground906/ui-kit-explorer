@@ -1,0 +1,14 @@
+[
+ {
+  "id": "plane",
+  "q": "",
+  "url": "https://tickety-two.vercel.app/plane",
+  "full": true
+ },
+ {
+  "id": "tickets",
+  "q": "",
+  "url": "https://tickety-two.vercel.app/tickets",
+  "full": true
+ }
+]

@@ -1,0 +1,14 @@
+[
+ {
+  "id": "blog-categories-all-articles",
+  "q": "",
+  "url": "https://airway-template.webflow.io/blog-categories/all-articles",
+  "full": true
+ },
+ {
+  "id": "blog-categories-travel",
+  "q": "",
+  "url": "https://airway-template.webflow.io/blog-categories/travel",
+  "full": true
+ }
+]

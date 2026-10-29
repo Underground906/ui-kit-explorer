@@ -1,0 +1,38 @@
+[
+ {
+  "id": "tutorials",
+  "q": "",
+  "url": "https://aurora.landingpaper.com/tutorials.html",
+  "full": true
+ },
+ {
+  "id": "about",
+  "q": "",
+  "url": "https://aurora.landingpaper.com/about.html",
+  "full": true
+ },
+ {
+  "id": "blog-routing-territories",
+  "q": "",
+  "url": "https://aurora.landingpaper.com/blog-routing-territories.html",
+  "full": true
+ },
+ {
+  "id": "blog-five-minute-install",
+  "q": "",
+  "url": "https://aurora.landingpaper.com/blog-five-minute-install.html",
+  "full": true
+ },
+ {
+  "id": "blog-origin-story",
+  "q": "",
+  "url": "https://aurora.landingpaper.com/blog-origin-story.html",
+  "full": true
+ },
+ {
+  "id": "blog-no-visitor-cap",
+  "q": "",
+  "url": "https://aurora.landingpaper.com/blog-no-visitor-cap.html",
+  "full": true
+ }
+]

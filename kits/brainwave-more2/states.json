@@ -1,0 +1,14 @@
+[
+ {
+  "id": "checkout",
+  "q": "",
+  "url": "https://ui8-brainwave.vercel.app/checkout",
+  "full": true
+ },
+ {
+  "id": "thanks",
+  "q": "",
+  "url": "https://ui8-brainwave.vercel.app/thanks",
+  "full": true
+ }
+]

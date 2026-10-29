@@ -1,0 +1,26 @@
+[
+ {
+  "id": "forgot-password",
+  "q": "",
+  "url": "https://statflow-host.netlify.app/forgot-password",
+  "full": true
+ },
+ {
+  "id": "register",
+  "q": "",
+  "url": "https://statflow-host.netlify.app/register",
+  "full": true
+ },
+ {
+  "id": "dashboard-offers-black-friday",
+  "q": "",
+  "url": "https://statflow-host.netlify.app/dashboard/offers/black-friday",
+  "full": true
+ },
+ {
+  "id": "dashboard-categories-women",
+  "q": "",
+  "url": "https://statflow-host.netlify.app/dashboard/categories/women",
+  "full": true
+ }
+]

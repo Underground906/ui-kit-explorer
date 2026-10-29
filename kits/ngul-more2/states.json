@@ -1,0 +1,44 @@
+[
+ {
+  "id": "reset-password",
+  "q": "",
+  "url": "https://ngul-host.surge.sh/reset-password",
+  "full": true
+ },
+ {
+  "id": "verify",
+  "q": "",
+  "url": "https://ngul-host.surge.sh/verify",
+  "full": true
+ },
+ {
+  "id": "post-jobs",
+  "q": "",
+  "url": "https://ngul-host.surge.sh/post-jobs",
+  "full": true
+ },
+ {
+  "id": "save-jobs",
+  "q": "",
+  "url": "https://ngul-host.surge.sh/save-jobs",
+  "full": true
+ },
+ {
+  "id": "find-jobs-search",
+  "q": "",
+  "url": "https://ngul-host.surge.sh/find-jobs/search",
+  "full": true
+ },
+ {
+  "id": "find-jobs-detail",
+  "q": "",
+  "url": "https://ngul-host.surge.sh/find-jobs/detail",
+  "full": true
+ },
+ {
+  "id": "post-jobs-form",
+  "q": "",
+  "url": "https://ngul-host.surge.sh/post-jobs/form",
+  "full": true
+ }
+]

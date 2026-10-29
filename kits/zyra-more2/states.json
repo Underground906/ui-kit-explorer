@@ -1,0 +1,14 @@
+[
+ {
+  "id": "space",
+  "q": "",
+  "url": "https://ui8-zyra.vercel.app/space",
+  "full": true
+ },
+ {
+  "id": "auth-forgot-password",
+  "q": "",
+  "url": "https://ui8-zyra.vercel.app/auth/forgot-password",
+  "full": true
+ }
+]
