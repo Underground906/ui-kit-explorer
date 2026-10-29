@@ -214,6 +214,7 @@ async def main():
                         if await goto(root, s["path"]) is None:
                             continue
                         if remeasure:
+                            (KIT / "screens" / root).mkdir(parents=True, exist_ok=True)
                             (KIT / "screens" / root / (s["id"].split("/")[-1] + ".json")).write_text(json.dumps(await pg.evaluate(EXTRACT), ensure_ascii=False), encoding="utf-8")
                         if s.get("variant_of"):
                             continue
