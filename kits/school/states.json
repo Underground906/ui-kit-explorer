@@ -1,57 +1,182 @@
 [
-{
-"id": "super-admin",
-"q": "",
-"pre": [
-"Continue",
-"Verify & continue",
-"Super Admin \u00b7 District"
-],
-"full": true
-},
-{
-"id": "school-admin",
-"q": "",
-"pre": [
-"Continue",
-"Verify & continue",
-"School Admin"
-],
-"full": true
-},
-{
-"id": "teacher",
-"q": "",
-"pre": [
-"Continue",
-"Verify & continue",
-"Teacher \u00b7 Algebra II"
-],
-"full": true
-},
-{
-"id": "parent",
-"q": "",
-"pre": [
-"Continue",
-"Verify & continue",
-"Parent of Emma Johnson"
-],
-"full": true
-},
-{
-"id": "student",
-"q": "",
-"pre": [
-"Continue",
-"Verify & continue",
-"Student \u00b7 Emma Johnson"
-],
-"full": true
-},
-{
-"id": "signin",
-"q": "",
-"full": true
-}
+ {
+  "id": "superadmin__dashboard",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22superadmin%22%2C%22screen%22%3A%22dashboard%22%7D",
+  "full": true
+ },
+ {
+  "id": "superadmin__campuses",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22superadmin%22%2C%22screen%22%3A%22campuses%22%7D",
+  "full": true
+ },
+ {
+  "id": "superadmin__students",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22superadmin%22%2C%22screen%22%3A%22students%22%7D",
+  "full": true
+ },
+ {
+  "id": "superadmin__finance",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22superadmin%22%2C%22screen%22%3A%22finance%22%7D",
+  "full": true
+ },
+ {
+  "id": "superadmin__admissions",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22superadmin%22%2C%22screen%22%3A%22admissions%22%7D",
+  "full": true
+ },
+ {
+  "id": "superadmin__insights",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22superadmin%22%2C%22screen%22%3A%22insights%22%7D",
+  "full": true
+ },
+ {
+  "id": "superadmin__messages",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22superadmin%22%2C%22screen%22%3A%22messages%22%7D",
+  "full": true
+ },
+ {
+  "id": "admin__dashboard",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22admin%22%2C%22screen%22%3A%22dashboard%22%7D",
+  "full": true
+ },
+ {
+  "id": "admin__students",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22admin%22%2C%22screen%22%3A%22students%22%7D",
+  "full": true
+ },
+ {
+  "id": "admin__attendance",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22admin%22%2C%22screen%22%3A%22attendance%22%7D",
+  "full": true
+ },
+ {
+  "id": "admin__scheduling",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22admin%22%2C%22screen%22%3A%22scheduling%22%7D",
+  "full": true
+ },
+ {
+  "id": "admin__gradebook",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22admin%22%2C%22screen%22%3A%22gradebook%22%7D",
+  "full": true
+ },
+ {
+  "id": "admin__finance",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22admin%22%2C%22screen%22%3A%22finance%22%7D",
+  "full": true
+ },
+ {
+  "id": "admin__admissions",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22admin%22%2C%22screen%22%3A%22admissions%22%7D",
+  "full": true
+ },
+ {
+  "id": "admin__insights",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22admin%22%2C%22screen%22%3A%22insights%22%7D",
+  "full": true
+ },
+ {
+  "id": "admin__messages",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22admin%22%2C%22screen%22%3A%22messages%22%7D",
+  "full": true
+ },
+ {
+  "id": "admin__settings",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22admin%22%2C%22screen%22%3A%22settings%22%7D",
+  "full": true
+ },
+ {
+  "id": "admin__support",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22admin%22%2C%22screen%22%3A%22support%22%7D",
+  "full": true
+ },
+ {
+  "id": "teacher__dashboard",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22teacher%22%2C%22screen%22%3A%22dashboard%22%7D",
+  "full": true
+ },
+ {
+  "id": "teacher__attendance",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22teacher%22%2C%22screen%22%3A%22attendance%22%7D",
+  "full": true
+ },
+ {
+  "id": "teacher__gradebook",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22teacher%22%2C%22screen%22%3A%22gradebook%22%7D",
+  "full": true
+ },
+ {
+  "id": "teacher__students",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22teacher%22%2C%22screen%22%3A%22students%22%7D",
+  "full": true
+ },
+ {
+  "id": "teacher__scheduling",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22teacher%22%2C%22screen%22%3A%22scheduling%22%7D",
+  "full": true
+ },
+ {
+  "id": "teacher__insights",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22teacher%22%2C%22screen%22%3A%22insights%22%7D",
+  "full": true
+ },
+ {
+  "id": "teacher__messages",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22teacher%22%2C%22screen%22%3A%22messages%22%7D",
+  "full": true
+ },
+ {
+  "id": "parent__portal",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22parent%22%2C%22screen%22%3A%22portal%22%7D",
+  "full": true
+ },
+ {
+  "id": "parent__gradebook",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22parent%22%2C%22screen%22%3A%22gradebook%22%7D",
+  "full": true
+ },
+ {
+  "id": "parent__attendance",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22parent%22%2C%22screen%22%3A%22attendance%22%7D",
+  "full": true
+ },
+ {
+  "id": "parent__finance",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22parent%22%2C%22screen%22%3A%22finance%22%7D",
+  "full": true
+ },
+ {
+  "id": "parent__messages",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22parent%22%2C%22screen%22%3A%22messages%22%7D",
+  "full": true
+ },
+ {
+  "id": "student__student",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22student%22%2C%22screen%22%3A%22student%22%7D",
+  "full": true
+ },
+ {
+  "id": "student__scheduling",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22student%22%2C%22screen%22%3A%22scheduling%22%7D",
+  "full": true
+ },
+ {
+  "id": "student__gradebook",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22student%22%2C%22screen%22%3A%22gradebook%22%7D",
+  "full": true
+ },
+ {
+  "id": "student__messages",
+  "q": "st=%7B%22stage%22%3A%22app%22%2C%22role%22%3A%22student%22%2C%22screen%22%3A%22messages%22%7D",
+  "full": true
+ },
+ {
+  "id": "auth__login",
+  "q": "st=%7B%22stage%22%3A%22login%22%7D",
+  "full": true
+ },
+ {
+  "id": "auth__workspace",
+  "q": "st=%7B%22stage%22%3A%22workspace%22%7D",
+  "full": true
+ }
 ]
