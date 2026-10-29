@@ -166,6 +166,7 @@ async def main():
                 await pg.context.clear_cookies()   # a previous role's session cookie must not carry into the next login
                 await pg.evaluate("() => { try { localStorage.clear(); sessionStorage.clear() } catch (e) {} }")
                 await pg.reload(wait_until="load", timeout=120000)
+            if (not path and not os.environ.get("CDP_URL") and not os.environ.get("PROFILE_DIR")) or st.get("spa"):   # spa: deep links 404, so every visit (clicked paths too) walks in from the start page
                 for label in st.get("pre", []):   # login / setup steps: "fill:<placeholder>=<value>" or a label to click
                     try:
                         if label.startswith("js:"):   # e.g. seed a demo session in localStorage, then reload (logins that won't take a click)
