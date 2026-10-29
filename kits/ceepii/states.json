@@ -1,0 +1,14 @@
+[
+ {
+  "id": "home",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/",
+  "full": true
+ },
+ {
+  "id": "stay-listing",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/stay-listings/half-moon-sherborne-by-marstons-inns",
+  "full": true
+ }
+]
