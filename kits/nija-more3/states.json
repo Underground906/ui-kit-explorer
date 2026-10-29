@@ -1,0 +1,4 @@
+[
+ {"id": "auth-register", "q": "", "url": "https://ui-e-commerce-next.vercel.app/auth/register", "full": true},
+ {"id": "products-categories-detail", "q": "", "url": "https://ui-e-commerce-next.vercel.app/products/categories/detail", "full": true}
+]
