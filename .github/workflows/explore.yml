@@ -32,6 +32,7 @@ jobs:
           pip install -q playwright pillow
           python -m playwright install --with-deps chromium
       - name: Explore
+        shell: bash
         env:
           PW_CHANNEL: ""
           PYTHONUNBUFFERED: "1"

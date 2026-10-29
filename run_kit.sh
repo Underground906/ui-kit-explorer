@@ -10,5 +10,6 @@ for round in 1 2 3 4 5 6; do
   [ -z "$R" ] && break
   echo "NEW ROOTS $1: $R"
 done
+[ -s $K/screens.json ] || { echo "NO SCREENS for $1"; exit 1; }   # a crash must fail the job, not pass it
 python tools/mark_variants.py $K
 echo "KIT_DONE $1"

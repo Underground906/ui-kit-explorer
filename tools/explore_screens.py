@@ -86,6 +86,7 @@ async def save_html(path):
     h = re.sub(r"<script\b.*?</script>", "", h, flags=re.S)
     css = KIT / "source" / "app_styles.css"      # the app's styles are identical on every screen: keep them once
     if not css.exists():
+        css.parent.mkdir(parents=True, exist_ok=True)
         css.write_text("\n".join(re.findall(r"<style\b[^>]*>(.*?)</style>", h, flags=re.S)), encoding="utf-8")
     h = re.sub(r"<style\b[^>]*>.*?</style>", "", h, flags=re.S).replace("</head>", '<link rel="stylesheet" href="../../source/app_styles.css"></head>', 1)
     h = re.sub(r"data:[\w/+.-]+;base64,[A-Za-z0-9+/=]{200,}", "data:,", h)
