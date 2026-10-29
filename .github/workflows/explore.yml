@@ -22,7 +22,7 @@ jobs:
     timeout-minutes: 340
     strategy:
       fail-fast: false
-      max-parallel: 10
+      max-parallel: 20
       matrix:
         kit: ${{ fromJSON(inputs.kits) }}
     steps:
