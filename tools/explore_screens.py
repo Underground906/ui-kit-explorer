@@ -208,9 +208,14 @@ async def main():
             hjs = (pathlib.Path(__file__).parent / "harvest.js").read_text(encoding="utf-8")
             agg = {}
             for root in ROOTS:
-                for s in [s for s in db["screens"] if s["root"] == root and not s.get("variant_of") and not s.get("template_of")]:
+                remeasure = os.environ.get("REMEASURE") == "1"   # also rewrite each screen's layout JSON with the current extractor
+                for s in [s for s in db["screens"] if s["root"] == root and not s.get("template_of") and (remeasure or not s.get("variant_of"))]:
                     try:
                         if await goto(root, s["path"]) is None:
+                            continue
+                        if remeasure:
+                            (KIT / "screens" / root / (s["id"].split("/")[-1] + ".json")).write_text(json.dumps(await pg.evaluate(EXTRACT), ensure_ascii=False), encoding="utf-8")
+                        if s.get("variant_of"):
                             continue
                         items = await pg.evaluate(hjs)
                     except Exception as ex:

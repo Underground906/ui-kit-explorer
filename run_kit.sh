@@ -3,7 +3,8 @@
 # then data variants are marked. Kit folder: kits/<kit>/states.json (page list) and, for source bundles, source/app.html.
 set -u
 K=kits/$1
-if [ "${MODE:-explore}" = "harvest" ]; then   # components only, over the screens already recorded in screens.json
+if [ "${MODE:-explore}" = "harvest" ] || [ "${MODE:-explore}" = "remeasure" ]; then
+  [ "$MODE" = "remeasure" ] && export REMEASURE=1   # components only, over the screens already recorded in screens.json
   R=$(python -c "import json;print(' '.join(json.load(open('$K/screens.json'))['roots_done']))")
   HARVEST=1 python tools/explore_screens.py $K $R
   [ -s $K/components.json ] || { echo "NO COMPONENTS for $1"; exit 1; }

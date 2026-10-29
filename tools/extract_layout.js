@@ -15,12 +15,19 @@
   const pick = (...sel) => { for (const s of sel) { const e = typeof s === 'string' ? [...document.querySelectorAll(s)].find(visible) : s; if (e) return e } return null }
   const regions = {}
   const rail = byRole('rail'); if (rail) regions.rail = R(rail)
-  const side = pick(byRole('sidebar'), 'aside', '[class*=sidebar]', 'nav'); if (side) regions.sidebar = R(side)
+  let side = pick(byRole('sidebar'), 'aside', '[class*=sidebar]', 'nav')
+  if (side && side.getBoundingClientRect().height < VH * 0.5) side = null   // a small inline <nav> is not the app sidebar
+  if (!side && !rail) {   // no landmark: the app sidebar is the full-height column hugging the left edge
+    side = [...document.querySelectorAll('body div, body nav, body aside')].find(e => { const r = e.getBoundingClientRect(); return r.left <= 40 && r.width >= 150 && r.width <= 340 && r.height >= VH * 0.7 && visible(e) && (e.innerText || '').trim().length > 20 }) || null
+  }
+  if (side) regions.sidebar = R(side)
   const top = pick(byRole('topbar'), 'header'); if (top) regions.topbar = R(top)
   const content = pick(byRole('pad'), byRole('canvas'), 'main', byRole('authwrap'), document.body)
   regions.content = R(content)
   const surface = (e) => { if (/^(BUTTON|A|INPUT|TEXTAREA|SELECT)$/.test(e.tagName)) return false; const s = cs(e); if (s.cursor === 'pointer' && e.getBoundingClientRect().height < 60) return false; const bw = ['Top', 'Right', 'Bottom', 'Left'].filter(k => px(s['border' + k + 'Width']) > 0 && rgb(s['border' + k + 'Color'])).length
-    const r = e.getBoundingClientRect(); return (bw >= 3 || (s.boxShadow !== 'none' && rgb(s.backgroundColor))) && px(s.borderTopLeftRadius) >= 6 && r.width >= 100 && r.height >= 40 }
+    const r = e.getBoundingClientRect(); return (bw >= 3 || (s.boxShadow !== 'none' && rgb(s.backgroundColor)) || ownTone(e, s)) && px(s.borderTopLeftRadius) >= 6 && r.width >= 100 && r.height >= 40 }
+  const bgOf = (e) => { for (let a = e; a && a !== document.documentElement; a = a.parentElement) { const c = cs(a).backgroundColor; if (rgb(c)) return c.replace(/\s/g, '') } return 'rgb(255,255,255)' }   // raw colour, alpha kept: white on 60%-white is a card
+  const ownTone = (e, s) => { const c = s.backgroundColor.replace(/\s/g, ''); return !!rgb(c) && !/,0?\.\d+\)$/.test(c) && !!e.parentElement && c !== bgOf(e.parentElement) }   // a flat card: its own fill on a different canvas, no border or shadow
 
   // ---- text slots
   const slotRole = (t, s, upper) => {
@@ -83,7 +90,15 @@
   // ---- blocks: outermost surfaces inside the content region (plus the page header row)
   const cR = content.getBoundingClientRect()
   const all = [...content.querySelectorAll('*')].filter(e => visible(e) && surface(e))
-  const tops = all.filter(e => !all.some(o => o !== e && o.contains(e)))
+  const inSide = (e) => side && (side.contains(e) || e.contains(side))
+  const area = Math.max(1, cR.width * Math.max(cR.height, VH))
+  let tops = all.filter(e => !inSide(e) && !all.some(o => o !== e && !inSide(o) && o.contains(e)))
+  for (let round = 0; round < 4; round++) {   // an app frame that wraps everything is not a block: look inside it
+    const big = tops.filter(e => { const r = e.getBoundingClientRect(); return r.width * r.height > area * 0.6 })
+    if (!big.length) break
+    tops = tops.filter(e => !big.includes(e))
+    for (const b of big) { const inner = all.filter(e => e !== b && b.contains(e) && !inSide(e)); tops.push(...inner.filter(e => !inner.some(o => o !== e && o.contains(e)))) }
+  }
   const blocks = []
   const h1 = [...content.querySelectorAll('[data-r=h1],h1')].find(visible)
   if (h1) { const row = h1.closest('[data-r=col-sm]') || h1.parentElement.parentElement; if (row && !tops.some(t => t.contains(row) || row.contains(t))) tops.unshift(row) }
