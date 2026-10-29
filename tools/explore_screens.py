@@ -101,6 +101,23 @@ async def save_html(path):
 
 
 pg_ref = []
+
+
+async def shoot(path):
+    """screenshot that survives a throttled or busy tab: bring it forward, retry once, then log and carry on"""
+    pg = pg_ref[0]
+    for attempt in (1, 2):
+        try:
+            await pg.screenshot(path=str(path), animations="disabled", timeout=45000)
+            return True
+        except Exception as ex:
+            try:
+                await pg.bring_to_front()
+            except Exception:
+                pass
+            if attempt == 2:
+                print("   no screenshot:", path, str(ex)[:60], flush=True)
+    return False
 sig = lambda p: hashlib.md5((p["structure"] + "|" + p.get("fingerprint", "") + "|" + "|".join(o["kind"] for o in p["overlays"] if o["kind"] != "toast")).encode()).hexdigest()[:12]
 
 
@@ -121,6 +138,7 @@ async def main():
             b = await pw.chromium.connect_over_cdp(cdp, timeout=60000)
             pg = await b.contexts[0].new_page()
             await pg.set_viewport_size({"width": 1440, "height": 900})
+            await pg.bring_to_front()   # Chrome stops drawing background tabs: screenshots would never complete
         else:
             b = await pw.chromium.launch(channel=os.environ.get("PW_CHANNEL", "msedge") or None)
             pg = await b.new_page(viewport={"width": 1440, "height": 900})
@@ -174,7 +192,7 @@ async def main():
             tsig = hashlib.md5(base["structure"].encode()).hexdigest()[:12]
             tdb = db.setdefault("templates", {})
             if len(tdb.get(tsig, [])) >= int(os.environ.get("TEMPLATE_EXAMPLES", "2")) and root not in tdb[tsig]:
-                await pg.screenshot(path=str(d / "0.png"), animations="disabled")
+                await shoot(d / "0.png")
                 db["screens"].append({"id": f"{root}/0", "root": root, "depth": 0, "path": [], "parent": None, "via": None, "kind": "page",
                                       "h1": base["h1"], "overlays": [], "sig": sig(base), "shot": f"screens/{root}/0.png",
                                       "template_of": tdb[tsig][0], "template_sig": tsig})
@@ -187,7 +205,7 @@ async def main():
                 tdb[tsig].append(root)
             queue = [{"id": f"{root}/0", "path": [], "depth": 0, "parent": None, "probe": base}]
             if not screens:
-                await pg.screenshot(path=str(d / "0.png"), animations="disabled")
+                await shoot(d / "0.png")
                 (d / "0.json").write_text(json.dumps(await pg.evaluate(EXTRACT), ensure_ascii=False), encoding="utf-8")
                 await save_html(d / "0.html.gz")
                 screens.append({"id": f"{root}/0", "root": root, "depth": 0, "path": [], "parent": None, "via": None, "kind": "page", "h1": base["h1"],
@@ -252,7 +270,7 @@ async def main():
                             sid = f"{root}/{n}"
                             new_ov = [o for o in after["overlays"] if o not in probe["overlays"] and o["kind"] != "toast"]
                             kind = new_ov[0]["kind"] if new_ov else ("page-switch" if after["h1"] != probe["h1"] else "inline")
-                            await pg.screenshot(path=str(d / f"{n}.png"), animations="disabled")
+                            await shoot(d / f"{n}.png")
                             (d / f"{n}.json").write_text(json.dumps(await pg.evaluate(EXTRACT), ensure_ascii=False), encoding="utf-8")
                             await save_html(d / f"{n}.html.gz")
                             rec = {"id": sid, "root": root, "depth": cur["depth"] + 1, "path": cur["path"] + [c["key"]], "parent": cur["id"], "via": c["label"],
