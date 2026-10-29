@@ -1,41 +1,171 @@
 [
-{
-"id": "admin",
-"q": "",
-"url": "https://aetheria-admin.vercel.app/",
-"full": true,
-"pre": [
-"Demo Accounts",
-"Mai Tran",
-"Sign in"
-]
-},
-{
-"id": "manager",
-"q": "",
-"url": "https://aetheria-admin.vercel.app/",
-"full": true,
-"pre": [
-"Demo Accounts",
-"Alex Rivers",
-"Sign in"
-]
-},
-{
-"id": "staff",
-"q": "",
-"url": "https://aetheria-admin.vercel.app/",
-"full": true,
-"pre": [
-"Demo Accounts",
-"Sophia Chen",
-"Sign in"
-]
-},
-{
-"id": "signin",
-"q": "",
-"url": "https://aetheria-admin.vercel.app/",
-"full": true
-}
+ {
+  "id": "admin-products",
+  "q": "",
+  "url": "https://aetheria-admin.vercel.app/",
+  "full": true,
+  "pre": [
+   "Demo Accounts",
+   "Mai Tran",
+   "Sign in"
+  ],
+  "after_url": "https://aetheria-admin.vercel.app/admin/products",
+  "max_screens": 40
+ },
+ {
+  "id": "admin-variants",
+  "q": "",
+  "url": "https://aetheria-admin.vercel.app/",
+  "full": true,
+  "pre": [
+   "Demo Accounts",
+   "Mai Tran",
+   "Sign in"
+  ],
+  "after_url": "https://aetheria-admin.vercel.app/admin/variants",
+  "max_screens": 40
+ },
+ {
+  "id": "admin-brands",
+  "q": "",
+  "url": "https://aetheria-admin.vercel.app/",
+  "full": true,
+  "pre": [
+   "Demo Accounts",
+   "Mai Tran",
+   "Sign in"
+  ],
+  "after_url": "https://aetheria-admin.vercel.app/admin/brands",
+  "max_screens": 40
+ },
+ {
+  "id": "admin-categories",
+  "q": "",
+  "url": "https://aetheria-admin.vercel.app/",
+  "full": true,
+  "pre": [
+   "Demo Accounts",
+   "Mai Tran",
+   "Sign in"
+  ],
+  "after_url": "https://aetheria-admin.vercel.app/admin/categories",
+  "max_screens": 40
+ },
+ {
+  "id": "admin-collections",
+  "q": "",
+  "url": "https://aetheria-admin.vercel.app/",
+  "full": true,
+  "pre": [
+   "Demo Accounts",
+   "Mai Tran",
+   "Sign in"
+  ],
+  "after_url": "https://aetheria-admin.vercel.app/admin/collections",
+  "max_screens": 40
+ },
+ {
+  "id": "admin-inventory",
+  "q": "",
+  "url": "https://aetheria-admin.vercel.app/",
+  "full": true,
+  "pre": [
+   "Demo Accounts",
+   "Mai Tran",
+   "Sign in"
+  ],
+  "after_url": "https://aetheria-admin.vercel.app/admin/inventory",
+  "max_screens": 40
+ },
+ {
+  "id": "admin-orders",
+  "q": "",
+  "url": "https://aetheria-admin.vercel.app/",
+  "full": true,
+  "pre": [
+   "Demo Accounts",
+   "Mai Tran",
+   "Sign in"
+  ],
+  "after_url": "https://aetheria-admin.vercel.app/admin/orders",
+  "max_screens": 40
+ },
+ {
+  "id": "admin-customers",
+  "q": "",
+  "url": "https://aetheria-admin.vercel.app/",
+  "full": true,
+  "pre": [
+   "Demo Accounts",
+   "Mai Tran",
+   "Sign in"
+  ],
+  "after_url": "https://aetheria-admin.vercel.app/admin/customers",
+  "max_screens": 40
+ },
+ {
+  "id": "admin-campaigns",
+  "q": "",
+  "url": "https://aetheria-admin.vercel.app/",
+  "full": true,
+  "pre": [
+   "Demo Accounts",
+   "Mai Tran",
+   "Sign in"
+  ],
+  "after_url": "https://aetheria-admin.vercel.app/admin/campaigns",
+  "max_screens": 40
+ },
+ {
+  "id": "admin-support",
+  "q": "",
+  "url": "https://aetheria-admin.vercel.app/",
+  "full": true,
+  "pre": [
+   "Demo Accounts",
+   "Mai Tran",
+   "Sign in"
+  ],
+  "after_url": "https://aetheria-admin.vercel.app/admin/support",
+  "max_screens": 40
+ },
+ {
+  "id": "admin-settings",
+  "q": "",
+  "url": "https://aetheria-admin.vercel.app/",
+  "full": true,
+  "pre": [
+   "Demo Accounts",
+   "Mai Tran",
+   "Sign in"
+  ],
+  "after_url": "https://aetheria-admin.vercel.app/admin/settings",
+  "max_screens": 40
+ },
+ {
+  "id": "staff-blogs",
+  "q": "",
+  "url": "https://aetheria-admin.vercel.app/",
+  "full": true,
+  "pre": [
+   "Demo Accounts",
+   "Sophia Chen",
+   "Sign in"
+  ],
+  "after_url": "https://aetheria-admin.vercel.app/admin/blogs",
+  "max_screens": 40
+ },
+ {
+  "id": "staff-notifications",
+  "q": "",
+  "url": "https://aetheria-admin.vercel.app/",
+  "full": true,
+  "pre": [
+   "Demo Accounts",
+   "Sophia Chen",
+   "Sign in"
+  ],
+  "after_url": "https://aetheria-admin.vercel.app/admin/notifications",
+  "max_screens": 40
+ }
 ]
