@@ -18,6 +18,12 @@ EXTRACT = (pathlib.Path(__file__).parent / "extract_layout.js").read_text(encodi
 STATES = {s["id"]: s for s in json.loads((KIT / "states.json").read_text(encoding="utf-8"))}
 MAX_DEPTH, MAX_SCREENS, MAX_CONTROLS = 4, 80, 60
 SKIP_LABEL = ("sign out", "log out", "logout", "delete workspace")
+# real accounts (SAFE_MODE=1): never click anything with a consequence: only look, open, switch and navigate
+SAFE_RE = __import__("re").compile(r"(?i)(send|post|publish|reply|comment|message|follow|unfollow|subscribe|unsubscribe|join|leave|apply|hire|"
+    r"invite|accept|decline|reject|approve|pay|buy|purchase|checkout|upgrade|downgrade|cancel|delete|remove|archive|report|block|mute|"
+    r"save|submit|confirm|create|add|upload|connect|disconnect|like|share|tip|pledge|claim|withdraw|transfer|book|request|start|end|"
+    r"sign ?out|log ?out|deactivate|close account)")
+SAFE = os.environ.get("SAFE_MODE") == "1"
 
 # content box (right of the sidebar, below the top bar), controls with stable keys, structure signature, overlays
 PROBE = r"""() => {
@@ -107,15 +113,24 @@ async def main():
         if p.exists() and "__" not in sid:
             titles[json.loads(p.read_text(encoding="utf-8"))["title"]] = sid
     async with async_playwright() as pw:
-        b = await pw.chromium.launch(channel=os.environ.get("PW_CHANNEL", "msedge") or None)
-        pg = await b.new_page(viewport={"width": 1440, "height": 900})
+        if os.environ.get("CDP_URL"):   # drive a browser the user is already logged into (their sessions, their home connection)
+            cdp = os.environ["CDP_URL"]
+            if cdp.startswith("http"):   # Chrome 156 hangs on the http handshake: use the browser's websocket directly
+                import urllib.request
+                cdp = json.loads(urllib.request.urlopen(cdp.rstrip("/") + "/json/version").read())["webSocketDebuggerUrl"]
+            b = await pw.chromium.connect_over_cdp(cdp, timeout=60000)
+            pg = await b.contexts[0].new_page()
+            await pg.set_viewport_size({"width": 1440, "height": 900})
+        else:
+            b = await pw.chromium.launch(channel=os.environ.get("PW_CHANNEL", "msedge") or None)
+            pg = await b.new_page(viewport={"width": 1440, "height": 900})
         pg_ref.append(pg)
 
         async def goto(root, path):
             st = STATES[root]
             await pg.set_viewport_size({"width": 1440, "height": 900})
             await pg.goto(st.get("url") or APP + "?" + st["q"], wait_until="load", timeout=120000)
-            if not path:   # each page starts clean: a theme toggle or saved filter from another page must not leak in
+            if not path and not os.environ.get("CDP_URL"):   # each page starts clean (not in a logged-in browser: that would sign it out): a theme toggle or saved filter from another page must not leak in
                 await pg.evaluate("() => { try { localStorage.clear(); sessionStorage.clear() } catch (e) {} }")
                 await pg.reload(wait_until="load", timeout=120000)
                 for label in st.get("pre", []):   # login / setup steps: "fill:<placeholder>=<value>" or a label to click
@@ -173,6 +188,7 @@ async def main():
                 me = next(s for s in db["screens"] if s["id"] == cur["id"])
                 me["controls"] = [c["key"] for c in probe["controls"]]
                 todo = [c for c in probe["controls"] if c["key"] not in parent_keys and not any(w in c["label"].lower() for w in SKIP_LABEL)
+                        and not (SAFE and SAFE_RE.search(c["label"]))
                         and (not c["shell"] or (n_root == 0 and cur["depth"] == 0))][:MAX_CONTROLS]
                 # list rows: 5+ controls with the same tag, x, width and height are instances of one row; try the first 3 (short lists: all)
                 groups = {}
@@ -181,7 +197,7 @@ async def main():
                 todo = [c for c in todo if len(groups[(c["tag"], c["x"], c["w"], c["h"])]) <= 4 or groups[(c["tag"], c["x"], c["w"], c["h"])].index(c) < 3]
                 dirty = True   # the page is wherever the last screen left it: always restore this screen first
                 for c in todo:
-                    if len(screens) >= MAX_SCREENS:
+                    if len(screens) >= int(STATES[root].get("max_screens", MAX_SCREENS)):   # hubs can carry 200+
                         break
                     edge = {"from": cur["id"], "control": c["label"], "key": c["key"], "shell": c["shell"]}
                     try:
@@ -239,6 +255,9 @@ async def main():
             db["roots_done"].append(root)
             out_p.write_text(json.dumps(db, ensure_ascii=False, indent=1), encoding="utf-8")
             print("ROOT DONE", root, len(screens), "screens", flush=True)
-        await b.close()
+        if os.environ.get("CDP_URL"):
+            await pg.close()   # leave the user's browser running
+        else:
+            await b.close()
 
 asyncio.run(main())
