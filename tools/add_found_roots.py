@@ -9,7 +9,7 @@ urls = [s["url"] for s in states if s.get("url")]
 if not urls:
     sys.exit(0)
 norm = lambda u: u.split("#")[0].split("?")[0].rstrip("/")
-have = {norm(u) for u in urls}
+have = {norm(s.get("after_url") or s["url"]) for s in states if s.get("url")}   # the page actually shown, not the login page
 origin = re.match(r"https?://[^/]+", urls[0]).group(0)
 parts = [norm(u).split("/") for u in urls]   # the kit's own path = the common leading segments of all its page URLs
 common = []
@@ -44,7 +44,11 @@ for e in db["edges"]:
     sid = re.sub(r"[^a-z0-9]+", "-", path.lower()).strip("-") or "home"
     while any(s["id"] == sid for s in states):
         sid += "-x"
-    states.append({"id": sid, "q": "", "url": u.split("#")[0], "full": True, "found_by": e["from"]})
+    rec = {"id": sid, "q": "", "url": u.split("#")[0], "full": True, "found_by": e["from"]}
+    parent = next((x for x in states if x["id"] == e["from"].split("/")[0]), {})
+    if parent.get("pre"):   # pages found after a login keep that login: go to the login page, run its clicks, then this URL
+        rec.update(url=parent["url"], pre=parent["pre"], after_url=u.split("#")[0])
+    states.append(rec)
     per_shape[shape(u)] = per_shape.get(shape(u), 0) + 1
     new.append(sid)
 (KIT / "states.json").write_text(json.dumps(states, indent=0), encoding="utf-8")

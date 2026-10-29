@@ -1,6 +1,39 @@
 [
 {
-"id": "home",
+"id": "admin",
+"q": "",
+"url": "https://aetheria-admin.vercel.app/",
+"full": true,
+"pre": [
+"Demo Accounts",
+"Mai Tran",
+"Sign in"
+]
+},
+{
+"id": "manager",
+"q": "",
+"url": "https://aetheria-admin.vercel.app/",
+"full": true,
+"pre": [
+"Demo Accounts",
+"Alex Rivers",
+"Sign in"
+]
+},
+{
+"id": "staff",
+"q": "",
+"url": "https://aetheria-admin.vercel.app/",
+"full": true,
+"pre": [
+"Demo Accounts",
+"Sophia Chen",
+"Sign in"
+]
+},
+{
+"id": "signin",
 "q": "",
 "url": "https://aetheria-admin.vercel.app/",
 "full": true
