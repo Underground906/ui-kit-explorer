@@ -1,0 +1,32 @@
+[
+ {
+  "id": "education-feedback",
+  "q": "",
+  "url": "https://ui8-synapse.vercel.app/education-feedback",
+  "full": true
+ },
+ {
+  "id": "entry",
+  "q": "",
+  "url": "https://ui8-synapse.vercel.app/entry",
+  "full": true
+ },
+ {
+  "id": "photo-editor",
+  "q": "",
+  "url": "https://ui8-synapse.vercel.app/photo-editor",
+  "full": true
+ },
+ {
+  "id": "photo-generator",
+  "q": "",
+  "url": "https://ui8-synapse.vercel.app/photo-generator",
+  "full": true
+ },
+ {
+  "id": "pricing-and-payment",
+  "q": "",
+  "url": "https://ui8-synapse.vercel.app/pricing-and-payment",
+  "full": true
+ }
+]

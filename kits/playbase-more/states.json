@@ -1,0 +1,14 @@
+[
+ {
+  "id": "login",
+  "q": "",
+  "url": "https://playbase-micholabs.vercel.app/login",
+  "full": true
+ },
+ {
+  "id": "register",
+  "q": "",
+  "url": "https://playbase-micholabs.vercel.app/register",
+  "full": true
+ }
+]

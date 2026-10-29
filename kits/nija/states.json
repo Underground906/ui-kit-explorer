@@ -4,5 +4,35 @@
   "q": "",
   "url": "https://ui-e-commerce-next.vercel.app/",
   "full": true
+ },
+ {
+  "id": "banner",
+  "q": "",
+  "url": "https://ui-e-commerce-next.vercel.app/banner",
+  "full": true
+ },
+ {
+  "id": "flash-sale",
+  "q": "",
+  "url": "https://ui-e-commerce-next.vercel.app/flash-sale",
+  "full": true
+ },
+ {
+  "id": "illustrations",
+  "q": "",
+  "url": "https://ui-e-commerce-next.vercel.app/illustrations",
+  "full": true
+ },
+ {
+  "id": "outlet",
+  "q": "",
+  "url": "https://ui-e-commerce-next.vercel.app/outlet",
+  "full": true
+ },
+ {
+  "id": "user-role",
+  "q": "",
+  "url": "https://ui-e-commerce-next.vercel.app/user-role",
+  "full": true
  }
 ]

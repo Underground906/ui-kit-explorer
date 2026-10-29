@@ -4,5 +4,53 @@
   "q": "",
   "url": "https://ui8-brainwave.vercel.app/",
   "full": true
+ },
+ {
+  "id": "audio-generation",
+  "q": "",
+  "url": "https://ui8-brainwave.vercel.app/audio-generation",
+  "full": true
+ },
+ {
+  "id": "code-generation",
+  "q": "",
+  "url": "https://ui8-brainwave.vercel.app/code-generation",
+  "full": true
+ },
+ {
+  "id": "education-feedback",
+  "q": "",
+  "url": "https://ui8-brainwave.vercel.app/education-feedback",
+  "full": true
+ },
+ {
+  "id": "generation-socials-post",
+  "q": "",
+  "url": "https://ui8-brainwave.vercel.app/generation-socials-post",
+  "full": true
+ },
+ {
+  "id": "photo-editing",
+  "q": "",
+  "url": "https://ui8-brainwave.vercel.app/photo-editing",
+  "full": true
+ },
+ {
+  "id": "pricing",
+  "q": "",
+  "url": "https://ui8-brainwave.vercel.app/pricing",
+  "full": true
+ },
+ {
+  "id": "updates-and-faq",
+  "q": "",
+  "url": "https://ui8-brainwave.vercel.app/updates-and-faq",
+  "full": true
+ },
+ {
+  "id": "video-generation",
+  "q": "",
+  "url": "https://ui8-brainwave.vercel.app/video-generation",
+  "full": true
  }
 ]

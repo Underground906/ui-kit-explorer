@@ -4,5 +4,77 @@
   "q": "",
   "url": "https://cobalt-template.vercel.app/",
   "full": true
+ },
+ {
+  "id": "about",
+  "q": "",
+  "url": "https://cobalt-template.vercel.app/about",
+  "full": true
+ },
+ {
+  "id": "account",
+  "q": "",
+  "url": "https://cobalt-template.vercel.app/account",
+  "full": true
+ },
+ {
+  "id": "account-wishlist",
+  "q": "",
+  "url": "https://cobalt-template.vercel.app/account/wishlist",
+  "full": true
+ },
+ {
+  "id": "article",
+  "q": "",
+  "url": "https://cobalt-template.vercel.app/article",
+  "full": true
+ },
+ {
+  "id": "cart",
+  "q": "",
+  "url": "https://cobalt-template.vercel.app/cart",
+  "full": true
+ },
+ {
+  "id": "collection",
+  "q": "",
+  "url": "https://cobalt-template.vercel.app/collection",
+  "full": true
+ },
+ {
+  "id": "contact",
+  "q": "",
+  "url": "https://cobalt-template.vercel.app/contact",
+  "full": true
+ },
+ {
+  "id": "faq",
+  "q": "",
+  "url": "https://cobalt-template.vercel.app/faq",
+  "full": true
+ },
+ {
+  "id": "journal",
+  "q": "",
+  "url": "https://cobalt-template.vercel.app/journal",
+  "full": true
+ },
+ {
+  "id": "product-aero-runner-low",
+  "q": "",
+  "url": "https://cobalt-template.vercel.app/product/aero-runner-low",
+  "full": true
+ },
+ {
+  "id": "product-cobalt-tech-jacket",
+  "q": "",
+  "url": "https://cobalt-template.vercel.app/product/cobalt-tech-jacket",
+  "full": true
+ },
+ {
+  "id": "shop",
+  "q": "",
+  "url": "https://cobalt-template.vercel.app/shop",
+  "full": true
  }
 ]

@@ -4,5 +4,23 @@
   "q": "",
   "url": "https://nusa-bay-host.netlify.app/",
   "full": true
+ },
+ {
+  "id": "dashboard",
+  "q": "",
+  "url": "https://nusa-bay-host.netlify.app/dashboard",
+  "full": true
+ },
+ {
+  "id": "forgot-password",
+  "q": "",
+  "url": "https://nusa-bay-host.netlify.app/forgot-password",
+  "full": true
+ },
+ {
+  "id": "register",
+  "q": "",
+  "url": "https://nusa-bay-host.netlify.app/register",
+  "full": true
  }
 ]

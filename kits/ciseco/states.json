@@ -4,5 +4,101 @@
   "q": "",
   "url": "https://ciseco-nextjs.vercel.app/",
   "full": true
+ },
+ {
+  "id": "about",
+  "q": "",
+  "url": "https://ciseco-nextjs.vercel.app/about",
+  "full": true
+ },
+ {
+  "id": "account",
+  "q": "",
+  "url": "https://ciseco-nextjs.vercel.app/account",
+  "full": true
+ },
+ {
+  "id": "account-wishlists",
+  "q": "",
+  "url": "https://ciseco-nextjs.vercel.app/account-wishlists",
+  "full": true
+ },
+ {
+  "id": "blog",
+  "q": "",
+  "url": "https://ciseco-nextjs.vercel.app/blog",
+  "full": true
+ },
+ {
+  "id": "blog-graduation-dresses-style-guide",
+  "q": "",
+  "url": "https://ciseco-nextjs.vercel.app/blog/graduation-dresses-style-guide",
+  "full": true
+ },
+ {
+  "id": "blog-hijabi-friendly-fabrics-worth-the-m",
+  "q": "",
+  "url": "https://ciseco-nextjs.vercel.app/blog/hijabi-friendly-fabrics-worth-the-money",
+  "full": true
+ },
+ {
+  "id": "collections-accessories",
+  "q": "",
+  "url": "https://ciseco-nextjs.vercel.app/collections/accessories",
+  "full": true
+ },
+ {
+  "id": "collections-all",
+  "q": "",
+  "url": "https://ciseco-nextjs.vercel.app/collections/all",
+  "full": true
+ },
+ {
+  "id": "contact",
+  "q": "",
+  "url": "https://ciseco-nextjs.vercel.app/contact",
+  "full": true
+ },
+ {
+  "id": "login",
+  "q": "",
+  "url": "https://ciseco-nextjs.vercel.app/login",
+  "full": true
+ },
+ {
+  "id": "orders",
+  "q": "",
+  "url": "https://ciseco-nextjs.vercel.app/orders",
+  "full": true
+ },
+ {
+  "id": "products-cashmere-sweater",
+  "q": "",
+  "url": "https://ciseco-nextjs.vercel.app/products/cashmere-sweater",
+  "full": true
+ },
+ {
+  "id": "products-cotton-shirt",
+  "q": "",
+  "url": "https://ciseco-nextjs.vercel.app/products/cotton-shirt",
+  "full": true
+ },
+ {
+  "id": "search",
+  "q": "",
+  "url": "https://ciseco-nextjs.vercel.app/search",
+  "full": true
+ },
+ {
+  "id": "signup",
+  "q": "",
+  "url": "https://ciseco-nextjs.vercel.app/signup",
+  "full": true
+ },
+ {
+  "id": "subscription",
+  "q": "",
+  "url": "https://ciseco-nextjs.vercel.app/subscription",
+  "full": true
  }
 ]

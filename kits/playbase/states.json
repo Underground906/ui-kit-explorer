@@ -4,5 +4,65 @@
   "q": "",
   "url": "https://playbase-micholabs.vercel.app/",
   "full": true
+ },
+ {
+  "id": "about",
+  "q": "",
+  "url": "https://playbase-micholabs.vercel.app/about",
+  "full": true
+ },
+ {
+  "id": "blog",
+  "q": "",
+  "url": "https://playbase-micholabs.vercel.app/blog",
+  "full": true
+ },
+ {
+  "id": "clubs",
+  "q": "",
+  "url": "https://playbase-micholabs.vercel.app/clubs",
+  "full": true
+ },
+ {
+  "id": "clubs-hoop-society-club",
+  "q": "",
+  "url": "https://playbase-micholabs.vercel.app/clubs/hoop-society-club",
+  "full": true
+ },
+ {
+  "id": "clubs-metro-futsal-collective",
+  "q": "",
+  "url": "https://playbase-micholabs.vercel.app/clubs/metro-futsal-collective",
+  "full": true
+ },
+ {
+  "id": "courts",
+  "q": "",
+  "url": "https://playbase-micholabs.vercel.app/courts",
+  "full": true
+ },
+ {
+  "id": "documentation",
+  "q": "",
+  "url": "https://playbase-micholabs.vercel.app/documentation",
+  "full": true
+ },
+ {
+  "id": "login",
+  "q": "",
+  "url": "https://playbase-micholabs.vercel.app/login",
+  "full": true
+ },
+ {
+  "id": "price",
+  "q": "",
+  "url": "https://playbase-micholabs.vercel.app/price",
+  "full": true
+ },
+ {
+  "id": "register",
+  "q": "",
+  "url": "https://playbase-micholabs.vercel.app/register",
+  "full": true
  }
 ]

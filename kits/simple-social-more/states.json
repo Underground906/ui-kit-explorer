@@ -1,0 +1,44 @@
+[
+ {
+  "id": "bookmarks",
+  "q": "",
+  "url": "https://ui8-simple-social.vercel.app/bookmarks",
+  "full": true
+ },
+ {
+  "id": "entry",
+  "q": "",
+  "url": "https://ui8-simple-social.vercel.app/entry",
+  "full": true
+ },
+ {
+  "id": "explore",
+  "q": "",
+  "url": "https://ui8-simple-social.vercel.app/explore",
+  "full": true
+ },
+ {
+  "id": "explore-0",
+  "q": "",
+  "url": "https://ui8-simple-social.vercel.app/explore/0",
+  "full": true
+ },
+ {
+  "id": "explore-1",
+  "q": "",
+  "url": "https://ui8-simple-social.vercel.app/explore/1",
+  "full": true
+ },
+ {
+  "id": "profile",
+  "q": "",
+  "url": "https://ui8-simple-social.vercel.app/profile",
+  "full": true
+ },
+ {
+  "id": "settings",
+  "q": "",
+  "url": "https://ui8-simple-social.vercel.app/settings",
+  "full": true
+ }
+]

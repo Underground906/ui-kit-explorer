@@ -4,5 +4,59 @@
   "q": "",
   "url": "https://ui8-brainwave-2.vercel.app/",
   "full": true
+ },
+ {
+  "id": "assets-3d-objects",
+  "q": "",
+  "url": "https://ui8-brainwave-2.vercel.app/assets/3d-objects",
+  "full": true
+ },
+ {
+  "id": "assets-materials",
+  "q": "",
+  "url": "https://ui8-brainwave-2.vercel.app/assets/materials",
+  "full": true
+ },
+ {
+  "id": "create",
+  "q": "",
+  "url": "https://ui8-brainwave-2.vercel.app/create",
+  "full": true
+ },
+ {
+  "id": "explore",
+  "q": "",
+  "url": "https://ui8-brainwave-2.vercel.app/explore",
+  "full": true
+ },
+ {
+  "id": "explore-animations",
+  "q": "",
+  "url": "https://ui8-brainwave-2.vercel.app/explore/animations",
+  "full": true
+ },
+ {
+  "id": "explore-designs",
+  "q": "",
+  "url": "https://ui8-brainwave-2.vercel.app/explore/designs",
+  "full": true
+ },
+ {
+  "id": "folders-3d-icons",
+  "q": "",
+  "url": "https://ui8-brainwave-2.vercel.app/folders/3d-icons",
+  "full": true
+ },
+ {
+  "id": "folders-untitled",
+  "q": "",
+  "url": "https://ui8-brainwave-2.vercel.app/folders/untitled",
+  "full": true
+ },
+ {
+  "id": "likes",
+  "q": "",
+  "url": "https://ui8-brainwave-2.vercel.app/likes",
+  "full": true
  }
 ]

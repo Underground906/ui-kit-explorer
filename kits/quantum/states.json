@@ -4,5 +4,35 @@
   "q": "",
   "url": "https://quantum-host.netlify.app/",
   "full": true
+ },
+ {
+  "id": "dashboard",
+  "q": "",
+  "url": "https://quantum-host.netlify.app/dashboard",
+  "full": true
+ },
+ {
+  "id": "dashboard-help-desk",
+  "q": "",
+  "url": "https://quantum-host.netlify.app/dashboard/help-desk",
+  "full": true
+ },
+ {
+  "id": "dashboard-settings",
+  "q": "",
+  "url": "https://quantum-host.netlify.app/dashboard/settings",
+  "full": true
+ },
+ {
+  "id": "forgot-password",
+  "q": "",
+  "url": "https://quantum-host.netlify.app/forgot-password",
+  "full": true
+ },
+ {
+  "id": "register",
+  "q": "",
+  "url": "https://quantum-host.netlify.app/register",
+  "full": true
  }
 ]

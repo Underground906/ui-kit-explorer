@@ -1,44 +1,74 @@
 [
-{
-"id": "home",
-"q": "",
-"url": "https://ui8-synapse.vercel.app/",
-"full": true
-},
-{
-"id": "new-chat",
-"q": "",
-"url": "https://ui8-synapse.vercel.app/new-chat",
-"full": true
-},
-{
-"id": "chatbot-create",
-"q": "",
-"url": "https://ui8-synapse.vercel.app/chatbot/create",
-"full": true
-},
-{
-"id": "code-generator",
-"q": "",
-"url": "https://ui8-synapse.vercel.app/code-generator",
-"full": true
-},
-{
-"id": "audio-generator",
-"q": "",
-"url": "https://ui8-synapse.vercel.app/audio-generator",
-"full": true
-},
-{
-"id": "video-generation",
-"q": "",
-"url": "https://ui8-synapse.vercel.app/video-generation",
-"full": true
-},
-{
-"id": "statistics",
-"q": "",
-"url": "https://ui8-synapse.vercel.app/statistics",
-"full": true
-}
+ {
+  "id": "home",
+  "q": "",
+  "url": "https://ui8-synapse.vercel.app/",
+  "full": true
+ },
+ {
+  "id": "new-chat",
+  "q": "",
+  "url": "https://ui8-synapse.vercel.app/new-chat",
+  "full": true
+ },
+ {
+  "id": "chatbot-create",
+  "q": "",
+  "url": "https://ui8-synapse.vercel.app/chatbot/create",
+  "full": true
+ },
+ {
+  "id": "code-generator",
+  "q": "",
+  "url": "https://ui8-synapse.vercel.app/code-generator",
+  "full": true
+ },
+ {
+  "id": "audio-generator",
+  "q": "",
+  "url": "https://ui8-synapse.vercel.app/audio-generator",
+  "full": true
+ },
+ {
+  "id": "video-generation",
+  "q": "",
+  "url": "https://ui8-synapse.vercel.app/video-generation",
+  "full": true
+ },
+ {
+  "id": "statistics",
+  "q": "",
+  "url": "https://ui8-synapse.vercel.app/statistics",
+  "full": true
+ },
+ {
+  "id": "education-feedback",
+  "q": "",
+  "url": "https://ui8-synapse.vercel.app/education-feedback",
+  "full": true
+ },
+ {
+  "id": "entry",
+  "q": "",
+  "url": "https://ui8-synapse.vercel.app/entry",
+  "full": true
+ },
+ {
+  "id": "photo-editor",
+  "q": "",
+  "url": "https://ui8-synapse.vercel.app/photo-editor",
+  "full": true
+ },
+ {
+  "id": "photo-generator",
+  "q": "",
+  "url": "https://ui8-synapse.vercel.app/photo-generator",
+  "full": true
+ },
+ {
+  "id": "pricing-and-payment",
+  "q": "",
+  "url": "https://ui8-synapse.vercel.app/pricing-and-payment",
+  "full": true
+ }
 ]

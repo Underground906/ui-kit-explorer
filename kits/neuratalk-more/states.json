@@ -1,0 +1,44 @@
+[
+ {
+  "id": "data-analytics",
+  "q": "",
+  "url": "https://ui8-neuratalk.vercel.app/data-analytics",
+  "full": true
+ },
+ {
+  "id": "document-generation",
+  "q": "",
+  "url": "https://ui8-neuratalk.vercel.app/document-generation",
+  "full": true
+ },
+ {
+  "id": "generate-code",
+  "q": "",
+  "url": "https://ui8-neuratalk.vercel.app/generate-code",
+  "full": true
+ },
+ {
+  "id": "history",
+  "q": "",
+  "url": "https://ui8-neuratalk.vercel.app/history",
+  "full": true
+ },
+ {
+  "id": "image-generation",
+  "q": "",
+  "url": "https://ui8-neuratalk.vercel.app/image-generation",
+  "full": true
+ },
+ {
+  "id": "research",
+  "q": "",
+  "url": "https://ui8-neuratalk.vercel.app/research",
+  "full": true
+ },
+ {
+  "id": "templates",
+  "q": "",
+  "url": "https://ui8-neuratalk.vercel.app/templates",
+  "full": true
+ }
+]

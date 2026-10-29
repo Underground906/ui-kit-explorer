@@ -1,0 +1,92 @@
+[
+ {
+  "id": "account-setting",
+  "q": "",
+  "url": "https://ui8-fleet-html.vercel.app/account-setting.html",
+  "full": true
+ },
+ {
+  "id": "bookings-list",
+  "q": "",
+  "url": "https://ui8-fleet-html.vercel.app/bookings-list.html",
+  "full": true
+ },
+ {
+  "id": "cars",
+  "q": "",
+  "url": "https://ui8-fleet-html.vercel.app/cars.html",
+  "full": true
+ },
+ {
+  "id": "flights-category",
+  "q": "",
+  "url": "https://ui8-fleet-html.vercel.app/flights-category.html",
+  "full": true
+ },
+ {
+  "id": "flights",
+  "q": "",
+  "url": "https://ui8-fleet-html.vercel.app/flights.html",
+  "full": true
+ },
+ {
+  "id": "host-an-experience",
+  "q": "",
+  "url": "https://ui8-fleet-html.vercel.app/host-an-experience.html",
+  "full": true
+ },
+ {
+  "id": "host-profile",
+  "q": "",
+  "url": "https://ui8-fleet-html.vercel.app/host-profile.html",
+  "full": true
+ },
+ {
+  "id": "index",
+  "q": "",
+  "url": "https://ui8-fleet-html.vercel.app/index.html",
+  "full": true
+ },
+ {
+  "id": "list-your-property",
+  "q": "",
+  "url": "https://ui8-fleet-html.vercel.app/list-your-property.html",
+  "full": true
+ },
+ {
+  "id": "message-center",
+  "q": "",
+  "url": "https://ui8-fleet-html.vercel.app/message-center.html",
+  "full": true
+ },
+ {
+  "id": "stays-category",
+  "q": "",
+  "url": "https://ui8-fleet-html.vercel.app/stays-category.html",
+  "full": true
+ },
+ {
+  "id": "stays-product",
+  "q": "",
+  "url": "https://ui8-fleet-html.vercel.app/stays-product.html",
+  "full": true
+ },
+ {
+  "id": "support",
+  "q": "",
+  "url": "https://ui8-fleet-html.vercel.app/support.html",
+  "full": true
+ },
+ {
+  "id": "things-to-do",
+  "q": "",
+  "url": "https://ui8-fleet-html.vercel.app/things-to-do.html",
+  "full": true
+ },
+ {
+  "id": "wishlists",
+  "q": "",
+  "url": "https://ui8-fleet-html.vercel.app/wishlists.html",
+  "full": true
+ }
+]

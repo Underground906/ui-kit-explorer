@@ -1,0 +1,68 @@
+[
+ {
+  "id": "about",
+  "q": "",
+  "url": "https://airway-template.webflow.io/about",
+  "full": true
+ },
+ {
+  "id": "blog",
+  "q": "",
+  "url": "https://airway-template.webflow.io/blog",
+  "full": true
+ },
+ {
+  "id": "destination-ancient-inca-wonder-2",
+  "q": "",
+  "url": "https://airway-template.webflow.io/destination/ancient-inca-wonder-2",
+  "full": true
+ },
+ {
+  "id": "destination-fairy-tale-adventure-3",
+  "q": "",
+  "url": "https://airway-template.webflow.io/destination/fairy-tale-adventure-3",
+  "full": true
+ },
+ {
+  "id": "destinations",
+  "q": "",
+  "url": "https://airway-template.webflow.io/destinations",
+  "full": true
+ },
+ {
+  "id": "home-v2",
+  "q": "",
+  "url": "https://airway-template.webflow.io/home-v2",
+  "full": true
+ },
+ {
+  "id": "post-how-real-time-analytics-can-transfo",
+  "q": "",
+  "url": "https://airway-template.webflow.io/post/how-real-time-analytics-can-transform-your-money-strategy-3",
+  "full": true
+ },
+ {
+  "id": "tour-package",
+  "q": "",
+  "url": "https://airway-template.webflow.io/tour-package",
+  "full": true
+ },
+ {
+  "id": "tour-package-discover-ancient-rice-terra",
+  "q": "",
+  "url": "https://airway-template.webflow.io/tour-package/discover-ancient-rice-terraces-2",
+  "full": true
+ },
+ {
+  "id": "utility-instructions",
+  "q": "",
+  "url": "https://airway-template.webflow.io/utility/instructions",
+  "full": true
+ },
+ {
+  "id": "utility-licenses",
+  "q": "",
+  "url": "https://airway-template.webflow.io/utility/licenses",
+  "full": true
+ }
+]

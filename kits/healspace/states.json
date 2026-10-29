@@ -4,5 +4,65 @@
   "q": "",
   "url": "https://healspace-host.netlify.app/",
   "full": true
+ },
+ {
+  "id": "about",
+  "q": "",
+  "url": "https://healspace-host.netlify.app/about",
+  "full": true
+ },
+ {
+  "id": "blog",
+  "q": "",
+  "url": "https://healspace-host.netlify.app/blog",
+  "full": true
+ },
+ {
+  "id": "blog-how-to-start-therapy-with-confidenc",
+  "q": "",
+  "url": "https://healspace-host.netlify.app/blog/how-to-start-therapy-with-confidence",
+  "full": true
+ },
+ {
+  "id": "book-appointment",
+  "q": "",
+  "url": "https://healspace-host.netlify.app/book-appointment",
+  "full": true
+ },
+ {
+  "id": "contact",
+  "q": "",
+  "url": "https://healspace-host.netlify.app/contact",
+  "full": true
+ },
+ {
+  "id": "faq",
+  "q": "",
+  "url": "https://healspace-host.netlify.app/faq",
+  "full": true
+ },
+ {
+  "id": "services",
+  "q": "",
+  "url": "https://healspace-host.netlify.app/services",
+  "full": true
+ },
+ {
+  "id": "services-couples-counseling",
+  "q": "",
+  "url": "https://healspace-host.netlify.app/services/couples-counseling",
+  "full": true
+ },
+ {
+  "id": "services-family-therapy",
+  "q": "",
+  "url": "https://healspace-host.netlify.app/services/family-therapy",
+  "full": true
+ },
+ {
+  "id": "testimonials",
+  "q": "",
+  "url": "https://healspace-host.netlify.app/testimonials",
+  "full": true
  }
 ]

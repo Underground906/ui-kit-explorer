@@ -4,5 +4,11 @@
   "q": "",
   "url": "https://ui8-briefberry.vercel.app/",
   "full": true
+ },
+ {
+  "id": "quiz",
+  "q": "",
+  "url": "https://ui8-briefberry.vercel.app/quiz",
+  "full": true
  }
 ]

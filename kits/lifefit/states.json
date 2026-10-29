@@ -4,5 +4,71 @@
   "q": "",
   "url": "https://inquisitive-queijadas-1e619d.netlify.app/",
   "full": true
+ },
+ {
+  "id": "about",
+  "q": "",
+  "url": "https://inquisitive-queijadas-1e619d.netlify.app/about",
+  "full": true
+ },
+ {
+  "id": "account",
+  "q": "",
+  "url": "https://inquisitive-queijadas-1e619d.netlify.app/account",
+  "full": true
+ },
+ {
+  "id": "classes",
+  "q": "",
+  "url": "https://inquisitive-queijadas-1e619d.netlify.app/classes",
+  "full": true
+ },
+ {
+  "id": "classes-classical-mat",
+  "q": "",
+  "url": "https://inquisitive-queijadas-1e619d.netlify.app/classes/classical-mat",
+  "full": true
+ },
+ {
+  "id": "classes-reformer-foundations",
+  "q": "",
+  "url": "https://inquisitive-queijadas-1e619d.netlify.app/classes/reformer-foundations",
+  "full": true
+ },
+ {
+  "id": "contact",
+  "q": "",
+  "url": "https://inquisitive-queijadas-1e619d.netlify.app/contact",
+  "full": true
+ },
+ {
+  "id": "faq",
+  "q": "",
+  "url": "https://inquisitive-queijadas-1e619d.netlify.app/faq",
+  "full": true
+ },
+ {
+  "id": "journal",
+  "q": "",
+  "url": "https://inquisitive-queijadas-1e619d.netlify.app/journal",
+  "full": true
+ },
+ {
+  "id": "pricing",
+  "q": "",
+  "url": "https://inquisitive-queijadas-1e619d.netlify.app/pricing",
+  "full": true
+ },
+ {
+  "id": "schedule",
+  "q": "",
+  "url": "https://inquisitive-queijadas-1e619d.netlify.app/schedule",
+  "full": true
+ },
+ {
+  "id": "sign-up",
+  "q": "",
+  "url": "https://inquisitive-queijadas-1e619d.netlify.app/sign-up",
+  "full": true
  }
 ]

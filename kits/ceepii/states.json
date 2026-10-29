@@ -10,5 +10,89 @@
   "q": "",
   "url": "https://ceepii-nextjs-template.vercel.app/stay-listings/half-moon-sherborne-by-marstons-inns",
   "full": true
+ },
+ {
+  "id": "account-savelists",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/account-savelists",
+  "full": true
+ },
+ {
+  "id": "add-listing-1",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/add-listing/1",
+  "full": true
+ },
+ {
+  "id": "authors-birrell-chariot",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/authors/birrell-chariot",
+  "full": true
+ },
+ {
+  "id": "authors-falconar-agnes",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/authors/falconar-agnes",
+  "full": true
+ },
+ {
+  "id": "blog",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/blog",
+  "full": true
+ },
+ {
+  "id": "blog-ceepii-q4-2025-financial-results",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/blog/ceepii-q4-2025-financial-results",
+  "full": true
+ },
+ {
+  "id": "blog-fifa-world-cup-2026-travel-trends-r",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/blog/fifa-world-cup-2026-travel-trends-revealed",
+  "full": true
+ },
+ {
+  "id": "contact",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/contact",
+  "full": true
+ },
+ {
+  "id": "signup",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/signup",
+  "full": true
+ },
+ {
+  "id": "stay",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/stay",
+  "full": true
+ },
+ {
+  "id": "stay-categories-brooklyn",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/stay-categories/brooklyn",
+  "full": true
+ },
+ {
+  "id": "stay-categories-clearwater",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/stay-categories/clearwater",
+  "full": true
+ },
+ {
+  "id": "stay-listings-bell-by-greene-king-inns",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/stay-listings/bell-by-greene-king-inns",
+  "full": true
+ },
+ {
+  "id": "stay-search-with-map",
+  "q": "",
+  "url": "https://ceepii-nextjs-template.vercel.app/stay-search-with-map",
+  "full": true
  }
 ]

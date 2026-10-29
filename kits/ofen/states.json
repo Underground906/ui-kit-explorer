@@ -4,5 +4,77 @@
   "q": "",
   "url": "https://template-ofen.vercel.app/",
   "full": true
+ },
+ {
+  "id": "about",
+  "q": "",
+  "url": "https://template-ofen.vercel.app/about",
+  "full": true
+ },
+ {
+  "id": "agents",
+  "q": "",
+  "url": "https://template-ofen.vercel.app/agents",
+  "full": true
+ },
+ {
+  "id": "contact",
+  "q": "",
+  "url": "https://template-ofen.vercel.app/contact",
+  "full": true
+ },
+ {
+  "id": "guides",
+  "q": "",
+  "url": "https://template-ofen.vercel.app/guides",
+  "full": true
+ },
+ {
+  "id": "guides-condo-co-op-or-triple-decker-how-",
+  "q": "",
+  "url": "https://template-ofen.vercel.app/guides/condo-co-op-or-triple-decker-how-the-monthly-fees-compare",
+  "full": true
+ },
+ {
+  "id": "guides-what-closing-actually-costs-in-ma",
+  "q": "",
+  "url": "https://template-ofen.vercel.app/guides/what-closing-actually-costs-in-massachusetts-line-by-line",
+  "full": true
+ },
+ {
+  "id": "listings",
+  "q": "",
+  "url": "https://template-ofen.vercel.app/listings",
+  "full": true
+ },
+ {
+  "id": "listings-118-myrtle-st-beacon-hill",
+  "q": "",
+  "url": "https://template-ofen.vercel.app/listings/118-myrtle-st-beacon-hill",
+  "full": true
+ },
+ {
+  "id": "listings-14-chestnut-st-brookline",
+  "q": "",
+  "url": "https://template-ofen.vercel.app/listings/14-chestnut-st-brookline",
+  "full": true
+ },
+ {
+  "id": "neighborhoods",
+  "q": "",
+  "url": "https://template-ofen.vercel.app/neighborhoods",
+  "full": true
+ },
+ {
+  "id": "neighborhoods-back-bay",
+  "q": "",
+  "url": "https://template-ofen.vercel.app/neighborhoods/back-bay",
+  "full": true
+ },
+ {
+  "id": "neighborhoods-beacon-hill",
+  "q": "",
+  "url": "https://template-ofen.vercel.app/neighborhoods/beacon-hill",
+  "full": true
  }
 ]

@@ -4,5 +4,17 @@
   "q": "",
   "url": "https://northpeak-host.netlify.app/",
   "full": true
+ },
+ {
+  "id": "forgot-password",
+  "q": "",
+  "url": "https://northpeak-host.netlify.app/forgot-password",
+  "full": true
+ },
+ {
+  "id": "register",
+  "q": "",
+  "url": "https://northpeak-host.netlify.app/register",
+  "full": true
  }
 ]

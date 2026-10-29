@@ -4,5 +4,65 @@
   "q": "",
   "url": "https://fushion-eta.vercel.app/",
   "full": true
+ },
+ {
+  "id": "admin",
+  "q": "",
+  "url": "https://fushion-eta.vercel.app/admin",
+  "full": true
+ },
+ {
+  "id": "bookmarks",
+  "q": "",
+  "url": "https://fushion-eta.vercel.app/bookmarks",
+  "full": true
+ },
+ {
+  "id": "categories",
+  "q": "",
+  "url": "https://fushion-eta.vercel.app/categories",
+  "full": true
+ },
+ {
+  "id": "docs",
+  "q": "",
+  "url": "https://fushion-eta.vercel.app/docs",
+  "full": true
+ },
+ {
+  "id": "startups",
+  "q": "",
+  "url": "https://fushion-eta.vercel.app/startups",
+  "full": true
+ },
+ {
+  "id": "startups-flowjobs",
+  "q": "",
+  "url": "https://fushion-eta.vercel.app/startups/flowjobs",
+  "full": true
+ },
+ {
+  "id": "startups-launchpad-crm",
+  "q": "",
+  "url": "https://fushion-eta.vercel.app/startups/launchpad-crm",
+  "full": true
+ },
+ {
+  "id": "tools",
+  "q": "",
+  "url": "https://fushion-eta.vercel.app/tools",
+  "full": true
+ },
+ {
+  "id": "tools-authorize-net",
+  "q": "",
+  "url": "https://fushion-eta.vercel.app/tools/authorize-net",
+  "full": true
+ },
+ {
+  "id": "tools-boxicons",
+  "q": "",
+  "url": "https://fushion-eta.vercel.app/tools/boxicons",
+  "full": true
  }
 ]
