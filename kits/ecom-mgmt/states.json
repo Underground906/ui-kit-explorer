@@ -1,5 +1,119 @@
 [
  {
+  "id": "dashboard",
+  "q": "",
+  "pre": [
+   "fill:you@store.com=owner@rubik.store",
+   "fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+   "Sign in"
+  ],
+  "full": true
+ },
+ {
+  "id": "orders",
+  "q": "",
+  "pre": [
+   "fill:you@store.com=owner@rubik.store",
+   "fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+   "Sign in",
+   "Orders"
+  ],
+  "full": true
+ },
+ {
+  "id": "products",
+  "q": "",
+  "pre": [
+   "fill:you@store.com=owner@rubik.store",
+   "fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+   "Sign in",
+   "Products"
+  ],
+  "full": true
+ },
+ {
+  "id": "purchases",
+  "q": "",
+  "pre": [
+   "fill:you@store.com=owner@rubik.store",
+   "fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+   "Sign in",
+   "Purchases"
+  ],
+  "full": true
+ },
+ {
+  "id": "customers",
+  "q": "",
+  "pre": [
+   "fill:you@store.com=owner@rubik.store",
+   "fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+   "Sign in",
+   "Customers"
+  ],
+  "full": true
+ },
+ {
+  "id": "accounts",
+  "q": "",
+  "pre": [
+   "fill:you@store.com=owner@rubik.store",
+   "fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+   "Sign in",
+   "Accounts"
+  ],
+  "full": true
+ },
+ {
+  "id": "reports",
+  "q": "",
+  "pre": [
+   "fill:you@store.com=owner@rubik.store",
+   "fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+   "Sign in",
+   "Reports"
+  ],
+  "full": true
+ },
+ {
+  "id": "dropshipping",
+  "q": "",
+  "pre": [
+   "fill:you@store.com=owner@rubik.store",
+   "fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+   "Sign in",
+   "Dropshipping"
+  ],
+  "full": true
+ },
+ {
+  "id": "online-store",
+  "q": "",
+  "pre": [
+   "fill:you@store.com=owner@rubik.store",
+   "fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+   "Sign in",
+   "Online Store"
+  ],
+  "full": true
+ },
+ {
+  "id": "settings",
+  "q": "",
+  "pre": [
+   "fill:you@store.com=owner@rubik.store",
+   "fill:\u2022\u2022\u2022\u2022\u2022\u2022\u2022\u2022=demo-password-123",
+   "Sign in",
+   "Settings"
+  ],
+  "full": true
+ },
+ {
+  "id": "signin",
+  "q": "",
+  "full": true
+ },
+ {
   "id": "accounts-invoices",
   "q": "st=%7B%22authed%22%3Atrue%2C%22view%22%3A%22accounts.invoices%22%7D",
   "full": true

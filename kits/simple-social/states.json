@@ -1,0 +1,22 @@
+[
+{
+"id": "home",
+"q": "",
+"url": "https://ui8-simple-social.vercel.app/",
+"full": true
+},
+{
+"id": "notifications",
+"q": "",
+"url": "https://ui8-simple-social.vercel.app/notifications",
+"full": true,
+"found_by": "home/0"
+},
+{
+"id": "messages",
+"q": "",
+"url": "https://ui8-simple-social.vercel.app/messages",
+"full": true,
+"found_by": "home/0"
+}
+]

@@ -1,0 +1,4344 @@
+{
+ "screens": [
+  {
+   "id": "learner__dashboard/0",
+   "root": "learner__dashboard",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Welcome back, Priya",
+   "overlays": [],
+   "sig": "cab04fe8a710",
+   "shot": "screens/learner__dashboard/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Browse catalog|1",
+    "BUTTON|Intermediate Leadership Essentials 67% 16/24 lesso|1",
+    "BUTTON|Beginner Cybersecurity Awareness 2026 42% 5/12 les|1",
+    "BUTTON|Intermediate Data Fundamentals for Managers 88% 28|1",
+    "BUTTON|Practice set|1",
+    "BUTTON|Why did I fail?|1",
+    "BUTTON|What's next|1",
+    "BUTTON|icon|2",
+    "BUTTON|View all|1",
+    "BUTTON|67 Leadership Essentials 8 lessons left ▸|1",
+    "BUTTON|42 Cybersecurity Awareness 2026 7 lessons left ▸|1",
+    "BUTTON|88 Data Fundamentals for Managers 4 lessons left ▸|1",
+    "BUTTON|100 Anti-Bribery & Corruption 0 lessons left ▸|1",
+    "BUTTON|Join|1",
+    "BUTTON|Join|2",
+    "BUTTON|Join|3",
+    "BUTTON|icon|3"
+   ]
+  },
+  {
+   "id": "learner__dashboard/1",
+   "root": "learner__dashboard",
+   "depth": 1,
+   "path": [
+    "BUTTON|Ask Mindflow AI|1"
+   ],
+   "parent": "learner__dashboard/0",
+   "via": "Ask Mindflow AI",
+   "kind": "drawer",
+   "h1": "Welcome back, Priya",
+   "overlays": [
+    {
+     "kind": "drawer",
+     "lines": [
+      "Mindflow AI",
+      "Context: Learner dashboard",
+      "Morning, Priya. Two things need you today: the Anti-Bribery module closes in 3 days, and you stalled on Leadership Essentials lesson 7 twice.",
+      "Why did I fail the lesson 7 check?",
+      "Both attempts missed the same idea — separating observation from interpretation in feedback. I built a 4-question practice set from that section. Want it?",
+      "Build my practice set",
+      "Summarise this screen",
+      "Who is at risk?"
+     ]
+    }
+   ],
+   "sig": "5b8a59d09c67",
+   "shot": "screens/learner__dashboard/1.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Browse catalog|1",
+    "BUTTON|Intermediate Leadership Essentials 67% 16/24 lesso|1",
+    "BUTTON|Beginner Cybersecurity Awareness 2026 42% 5/12 les|1",
+    "BUTTON|Intermediate Data Fundamentals for Managers 88% 28|1",
+    "BUTTON|Practice set|1",
+    "BUTTON|Why did I fail?|1",
+    "BUTTON|What's next|1",
+    "BUTTON|icon|2",
+    "BUTTON|View all|1",
+    "BUTTON|67 Leadership Essentials 8 lessons left ▸|1",
+    "BUTTON|42 Cybersecurity Awareness 2026 7 lessons left ▸|1",
+    "BUTTON|88 Data Fundamentals for Managers 4 lessons left ▸|1",
+    "BUTTON|100 Anti-Bribery & Corruption 0 lessons left ▸|1",
+    "BUTTON|Join|1",
+    "BUTTON|Join|2",
+    "BUTTON|Join|3",
+    "BUTTON|icon|3",
+    "BUTTON|Build my practice set|1",
+    "BUTTON|Summarise this screen|1",
+    "BUTTON|Who is at risk?|1",
+    "BUTTON|icon|4"
+   ]
+  },
+  {
+   "id": "learner__dashboard/2",
+   "root": "learner__dashboard",
+   "depth": 1,
+   "path": [
+    "BUTTON|All pages|1"
+   ],
+   "parent": "learner__dashboard/0",
+   "via": "All pages",
+   "kind": "menu",
+   "h1": "Welcome back, Priya",
+   "overlays": [
+    {
+     "kind": "menu",
+     "lines": [
+      "Priya Raman",
+      "priya.raman@northwind.co",
+      "My profile",
+      "Account settings",
+      "Notifications",
+      "4",
+      "Billing & plan",
+      "Help centre",
+      "Sign out"
+     ]
+    }
+   ],
+   "sig": "4406b6137b18",
+   "shot": "screens/learner__dashboard/2.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|My profile|1",
+    "BUTTON|Account settings|1",
+    "BUTTON|Notifications 4|2",
+    "BUTTON|Billing & plan|1",
+    "BUTTON|Help centre|1",
+    "BUTTON|Sign out|1",
+    "BUTTON|Browse catalog|1",
+    "BUTTON|Intermediate Leadership Essentials 67% 16/24 lesso|1",
+    "BUTTON|Beginner Cybersecurity Awareness 2026 42% 5/12 les|1",
+    "BUTTON|Intermediate Data Fundamentals for Managers 88% 28|1",
+    "BUTTON|Practice set|1",
+    "BUTTON|Why did I fail?|1",
+    "BUTTON|What's next|1",
+    "BUTTON|icon|2",
+    "BUTTON|View all|1",
+    "BUTTON|67 Leadership Essentials 8 lessons left ▸|1",
+    "BUTTON|42 Cybersecurity Awareness 2026 7 lessons left ▸|1",
+    "BUTTON|88 Data Fundamentals for Managers 4 lessons left ▸|1",
+    "BUTTON|100 Anti-Bribery & Corruption 0 lessons left ▸|1",
+    "BUTTON|Join|1",
+    "BUTTON|Join|2",
+    "BUTTON|Join|3",
+    "BUTTON|icon|3"
+   ]
+  },
+  {
+   "id": "learner__dashboard/3",
+   "root": "learner__dashboard",
+   "depth": 1,
+   "path": [
+    "BUTTON|Browse catalog|1"
+   ],
+   "parent": "learner__dashboard/0",
+   "via": "Browse catalog",
+   "kind": "cross-page",
+   "h1": "Course catalog",
+   "overlays": [],
+   "sig": "1a8312fe3fdd",
+   "shot": "screens/learner__dashboard/3.png",
+   "section": "Course Catalog + Upgrade plan"
+  },
+  {
+   "id": "learner__dashboard/4",
+   "root": "learner__dashboard",
+   "depth": 1,
+   "path": [
+    "BUTTON|Intermediate Leadership Essentials 67% 16/24 lesso|1"
+   ],
+   "parent": "learner__dashboard/0",
+   "via": "Intermediate Leadership Essentials 67% 16/24 lesso",
+   "kind": "cross-page",
+   "h1": "Leadership Essentials",
+   "overlays": [],
+   "sig": "d59ce15cb0bb",
+   "shot": "screens/learner__dashboard/4.png",
+   "section": "Upgrade plan"
+  },
+  {
+   "id": "learner__dashboard/5",
+   "root": "learner__dashboard",
+   "depth": 1,
+   "path": [
+    "BUTTON|Beginner Cybersecurity Awareness 2026 42% 5/12 les|1"
+   ],
+   "parent": "learner__dashboard/0",
+   "via": "Beginner Cybersecurity Awareness 2026 42% 5/12 les",
+   "kind": "cross-page",
+   "h1": "Cybersecurity Awareness 2026",
+   "overlays": [],
+   "sig": "81287b566956",
+   "shot": "screens/learner__dashboard/5.png",
+   "section": "Upgrade plan",
+   "variant_of": "learner__dashboard/4"
+  },
+  {
+   "id": "learner__dashboard/6",
+   "root": "learner__dashboard",
+   "depth": 1,
+   "path": [
+    "BUTTON|Intermediate Data Fundamentals for Managers 88% 28|1"
+   ],
+   "parent": "learner__dashboard/0",
+   "via": "Intermediate Data Fundamentals for Managers 88% 28",
+   "kind": "cross-page",
+   "h1": "Data Fundamentals for Managers",
+   "overlays": [],
+   "sig": "610477f561b4",
+   "shot": "screens/learner__dashboard/6.png",
+   "section": "Upgrade plan",
+   "variant_of": "learner__dashboard/4"
+  },
+  {
+   "id": "learner__dashboard/7",
+   "root": "learner__dashboard",
+   "depth": 1,
+   "path": [
+    "BUTTON|Practice set|1"
+   ],
+   "parent": "learner__dashboard/0",
+   "via": "Practice set",
+   "kind": "cross-page",
+   "h1": "Closing the feedback loop",
+   "overlays": [],
+   "sig": "26f2e0652185",
+   "shot": "screens/learner__dashboard/7.png",
+   "section": "My Lessons + Upgrade plan"
+  },
+  {
+   "id": "learner__dashboard/8",
+   "root": "learner__dashboard",
+   "depth": 1,
+   "path": [
+    "BUTTON|Why did I fail?|1"
+   ],
+   "parent": "learner__dashboard/0",
+   "via": "Why did I fail?",
+   "kind": "drawer",
+   "h1": "Good morning, Priya\nHow can I help you learn today?",
+   "overlays": [
+    {
+     "kind": "drawer",
+     "lines": [
+      "Mindflow AI",
+      "Context: Learner dashboard",
+      "Morning, Priya. Two things need you today: the Anti-Bribery module closes in 3 days, and you stalled on Leadership Essentials lesson 7 twice.",
+      "Why did I fail the lesson 7 check?",
+      "Both attempts missed the same idea — separating observation from interpretation in feedback. I built a 4-question practice set from that section. Want it?",
+      "Build my practice set",
+      "Summarise this screen",
+      "Who is at risk?"
+     ]
+    }
+   ],
+   "sig": "5b2219faa5b8",
+   "shot": "screens/learner__dashboard/8.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Practice set|1",
+    "BUTTON|Why did I fail?|1",
+    "BUTTON|What's next|1",
+    "BUTTON|icon|2",
+    "BUTTON|View all|1",
+    "BUTTON|67 Leadership Essentials 8 lessons left ▸|1",
+    "BUTTON|42 Cybersecurity Awareness 2026 7 lessons left ▸|1",
+    "BUTTON|88 Data Fundamentals for Managers 4 lessons left ▸|1",
+    "BUTTON|100 Anti-Bribery & Corruption 0 lessons left ▸|1",
+    "BUTTON|Join|1",
+    "BUTTON|Join|2",
+    "BUTTON|icon|3",
+    "BUTTON|Build my practice set|1",
+    "BUTTON|Summarise this screen|1",
+    "BUTTON|Who is at risk?|1",
+    "BUTTON|icon|4"
+   ]
+  },
+  {
+   "id": "learner__dashboard/9",
+   "root": "learner__dashboard",
+   "depth": 1,
+   "path": [
+    "BUTTON|What's next|1"
+   ],
+   "parent": "learner__dashboard/0",
+   "via": "What's next",
+   "kind": "page-switch",
+   "h1": "",
+   "overlays": [],
+   "sig": "f1b631de8c41",
+   "shot": "screens/learner__dashboard/9.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Add both|1",
+    "BUTTON|All|1",
+    "BUTTON|Leadership|1",
+    "BUTTON|Compliance|1",
+    "BUTTON|Data & Analytics|1",
+    "BUTTON|People Ops|1",
+    "BUTTON|Finance|1",
+    "BUTTON|Innovation|1",
+    "BUTTON|Leadership Leadership Essentials Daniel Reyes · In|1",
+    "BUTTON|Compliance Cybersecurity Awareness 2026 Ana Whitfi|1",
+    "BUTTON|Data & Analytics Data Fundamentals for Managers Ma|1",
+    "BUTTON|People Ops Inclusive Hiring Practices Sofia Marin |1",
+    "BUTTON|Finance Advanced Financial Modelling Ken Ohara · A|1",
+    "BUTTON|Compliance Anti-Bribery & Corruption Ana Whitfield|1",
+    "BUTTON|Innovation Design Thinking Sprint Priya Raman · In|1",
+    "BUTTON|Leadership Difficult Conversations Daniel Reyes · |1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "learner__dashboard/10",
+   "root": "learner__dashboard",
+   "depth": 1,
+   "path": [
+    "BUTTON|42 Cybersecurity Awareness 2026 7 lessons left ▸|1"
+   ],
+   "parent": "learner__dashboard/0",
+   "via": "42 Cybersecurity Awareness 2026 7 lessons left ▸",
+   "kind": "cross-page",
+   "h1": "Closing the feedback loop",
+   "overlays": [],
+   "sig": "c459cd1ab3a0",
+   "shot": "screens/learner__dashboard/10.png",
+   "section": "My Lessons + Upgrade plan"
+  },
+  {
+   "id": "learner__dashboard/11",
+   "root": "learner__dashboard",
+   "depth": 1,
+   "path": [
+    "BUTTON|Join|3"
+   ],
+   "parent": "learner__dashboard/0",
+   "via": "Join",
+   "kind": "inline",
+   "h1": "Welcome back, Priya",
+   "overlays": [],
+   "sig": "8b7441cfe41c",
+   "shot": "screens/learner__dashboard/11.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Browse catalog|1",
+    "BUTTON|Intermediate Leadership Essentials 67% 16/24 lesso|1",
+    "BUTTON|Beginner Cybersecurity Awareness 2026 42% 5/12 les|1",
+    "BUTTON|Intermediate Data Fundamentals for Managers 88% 28|1",
+    "BUTTON|Practice set|1",
+    "BUTTON|Why did I fail?|1",
+    "BUTTON|What's next|1",
+    "BUTTON|icon|2",
+    "BUTTON|View all|1",
+    "BUTTON|67 Leadership Essentials 8 lessons left ▸|1",
+    "BUTTON|42 Cybersecurity Awareness 2026 7 lessons left ▸|1",
+    "BUTTON|88 Data Fundamentals for Managers 4 lessons left ▸|1",
+    "BUTTON|100 Anti-Bribery & Corruption 0 lessons left ▸|1",
+    "BUTTON|Join|1",
+    "BUTTON|Join|2",
+    "BUTTON|Join|3",
+    "BUTTON|icon|3"
+   ]
+  },
+  {
+   "id": "learner__dashboard/12",
+   "root": "learner__dashboard",
+   "depth": 2,
+   "path": [
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|Build my practice set|1"
+   ],
+   "parent": "learner__dashboard/1",
+   "via": "Build my practice set",
+   "kind": "drawer",
+   "h1": "Welcome back, Priya",
+   "overlays": [
+    {
+     "kind": "drawer",
+     "lines": [
+      "Mindflow AI",
+      "Context: Learner dashboard",
+      "Morning, Priya. Two things need you today: the Anti-Bribery module closes in 3 days, and you stalled on Leadership Essentials lesson 7 twice.",
+      "Why did I fail the lesson 7 check?",
+      "Both attempts missed the same idea — separating observation from interpretation in feedback. I built a 4-question practice set from that section. Want it?",
+      "Build my practice set",
+      "Working on it — pulling the relevant lesson data and cohort benchmarks for you now.",
+      "Build my practice set",
+      "Summarise this screen",
+      "Who is at risk?"
+     ]
+    }
+   ],
+   "sig": "55202cecbc8b",
+   "shot": "screens/learner__dashboard/12.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Browse catalog|1",
+    "BUTTON|Intermediate Leadership Essentials 67% 16/24 lesso|1",
+    "BUTTON|Beginner Cybersecurity Awareness 2026 42% 5/12 les|1",
+    "BUTTON|Intermediate Data Fundamentals for Managers 88% 28|1",
+    "BUTTON|Practice set|1",
+    "BUTTON|Why did I fail?|1",
+    "BUTTON|What's next|1",
+    "BUTTON|icon|2",
+    "BUTTON|View all|1",
+    "BUTTON|67 Leadership Essentials 8 lessons left ▸|1",
+    "BUTTON|42 Cybersecurity Awareness 2026 7 lessons left ▸|1",
+    "BUTTON|88 Data Fundamentals for Managers 4 lessons left ▸|1",
+    "BUTTON|100 Anti-Bribery & Corruption 0 lessons left ▸|1",
+    "BUTTON|Join|1",
+    "BUTTON|Join|2",
+    "BUTTON|Join|3",
+    "BUTTON|icon|3",
+    "BUTTON|Build my practice set|1",
+    "BUTTON|Summarise this screen|1",
+    "BUTTON|Who is at risk?|1",
+    "BUTTON|icon|4"
+   ]
+  },
+  {
+   "id": "learner__dashboard/13",
+   "root": "learner__dashboard",
+   "depth": 2,
+   "path": [
+    "BUTTON|All pages|1",
+    "BUTTON|My profile|1"
+   ],
+   "parent": "learner__dashboard/2",
+   "via": "My profile",
+   "kind": "cross-page",
+   "h1": "Settings",
+   "overlays": [],
+   "sig": "1f5203af2474",
+   "shot": "screens/learner__dashboard/13.png",
+   "section": "Settings + Upgrade plan"
+  },
+  {
+   "id": "learner__dashboard/14",
+   "root": "learner__dashboard",
+   "depth": 2,
+   "path": [
+    "BUTTON|All pages|1",
+    "BUTTON|Notifications 4|2"
+   ],
+   "parent": "learner__dashboard/2",
+   "via": "Notifications 4",
+   "kind": "cross-page",
+   "h1": "Notifications",
+   "overlays": [],
+   "sig": "92d52a943979",
+   "shot": "screens/learner__dashboard/14.png",
+   "section": "Notifications + Upgrade plan"
+  },
+  {
+   "id": "learner__dashboard/15",
+   "root": "learner__dashboard",
+   "depth": 2,
+   "path": [
+    "BUTTON|All pages|1",
+    "BUTTON|Billing & plan|1"
+   ],
+   "parent": "learner__dashboard/2",
+   "via": "Billing & plan",
+   "kind": "cross-page",
+   "h1": "Billing",
+   "overlays": [],
+   "sig": "f9b5a6d5eae4",
+   "shot": "screens/learner__dashboard/15.png",
+   "section": "Billing + Upgrade plan"
+  },
+  {
+   "id": "learner__dashboard/16",
+   "root": "learner__dashboard",
+   "depth": 2,
+   "path": [
+    "BUTTON|All pages|1",
+    "BUTTON|Help centre|1"
+   ],
+   "parent": "learner__dashboard/2",
+   "via": "Help centre",
+   "kind": "cross-page",
+   "h1": "Help centre",
+   "overlays": [],
+   "sig": "5148b8be0dba",
+   "shot": "screens/learner__dashboard/16.png",
+   "section": "Upgrade plan"
+  },
+  {
+   "id": "learner__dashboard/17",
+   "root": "learner__dashboard",
+   "depth": 2,
+   "path": [
+    "BUTTON|Why did I fail?|1",
+    "BUTTON|Build my practice set|1"
+   ],
+   "parent": "learner__dashboard/8",
+   "via": "Build my practice set",
+   "kind": "drawer",
+   "h1": "Good morning, Priya\nHow can I help you learn today?",
+   "overlays": [
+    {
+     "kind": "drawer",
+     "lines": [
+      "Mindflow AI",
+      "Context: Learner dashboard",
+      "Morning, Priya. Two things need you today: the Anti-Bribery module closes in 3 days, and you stalled on Leadership Essentials lesson 7 twice.",
+      "Why did I fail the lesson 7 check?",
+      "Both attempts missed the same idea — separating observation from interpretation in feedback. I built a 4-question practice set from that section. Want it?",
+      "Build my practice set",
+      "Working on it — pulling the relevant lesson data and cohort benchmarks for you now.",
+      "Build my practice set",
+      "Summarise this screen",
+      "Who is at risk?"
+     ]
+    }
+   ],
+   "sig": "d8f54d0be8ea",
+   "shot": "screens/learner__dashboard/17.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Practice set|1",
+    "BUTTON|Why did I fail?|1",
+    "BUTTON|What's next|1",
+    "BUTTON|icon|2",
+    "BUTTON|View all|1",
+    "BUTTON|67 Leadership Essentials 8 lessons left ▸|1",
+    "BUTTON|42 Cybersecurity Awareness 2026 7 lessons left ▸|1",
+    "BUTTON|88 Data Fundamentals for Managers 4 lessons left ▸|1",
+    "BUTTON|100 Anti-Bribery & Corruption 0 lessons left ▸|1",
+    "BUTTON|Join|1",
+    "BUTTON|Join|2",
+    "BUTTON|icon|3",
+    "BUTTON|Build my practice set|1",
+    "BUTTON|Summarise this screen|1",
+    "BUTTON|Who is at risk?|1",
+    "BUTTON|icon|4"
+   ]
+  },
+  {
+   "id": "learner__dashboard/18",
+   "root": "learner__dashboard",
+   "depth": 2,
+   "path": [
+    "BUTTON|What's next|1",
+    "BUTTON|Leadership|1"
+   ],
+   "parent": "learner__dashboard/9",
+   "via": "Leadership",
+   "kind": "cross-page",
+   "h1": "Course catalog",
+   "overlays": [],
+   "sig": "f8a5d14658fa",
+   "shot": "screens/learner__dashboard/18.png",
+   "section": "Course Catalog + Upgrade plan"
+  },
+  {
+   "id": "learner__dashboard/19",
+   "root": "learner__dashboard",
+   "depth": 2,
+   "path": [
+    "BUTTON|What's next|1",
+    "BUTTON|Compliance|1"
+   ],
+   "parent": "learner__dashboard/9",
+   "via": "Compliance",
+   "kind": "cross-page",
+   "h1": "Course catalog",
+   "overlays": [],
+   "sig": "8231892d41be",
+   "shot": "screens/learner__dashboard/19.png",
+   "section": "Course Catalog + Upgrade plan",
+   "variant_of": "learner__dashboard/18"
+  },
+  {
+   "id": "learner__dashboard/20",
+   "root": "learner__dashboard",
+   "depth": 2,
+   "path": [
+    "BUTTON|What's next|1",
+    "BUTTON|Data & Analytics|1"
+   ],
+   "parent": "learner__dashboard/9",
+   "via": "Data & Analytics",
+   "kind": "cross-page",
+   "h1": "Course catalog",
+   "overlays": [],
+   "sig": "12e07e4acc5a",
+   "shot": "screens/learner__dashboard/20.png",
+   "section": "Course Catalog + Upgrade plan",
+   "variant_of": "learner__dashboard/18"
+  },
+  {
+   "id": "learner__dashboard/21",
+   "root": "learner__dashboard",
+   "depth": 2,
+   "path": [
+    "BUTTON|What's next|1",
+    "BUTTON|People Ops|1"
+   ],
+   "parent": "learner__dashboard/9",
+   "via": "People Ops",
+   "kind": "cross-page",
+   "h1": "Course catalog",
+   "overlays": [],
+   "sig": "0eeca639b600",
+   "shot": "screens/learner__dashboard/21.png",
+   "section": "Course Catalog + Upgrade plan",
+   "variant_of": "learner__dashboard/18"
+  },
+  {
+   "id": "learner__dashboard/22",
+   "root": "learner__dashboard",
+   "depth": 2,
+   "path": [
+    "BUTTON|What's next|1",
+    "BUTTON|Finance|1"
+   ],
+   "parent": "learner__dashboard/9",
+   "via": "Finance",
+   "kind": "cross-page",
+   "h1": "Course catalog",
+   "overlays": [],
+   "sig": "b3e0d622e543",
+   "shot": "screens/learner__dashboard/22.png",
+   "section": "Course Catalog + Upgrade plan",
+   "variant_of": "learner__dashboard/18"
+  },
+  {
+   "id": "learner__dashboard/23",
+   "root": "learner__dashboard",
+   "depth": 2,
+   "path": [
+    "BUTTON|What's next|1",
+    "BUTTON|Innovation|1"
+   ],
+   "parent": "learner__dashboard/9",
+   "via": "Innovation",
+   "kind": "cross-page",
+   "h1": "Course catalog",
+   "overlays": [],
+   "sig": "2948e627222a",
+   "shot": "screens/learner__dashboard/23.png",
+   "section": "Course Catalog + Upgrade plan",
+   "variant_of": "learner__dashboard/18"
+  },
+  {
+   "id": "learner__dashboard/24",
+   "root": "learner__dashboard",
+   "depth": 2,
+   "path": [
+    "BUTTON|What's next|1",
+    "BUTTON|People Ops Inclusive Hiring Practices Sofia Marin |1"
+   ],
+   "parent": "learner__dashboard/9",
+   "via": "People Ops Inclusive Hiring Practices Sofia Marin ",
+   "kind": "cross-page",
+   "h1": "Inclusive Hiring Practices",
+   "overlays": [],
+   "sig": "9524cef7bd1f",
+   "shot": "screens/learner__dashboard/24.png",
+   "section": "Upgrade plan"
+  },
+  {
+   "id": "learner__dashboard/25",
+   "root": "learner__dashboard",
+   "depth": 2,
+   "path": [
+    "BUTTON|What's next|1",
+    "BUTTON|Finance Advanced Financial Modelling Ken Ohara · A|1"
+   ],
+   "parent": "learner__dashboard/9",
+   "via": "Finance Advanced Financial Modelling Ken Ohara · A",
+   "kind": "cross-page",
+   "h1": "Advanced Financial Modelling",
+   "overlays": [],
+   "sig": "c789a800552d",
+   "shot": "screens/learner__dashboard/25.png",
+   "section": "Upgrade plan",
+   "variant_of": "learner__dashboard/24"
+  },
+  {
+   "id": "learner__dashboard/26",
+   "root": "learner__dashboard",
+   "depth": 2,
+   "path": [
+    "BUTTON|What's next|1",
+    "BUTTON|Compliance Anti-Bribery & Corruption Ana Whitfield|1"
+   ],
+   "parent": "learner__dashboard/9",
+   "via": "Compliance Anti-Bribery & Corruption Ana Whitfield",
+   "kind": "cross-page",
+   "h1": "Anti-Bribery & Corruption",
+   "overlays": [],
+   "sig": "36cb0ad43fcf",
+   "shot": "screens/learner__dashboard/26.png",
+   "section": "Upgrade plan",
+   "variant_of": "learner__dashboard/24"
+  },
+  {
+   "id": "learner__dashboard/27",
+   "root": "learner__dashboard",
+   "depth": 2,
+   "path": [
+    "BUTTON|What's next|1",
+    "BUTTON|Innovation Design Thinking Sprint Priya Raman · In|1"
+   ],
+   "parent": "learner__dashboard/9",
+   "via": "Innovation Design Thinking Sprint Priya Raman · In",
+   "kind": "cross-page",
+   "h1": "Design Thinking Sprint",
+   "overlays": [],
+   "sig": "d436df62cb5a",
+   "shot": "screens/learner__dashboard/27.png",
+   "section": "Upgrade plan",
+   "variant_of": "learner__dashboard/24"
+  },
+  {
+   "id": "learner__dashboard/28",
+   "root": "learner__dashboard",
+   "depth": 2,
+   "path": [
+    "BUTTON|What's next|1",
+    "BUTTON|Leadership Difficult Conversations Daniel Reyes · |1"
+   ],
+   "parent": "learner__dashboard/9",
+   "via": "Leadership Difficult Conversations Daniel Reyes · ",
+   "kind": "cross-page",
+   "h1": "Difficult Conversations",
+   "overlays": [],
+   "sig": "b1d9b1862760",
+   "shot": "screens/learner__dashboard/28.png",
+   "section": "Upgrade plan"
+  },
+  {
+   "id": "learner__course-catalog/0",
+   "root": "learner__course-catalog",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Course catalog",
+   "overlays": [],
+   "sig": "1a8312fe3fdd",
+   "shot": "screens/learner__course-catalog/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Find me a path|1",
+    "BUTTON|Add both|1",
+    "BUTTON|All|1",
+    "BUTTON|Leadership|1",
+    "BUTTON|Compliance|1",
+    "BUTTON|Data & Analytics|1",
+    "BUTTON|People Ops|1",
+    "BUTTON|Finance|1",
+    "BUTTON|Innovation|1",
+    "BUTTON|Leadership Leadership Essentials Daniel Reyes · In|1",
+    "BUTTON|Compliance Cybersecurity Awareness 2026 Ana Whitfi|1",
+    "BUTTON|Data & Analytics Data Fundamentals for Managers Ma|1",
+    "BUTTON|People Ops Inclusive Hiring Practices Sofia Marin |1",
+    "BUTTON|Finance Advanced Financial Modelling Ken Ohara · A|1",
+    "BUTTON|Compliance Anti-Bribery & Corruption Ana Whitfield|1",
+    "BUTTON|Innovation Design Thinking Sprint Priya Raman · In|1",
+    "BUTTON|Leadership Difficult Conversations Daniel Reyes · |1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "learner__course-catalog/1",
+   "root": "learner__course-catalog",
+   "depth": 1,
+   "path": [
+    "BUTTON|Find me a path|1"
+   ],
+   "parent": "learner__course-catalog/0",
+   "via": "Find me a path",
+   "kind": "drawer",
+   "h1": "Course catalog",
+   "overlays": [
+    {
+     "kind": "drawer",
+     "lines": [
+      "Mindflow AI",
+      "Context: Course catalog",
+      "Morning, Priya. Two things need you today: the Anti-Bribery module closes in 3 days, and you stalled on Leadership Essentials lesson 7 twice.",
+      "Why did I fail the lesson 7 check?",
+      "Both attempts missed the same idea — separating observation from interpretation in feedback. I built a 4-question practice set from that section. Want it?",
+      "Build my practice set",
+      "Summarise this screen",
+      "Who is at risk?"
+     ]
+    }
+   ],
+   "sig": "9a784cf7e2a0",
+   "shot": "screens/learner__course-catalog/1.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Find me a path|1",
+    "BUTTON|Add both|1",
+    "BUTTON|All|1",
+    "BUTTON|Leadership|1",
+    "BUTTON|Compliance|1",
+    "BUTTON|Data & Analytics|1",
+    "BUTTON|People Ops|1",
+    "BUTTON|Finance|1",
+    "BUTTON|Innovation|1",
+    "BUTTON|Leadership Leadership Essentials Daniel Reyes · In|1",
+    "BUTTON|Compliance Cybersecurity Awareness 2026 Ana Whitfi|1",
+    "BUTTON|Data & Analytics Data Fundamentals for Managers Ma|1",
+    "BUTTON|People Ops Inclusive Hiring Practices Sofia Marin |1",
+    "BUTTON|Finance Advanced Financial Modelling Ken Ohara · A|1",
+    "BUTTON|Compliance Anti-Bribery & Corruption Ana Whitfield|1",
+    "BUTTON|Innovation Design Thinking Sprint Priya Raman · In|1",
+    "BUTTON|Leadership Difficult Conversations Daniel Reyes · |1",
+    "BUTTON|icon|2",
+    "BUTTON|Build my practice set|1",
+    "BUTTON|Summarise this screen|1",
+    "BUTTON|Who is at risk?|1",
+    "BUTTON|icon|3"
+   ]
+  },
+  {
+   "id": "learner__my-lessons/0",
+   "root": "learner__my-lessons",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Closing the feedback loop",
+   "overlays": [],
+   "sig": "c459cd1ab3a0",
+   "shot": "screens/learner__my-lessons/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Mark complete|1",
+    "BUTTON|Transcript|1",
+    "BUTTON|Notes|1",
+    "BUTTON|Quiz|1",
+    "BUTTON|Resources|1",
+    "BUTTON|✓ Why feedback fails 6:20|1",
+    "BUTTON|✓ Psychological safety basics 9:05|1",
+    "BUTTON|✓ The SBI model 11:40|1",
+    "BUTTON|✓ Practice: observation vs judgement 7:15|1",
+    "BUTTON|✓ Receiving feedback well 8:30|1",
+    "BUTTON|✓ Cadence and rituals 10:10|1",
+    "BUTTON|▸ Closing the feedback loop 12:45|1",
+    "BUTTON|Module check Quiz|1",
+    "BUTTON|Explain it simply|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "learner__my-lessons/1",
+   "root": "learner__my-lessons",
+   "depth": 1,
+   "path": [
+    "BUTTON|Notes|1"
+   ],
+   "parent": "learner__my-lessons/0",
+   "via": "Notes",
+   "kind": "inline",
+   "h1": "Closing the feedback loop",
+   "overlays": [],
+   "sig": "4c8f86f1f0b0",
+   "shot": "screens/learner__my-lessons/1.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Mark complete|1",
+    "BUTTON|Transcript|1",
+    "BUTTON|Notes|1",
+    "BUTTON|Quiz|1",
+    "BUTTON|Resources|1",
+    "BUTTON|✓ Why feedback fails 6:20|1",
+    "BUTTON|✓ Psychological safety basics 9:05|1",
+    "BUTTON|✓ The SBI model 11:40|1",
+    "BUTTON|✓ Practice: observation vs judgement 7:15|1",
+    "BUTTON|✓ Receiving feedback well 8:30|1",
+    "BUTTON|✓ Cadence and rituals 10:10|1",
+    "BUTTON|▸ Closing the feedback loop 12:45|1",
+    "BUTTON|Module check Quiz|1",
+    "BUTTON|Explain it simply|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "learner__my-lessons/2",
+   "root": "learner__my-lessons",
+   "depth": 1,
+   "path": [
+    "BUTTON|Quiz|1"
+   ],
+   "parent": "learner__my-lessons/0",
+   "via": "Quiz",
+   "kind": "inline",
+   "h1": "Closing the feedback loop",
+   "overlays": [],
+   "sig": "0af1e29e55bd",
+   "shot": "screens/learner__my-lessons/2.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Mark complete|1",
+    "BUTTON|Transcript|1",
+    "BUTTON|Notes|1",
+    "BUTTON|Quiz|1",
+    "BUTTON|Resources|1",
+    "BUTTON|Next question|1",
+    "BUTTON|✓ Why feedback fails 6:20|1",
+    "BUTTON|✓ Psychological safety basics 9:05|1",
+    "BUTTON|✓ The SBI model 11:40|1",
+    "BUTTON|✓ Practice: observation vs judgement 7:15|1",
+    "BUTTON|✓ Receiving feedback well 8:30|1",
+    "BUTTON|✓ Cadence and rituals 10:10|1",
+    "BUTTON|▸ Closing the feedback loop 12:45|1",
+    "BUTTON|Module check Quiz|1",
+    "BUTTON|Explain it simply|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "learner__my-lessons/3",
+   "root": "learner__my-lessons",
+   "depth": 1,
+   "path": [
+    "BUTTON|Resources|1"
+   ],
+   "parent": "learner__my-lessons/0",
+   "via": "Resources",
+   "kind": "inline",
+   "h1": "Closing the feedback loop",
+   "overlays": [],
+   "sig": "1f629cb972d2",
+   "shot": "screens/learner__my-lessons/3.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Mark complete|1",
+    "BUTTON|Transcript|1",
+    "BUTTON|Notes|1",
+    "BUTTON|Quiz|1",
+    "BUTTON|Resources|1",
+    "BUTTON|✓ Why feedback fails 6:20|1",
+    "BUTTON|✓ Psychological safety basics 9:05|1",
+    "BUTTON|✓ The SBI model 11:40|1",
+    "BUTTON|✓ Practice: observation vs judgement 7:15|1",
+    "BUTTON|✓ Receiving feedback well 8:30|1",
+    "BUTTON|✓ Cadence and rituals 10:10|1",
+    "BUTTON|▸ Closing the feedback loop 12:45|1",
+    "BUTTON|Module check Quiz|1",
+    "BUTTON|Explain it simply|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "learner__my-lessons/4",
+   "root": "learner__my-lessons",
+   "depth": 1,
+   "path": [
+    "BUTTON|Explain it simply|1"
+   ],
+   "parent": "learner__my-lessons/0",
+   "via": "Explain it simply",
+   "kind": "drawer",
+   "h1": "Closing the feedback loop",
+   "overlays": [
+    {
+     "kind": "drawer",
+     "lines": [
+      "Mindflow AI",
+      "Context: Lesson 7 · Feedback loops",
+      "Morning, Priya. Two things need you today: the Anti-Bribery module closes in 3 days, and you stalled on Leadership Essentials lesson 7 twice.",
+      "Why did I fail the lesson 7 check?",
+      "Both attempts missed the same idea — separating observation from interpretation in feedback. I built a 4-question practice set from that section. Want it?",
+      "Build my practice set",
+      "Summarise this screen",
+      "Who is at risk?"
+     ]
+    }
+   ],
+   "sig": "aa9d0d73e33c",
+   "shot": "screens/learner__my-lessons/4.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Mark complete|1",
+    "BUTTON|Transcript|1",
+    "BUTTON|Notes|1",
+    "BUTTON|Quiz|1",
+    "BUTTON|Resources|1",
+    "BUTTON|▸ Why feedback fails 6:20|1",
+    "BUTTON|Psychological safety basics 9:05|1",
+    "BUTTON|The SBI model 11:40|1",
+    "BUTTON|Practice: observation vs judgement 7:15|1",
+    "BUTTON|Receiving feedback well 8:30|1",
+    "BUTTON|Cadence and rituals 10:10|1",
+    "BUTTON|Closing the feedback loop 12:45|1",
+    "BUTTON|Module check Quiz|1",
+    "BUTTON|Explain it simply|1",
+    "BUTTON|icon|2",
+    "BUTTON|Build my practice set|1",
+    "BUTTON|Summarise this screen|1",
+    "BUTTON|Who is at risk?|1",
+    "BUTTON|icon|3"
+   ]
+  },
+  {
+   "id": "learner__my-lessons/5",
+   "root": "learner__my-lessons",
+   "depth": 1,
+   "path": [
+    "BUTTON|icon|2"
+   ],
+   "parent": "learner__my-lessons/0",
+   "via": "icon",
+   "kind": "drawer",
+   "h1": "Closing the feedback loop",
+   "overlays": [
+    {
+     "kind": "drawer",
+     "lines": [
+      "Mindflow AI",
+      "Context: Lesson 7 · Feedback loops",
+      "Morning, Priya. Two things need you today: the Anti-Bribery module closes in 3 days, and you stalled on Leadership Essentials lesson 7 twice.",
+      "Why did I fail the lesson 7 check?",
+      "Both attempts missed the same idea — separating observation from interpretation in feedback. I built a 4-question practice set from that section. Want it?",
+      "Build my practice set",
+      "Summarise this screen",
+      "Who is at risk?"
+     ]
+    }
+   ],
+   "sig": "cbe925839109",
+   "shot": "screens/learner__my-lessons/5.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Mark complete|1",
+    "BUTTON|Transcript|1",
+    "BUTTON|Notes|1",
+    "BUTTON|Quiz|1",
+    "BUTTON|Resources|1",
+    "BUTTON|✓ Why feedback fails 6:20|1",
+    "BUTTON|✓ Psychological safety basics 9:05|1",
+    "BUTTON|✓ The SBI model 11:40|1",
+    "BUTTON|✓ Practice: observation vs judgement 7:15|1",
+    "BUTTON|✓ Receiving feedback well 8:30|1",
+    "BUTTON|✓ Cadence and rituals 10:10|1",
+    "BUTTON|▸ Closing the feedback loop 12:45|1",
+    "BUTTON|Module check Quiz|1",
+    "BUTTON|Explain it simply|1",
+    "BUTTON|icon|2",
+    "BUTTON|Build my practice set|1",
+    "BUTTON|Summarise this screen|1",
+    "BUTTON|Who is at risk?|1",
+    "BUTTON|icon|3"
+   ]
+  },
+  {
+   "id": "learner__my-lessons/6",
+   "root": "learner__my-lessons",
+   "depth": 2,
+   "path": [
+    "BUTTON|icon|2",
+    "BUTTON|icon|3"
+   ],
+   "parent": "learner__my-lessons/5",
+   "via": "icon",
+   "kind": "cross-page",
+   "h1": "Good morning, Priya\nHow can I help you learn today?",
+   "overlays": [],
+   "sig": "eb8567d15814",
+   "shot": "screens/learner__my-lessons/6.png",
+   "section": "Dashboard + Upgrade plan"
+  },
+  {
+   "id": "learner__community/0",
+   "root": "learner__community",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Community",
+   "overlays": [],
+   "sig": "31fedf68f455",
+   "shot": "screens/learner__community/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|New thread|1",
+    "BUTTON|Leadership 12m ago How do you close the loop when |1",
+    "BUTTON|Compliance 1h ago Anti-bribery module: does the gi|1",
+    "BUTTON|Leadership 4h ago Share your best one-to-one agend|1",
+    "BUTTON|Unanswered 6h ago Struggling with the cohort dashb|1",
+    "BUTTON|Post|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "learner__community/1",
+   "root": "learner__community",
+   "depth": 1,
+   "path": [
+    "BUTTON|Leadership 4h ago Share your best one-to-one agend|1"
+   ],
+   "parent": "learner__community/0",
+   "via": "Leadership 4h ago Share your best one-to-one agend",
+   "kind": "inline",
+   "h1": "Community",
+   "overlays": [],
+   "sig": "9103c4dabbc4",
+   "shot": "screens/learner__community/1.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|New thread|1",
+    "BUTTON|Leadership 12m ago How do you close the loop when |1",
+    "BUTTON|Compliance 1h ago Anti-bribery module: does the gi|1",
+    "BUTTON|Leadership 4h ago Share your best one-to-one agend|1",
+    "BUTTON|Unanswered 6h ago Struggling with the cohort dashb|1",
+    "BUTTON|Post|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "learner__community/2",
+   "root": "learner__community",
+   "depth": 1,
+   "path": [
+    "BUTTON|icon|2"
+   ],
+   "parent": "learner__community/0",
+   "via": "icon",
+   "kind": "drawer",
+   "h1": "Community",
+   "overlays": [
+    {
+     "kind": "drawer",
+     "lines": [
+      "Mindflow AI",
+      "Context: Thread · Feedback models",
+      "Morning, Priya. Two things need you today: the Anti-Bribery module closes in 3 days, and you stalled on Leadership Essentials lesson 7 twice.",
+      "Why did I fail the lesson 7 check?",
+      "Both attempts missed the same idea — separating observation from interpretation in feedback. I built a 4-question practice set from that section. Want it?",
+      "Build my practice set",
+      "Summarise this screen",
+      "Who is at risk?"
+     ]
+    }
+   ],
+   "sig": "8e24e57eaa04",
+   "shot": "screens/learner__community/2.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|New thread|1",
+    "BUTTON|Leadership 12m ago How do you close the loop when |1",
+    "BUTTON|Compliance 1h ago Anti-bribery module: does the gi|1",
+    "BUTTON|Leadership 4h ago Share your best one-to-one agend|1",
+    "BUTTON|Unanswered 6h ago Struggling with the cohort dashb|1",
+    "BUTTON|Post|1",
+    "BUTTON|icon|2",
+    "BUTTON|Build my practice set|1",
+    "BUTTON|Summarise this screen|1",
+    "BUTTON|Who is at risk?|1",
+    "BUTTON|icon|3"
+   ]
+  },
+  {
+   "id": "learner__notifications/0",
+   "root": "learner__notifications",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Notifications",
+   "overlays": [],
+   "sig": "92d52a943979",
+   "shot": "screens/learner__notifications/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Mark all read|1",
+    "BUTTON|All|1",
+    "BUTTON|Deadline|1",
+    "BUTTON|Grade|1",
+    "BUTTON|AI|1",
+    "BUTTON|Community|2",
+    "BUTTON|Billing|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "learner__notifications/1",
+   "root": "learner__notifications",
+   "depth": 1,
+   "path": [
+    "BUTTON|Deadline|1"
+   ],
+   "parent": "learner__notifications/0",
+   "via": "Deadline",
+   "kind": "inline",
+   "h1": "Notifications",
+   "overlays": [],
+   "sig": "ea58404f3181",
+   "shot": "screens/learner__notifications/1.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Mark all read|1",
+    "BUTTON|All|1",
+    "BUTTON|Deadline|1",
+    "BUTTON|Grade|1",
+    "BUTTON|AI|1",
+    "BUTTON|Community|2",
+    "BUTTON|Billing|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "learner__notifications/2",
+   "root": "learner__notifications",
+   "depth": 1,
+   "path": [
+    "BUTTON|Grade|1"
+   ],
+   "parent": "learner__notifications/0",
+   "via": "Grade",
+   "kind": "inline",
+   "h1": "Notifications",
+   "overlays": [],
+   "sig": "3b2a86c8e76a",
+   "shot": "screens/learner__notifications/2.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Mark all read|1",
+    "BUTTON|All|1",
+    "BUTTON|Deadline|1",
+    "BUTTON|Grade|1",
+    "BUTTON|AI|1",
+    "BUTTON|Community|2",
+    "BUTTON|Billing|1",
+    "BUTTON|icon|2"
+   ],
+   "variant_of": "learner__notifications/1"
+  },
+  {
+   "id": "learner__notifications/3",
+   "root": "learner__notifications",
+   "depth": 1,
+   "path": [
+    "BUTTON|AI|1"
+   ],
+   "parent": "learner__notifications/0",
+   "via": "AI",
+   "kind": "inline",
+   "h1": "Notifications",
+   "overlays": [],
+   "sig": "4e1a4066c56d",
+   "shot": "screens/learner__notifications/3.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Mark all read|1",
+    "BUTTON|All|1",
+    "BUTTON|Deadline|1",
+    "BUTTON|Grade|1",
+    "BUTTON|AI|1",
+    "BUTTON|Community|2",
+    "BUTTON|Billing|1",
+    "BUTTON|icon|2"
+   ],
+   "variant_of": "learner__notifications/1"
+  },
+  {
+   "id": "learner__notifications/4",
+   "root": "learner__notifications",
+   "depth": 1,
+   "path": [
+    "BUTTON|Community|2"
+   ],
+   "parent": "learner__notifications/0",
+   "via": "Community",
+   "kind": "inline",
+   "h1": "Notifications",
+   "overlays": [],
+   "sig": "647cb16dea47",
+   "shot": "screens/learner__notifications/4.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Mark all read|1",
+    "BUTTON|All|1",
+    "BUTTON|Deadline|1",
+    "BUTTON|Grade|1",
+    "BUTTON|AI|1",
+    "BUTTON|Community|2",
+    "BUTTON|Billing|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "learner__notifications/5",
+   "root": "learner__notifications",
+   "depth": 1,
+   "path": [
+    "BUTTON|Billing|1"
+   ],
+   "parent": "learner__notifications/0",
+   "via": "Billing",
+   "kind": "inline",
+   "h1": "Notifications",
+   "overlays": [],
+   "sig": "b24247573ebd",
+   "shot": "screens/learner__notifications/5.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Mark all read|1",
+    "BUTTON|All|1",
+    "BUTTON|Deadline|1",
+    "BUTTON|Grade|1",
+    "BUTTON|AI|1",
+    "BUTTON|Community|2",
+    "BUTTON|Billing|1",
+    "BUTTON|icon|2"
+   ],
+   "variant_of": "learner__notifications/1"
+  },
+  {
+   "id": "learner__notifications/6",
+   "root": "learner__notifications",
+   "depth": 1,
+   "path": [
+    "BUTTON|icon|2"
+   ],
+   "parent": "learner__notifications/0",
+   "via": "icon",
+   "kind": "drawer",
+   "h1": "Notifications",
+   "overlays": [
+    {
+     "kind": "drawer",
+     "lines": [
+      "Mindflow AI",
+      "Context: Notifications",
+      "Morning, Priya. Two things need you today: the Anti-Bribery module closes in 3 days, and you stalled on Leadership Essentials lesson 7 twice.",
+      "Why did I fail the lesson 7 check?",
+      "Both attempts missed the same idea — separating observation from interpretation in feedback. I built a 4-question practice set from that section. Want it?",
+      "Build my practice set",
+      "Summarise this screen",
+      "Who is at risk?"
+     ]
+    }
+   ],
+   "sig": "b576f2a63019",
+   "shot": "screens/learner__notifications/6.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Mark all read|1",
+    "BUTTON|All|1",
+    "BUTTON|Deadline|1",
+    "BUTTON|Grade|1",
+    "BUTTON|AI|1",
+    "BUTTON|Community|2",
+    "BUTTON|Billing|1",
+    "BUTTON|icon|2",
+    "BUTTON|Build my practice set|1",
+    "BUTTON|Summarise this screen|1",
+    "BUTTON|Who is at risk?|1",
+    "BUTTON|icon|3"
+   ]
+  },
+  {
+   "id": "learner__settings/0",
+   "root": "learner__settings",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Settings",
+   "overlays": [],
+   "sig": "1f5203af2474",
+   "shot": "screens/learner__settings/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Change photo|1",
+    "BUTTON|Export|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "learner__settings/1",
+   "root": "learner__settings",
+   "depth": 1,
+   "path": [
+    "BUTTON|Export|1"
+   ],
+   "parent": "learner__settings/0",
+   "via": "Export",
+   "kind": "inline",
+   "h1": "Settings",
+   "overlays": [],
+   "sig": "2d0f5ad3fb24",
+   "shot": "screens/learner__settings/1.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Change photo|1",
+    "BUTTON|Export|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "learner__settings/2",
+   "root": "learner__settings",
+   "depth": 1,
+   "path": [
+    "BUTTON|icon|2"
+   ],
+   "parent": "learner__settings/0",
+   "via": "icon",
+   "kind": "drawer",
+   "h1": "Settings",
+   "overlays": [
+    {
+     "kind": "drawer",
+     "lines": [
+      "Mindflow AI",
+      "Context: Mindflow",
+      "Morning, Priya. Two things need you today: the Anti-Bribery module closes in 3 days, and you stalled on Leadership Essentials lesson 7 twice.",
+      "Why did I fail the lesson 7 check?",
+      "Both attempts missed the same idea — separating observation from interpretation in feedback. I built a 4-question practice set from that section. Want it?",
+      "Build my practice set",
+      "Summarise this screen",
+      "Who is at risk?"
+     ]
+    }
+   ],
+   "sig": "ce9c53e61591",
+   "shot": "screens/learner__settings/2.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Change photo|1",
+    "BUTTON|Export|1",
+    "BUTTON|icon|2",
+    "BUTTON|Build my practice set|1",
+    "BUTTON|Summarise this screen|1",
+    "BUTTON|Who is at risk?|1",
+    "BUTTON|icon|3"
+   ]
+  },
+  {
+   "id": "learner__help-center/0",
+   "root": "learner__help-center",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Help centre",
+   "overlays": [],
+   "sig": "5148b8be0dba",
+   "shot": "screens/learner__help-center/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Ask Mindflow AI Context-aware answers about the sc|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "learner__help-center/1",
+   "root": "learner__help-center",
+   "depth": 1,
+   "path": [
+    "BUTTON|Ask Mindflow AI Context-aware answers about the sc|1"
+   ],
+   "parent": "learner__help-center/0",
+   "via": "Ask Mindflow AI Context-aware answers about the sc",
+   "kind": "drawer",
+   "h1": "Help centre",
+   "overlays": [
+    {
+     "kind": "drawer",
+     "lines": [
+      "Mindflow AI",
+      "Context: Help center",
+      "Morning, Priya. Two things need you today: the Anti-Bribery module closes in 3 days, and you stalled on Leadership Essentials lesson 7 twice.",
+      "Why did I fail the lesson 7 check?",
+      "Both attempts missed the same idea — separating observation from interpretation in feedback. I built a 4-question practice set from that section. Want it?",
+      "Build my practice set",
+      "Summarise this screen",
+      "Who is at risk?"
+     ]
+    }
+   ],
+   "sig": "33fa517bf742",
+   "shot": "screens/learner__help-center/1.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Ask Mindflow AI Context-aware answers about the sc|1",
+    "BUTTON|icon|2",
+    "BUTTON|Build my practice set|1",
+    "BUTTON|Summarise this screen|1",
+    "BUTTON|Who is at risk?|1",
+    "BUTTON|icon|3"
+   ]
+  },
+  {
+   "id": "instructor__dashboard/0",
+   "root": "instructor__dashboard",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Welcome back, Priya",
+   "overlays": [],
+   "sig": "cab04fe8a710",
+   "shot": "screens/instructor__dashboard/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Browse catalog|1",
+    "BUTTON|Intermediate Leadership Essentials 67% 16/24 lesso|1",
+    "BUTTON|Beginner Cybersecurity Awareness 2026 42% 5/12 les|1",
+    "BUTTON|Intermediate Data Fundamentals for Managers 88% 28|1",
+    "BUTTON|Practice set|1",
+    "BUTTON|Why did I fail?|1",
+    "BUTTON|What's next|1",
+    "BUTTON|icon|2",
+    "BUTTON|View all|1",
+    "BUTTON|67 Leadership Essentials 8 lessons left ▸|1",
+    "BUTTON|42 Cybersecurity Awareness 2026 7 lessons left ▸|1",
+    "BUTTON|88 Data Fundamentals for Managers 4 lessons left ▸|1",
+    "BUTTON|100 Anti-Bribery & Corruption 0 lessons left ▸|1",
+    "BUTTON|Join|1",
+    "BUTTON|Join|2",
+    "BUTTON|Join|3",
+    "BUTTON|icon|3"
+   ]
+  },
+  {
+   "id": "instructor__course-catalog/0",
+   "root": "instructor__course-catalog",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Course catalog",
+   "overlays": [],
+   "sig": "1a8312fe3fdd",
+   "shot": "screens/instructor__course-catalog/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Find me a path|1",
+    "BUTTON|Add both|1",
+    "BUTTON|All|1",
+    "BUTTON|Leadership|1",
+    "BUTTON|Compliance|1",
+    "BUTTON|Data & Analytics|1",
+    "BUTTON|People Ops|1",
+    "BUTTON|Finance|1",
+    "BUTTON|Innovation|1",
+    "BUTTON|Leadership Leadership Essentials Daniel Reyes · In|1",
+    "BUTTON|Compliance Cybersecurity Awareness 2026 Ana Whitfi|1",
+    "BUTTON|Data & Analytics Data Fundamentals for Managers Ma|1",
+    "BUTTON|People Ops Inclusive Hiring Practices Sofia Marin |1",
+    "BUTTON|Finance Advanced Financial Modelling Ken Ohara · A|1",
+    "BUTTON|Compliance Anti-Bribery & Corruption Ana Whitfield|1",
+    "BUTTON|Innovation Design Thinking Sprint Priya Raman · In|1",
+    "BUTTON|Leadership Difficult Conversations Daniel Reyes · |1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "instructor__my-lessons/0",
+   "root": "instructor__my-lessons",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Closing the feedback loop",
+   "overlays": [],
+   "sig": "c459cd1ab3a0",
+   "shot": "screens/instructor__my-lessons/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Mark complete|1",
+    "BUTTON|Transcript|1",
+    "BUTTON|Notes|1",
+    "BUTTON|Quiz|1",
+    "BUTTON|Resources|1",
+    "BUTTON|✓ Why feedback fails 6:20|1",
+    "BUTTON|✓ Psychological safety basics 9:05|1",
+    "BUTTON|✓ The SBI model 11:40|1",
+    "BUTTON|✓ Practice: observation vs judgement 7:15|1",
+    "BUTTON|✓ Receiving feedback well 8:30|1",
+    "BUTTON|✓ Cadence and rituals 10:10|1",
+    "BUTTON|▸ Closing the feedback loop 12:45|1",
+    "BUTTON|Module check Quiz|1",
+    "BUTTON|Explain it simply|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "instructor__community/0",
+   "root": "instructor__community",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Community",
+   "overlays": [],
+   "sig": "31fedf68f455",
+   "shot": "screens/instructor__community/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|New thread|1",
+    "BUTTON|Leadership 12m ago How do you close the loop when |1",
+    "BUTTON|Compliance 1h ago Anti-bribery module: does the gi|1",
+    "BUTTON|Leadership 4h ago Share your best one-to-one agend|1",
+    "BUTTON|Unanswered 6h ago Struggling with the cohort dashb|1",
+    "BUTTON|Post|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "instructor__notifications/0",
+   "root": "instructor__notifications",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Notifications",
+   "overlays": [],
+   "sig": "92d52a943979",
+   "shot": "screens/instructor__notifications/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Mark all read|1",
+    "BUTTON|All|1",
+    "BUTTON|Deadline|1",
+    "BUTTON|Grade|1",
+    "BUTTON|AI|1",
+    "BUTTON|Community|2",
+    "BUTTON|Billing|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "instructor__settings/0",
+   "root": "instructor__settings",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Settings",
+   "overlays": [],
+   "sig": "1f5203af2474",
+   "shot": "screens/instructor__settings/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Change photo|1",
+    "BUTTON|Export|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "instructor__help-center/0",
+   "root": "instructor__help-center",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Help centre",
+   "overlays": [],
+   "sig": "5148b8be0dba",
+   "shot": "screens/instructor__help-center/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Ask Mindflow AI Context-aware answers about the sc|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "admin__dashboard/0",
+   "root": "admin__dashboard",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Welcome back, Priya",
+   "overlays": [],
+   "sig": "cab04fe8a710",
+   "shot": "screens/admin__dashboard/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Browse catalog|1",
+    "BUTTON|Intermediate Leadership Essentials 67% 16/24 lesso|1",
+    "BUTTON|Beginner Cybersecurity Awareness 2026 42% 5/12 les|1",
+    "BUTTON|Intermediate Data Fundamentals for Managers 88% 28|1",
+    "BUTTON|Practice set|1",
+    "BUTTON|Why did I fail?|1",
+    "BUTTON|What's next|1",
+    "BUTTON|icon|2",
+    "BUTTON|View all|1",
+    "BUTTON|67 Leadership Essentials 8 lessons left ▸|1",
+    "BUTTON|42 Cybersecurity Awareness 2026 7 lessons left ▸|1",
+    "BUTTON|88 Data Fundamentals for Managers 4 lessons left ▸|1",
+    "BUTTON|100 Anti-Bribery & Corruption 0 lessons left ▸|1",
+    "BUTTON|Join|1",
+    "BUTTON|Join|2",
+    "BUTTON|Join|3",
+    "BUTTON|icon|3"
+   ]
+  },
+  {
+   "id": "admin__course-catalog/0",
+   "root": "admin__course-catalog",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Course catalog",
+   "overlays": [],
+   "sig": "1a8312fe3fdd",
+   "shot": "screens/admin__course-catalog/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Find me a path|1",
+    "BUTTON|Add both|1",
+    "BUTTON|All|1",
+    "BUTTON|Leadership|1",
+    "BUTTON|Compliance|1",
+    "BUTTON|Data & Analytics|1",
+    "BUTTON|People Ops|1",
+    "BUTTON|Finance|1",
+    "BUTTON|Innovation|1",
+    "BUTTON|Leadership Leadership Essentials Daniel Reyes · In|1",
+    "BUTTON|Compliance Cybersecurity Awareness 2026 Ana Whitfi|1",
+    "BUTTON|Data & Analytics Data Fundamentals for Managers Ma|1",
+    "BUTTON|People Ops Inclusive Hiring Practices Sofia Marin |1",
+    "BUTTON|Finance Advanced Financial Modelling Ken Ohara · A|1",
+    "BUTTON|Compliance Anti-Bribery & Corruption Ana Whitfield|1",
+    "BUTTON|Innovation Design Thinking Sprint Priya Raman · In|1",
+    "BUTTON|Leadership Difficult Conversations Daniel Reyes · |1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "admin__my-lessons/0",
+   "root": "admin__my-lessons",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Closing the feedback loop",
+   "overlays": [],
+   "sig": "c459cd1ab3a0",
+   "shot": "screens/admin__my-lessons/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Mark complete|1",
+    "BUTTON|Transcript|1",
+    "BUTTON|Notes|1",
+    "BUTTON|Quiz|1",
+    "BUTTON|Resources|1",
+    "BUTTON|✓ Why feedback fails 6:20|1",
+    "BUTTON|✓ Psychological safety basics 9:05|1",
+    "BUTTON|✓ The SBI model 11:40|1",
+    "BUTTON|✓ Practice: observation vs judgement 7:15|1",
+    "BUTTON|✓ Receiving feedback well 8:30|1",
+    "BUTTON|✓ Cadence and rituals 10:10|1",
+    "BUTTON|▸ Closing the feedback loop 12:45|1",
+    "BUTTON|Module check Quiz|1",
+    "BUTTON|Explain it simply|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "admin__community/0",
+   "root": "admin__community",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Community",
+   "overlays": [],
+   "sig": "31fedf68f455",
+   "shot": "screens/admin__community/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|New thread|1",
+    "BUTTON|Leadership 12m ago How do you close the loop when |1",
+    "BUTTON|Compliance 1h ago Anti-bribery module: does the gi|1",
+    "BUTTON|Leadership 4h ago Share your best one-to-one agend|1",
+    "BUTTON|Unanswered 6h ago Struggling with the cohort dashb|1",
+    "BUTTON|Post|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "admin__notifications/0",
+   "root": "admin__notifications",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Notifications",
+   "overlays": [],
+   "sig": "92d52a943979",
+   "shot": "screens/admin__notifications/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Mark all read|1",
+    "BUTTON|All|1",
+    "BUTTON|Deadline|1",
+    "BUTTON|Grade|1",
+    "BUTTON|AI|1",
+    "BUTTON|Community|2",
+    "BUTTON|Billing|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "admin__settings/0",
+   "root": "admin__settings",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Settings",
+   "overlays": [],
+   "sig": "1f5203af2474",
+   "shot": "screens/admin__settings/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Change photo|1",
+    "BUTTON|Export|1",
+    "BUTTON|icon|2"
+   ]
+  },
+  {
+   "id": "admin__help-center/0",
+   "root": "admin__help-center",
+   "depth": 0,
+   "path": [],
+   "parent": null,
+   "via": null,
+   "kind": "page",
+   "h1": "Help centre",
+   "overlays": [],
+   "sig": "5148b8be0dba",
+   "shot": "screens/admin__help-center/0.png",
+   "controls": [
+    "BUTTON|Dashboard|1",
+    "BUTTON|Course Catalog|1",
+    "BUTTON|My Lessons|1",
+    "BUTTON|Community|1",
+    "BUTTON|Notifications 4|1",
+    "BUTTON|Settings|1",
+    "BUTTON|Help Center|1",
+    "BUTTON|Upgrade plan|1",
+    "BUTTON|icon|1",
+    "BUTTON|Ask Mindflow AI|1",
+    "BUTTON|All pages|1",
+    "BUTTON|Ask Mindflow AI Context-aware answers about the sc|1",
+    "BUTTON|icon|2"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "learner__dashboard/0",
+   "control": "Dashboard",
+   "key": "BUTTON|Dashboard|1",
+   "shell": true,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "Course Catalog",
+   "key": "BUTTON|Course Catalog|1",
+   "shell": true,
+   "outcome": "navigate",
+   "to_title": "Course catalog"
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "My Lessons",
+   "key": "BUTTON|My Lessons|1",
+   "shell": true,
+   "outcome": "navigate",
+   "to_title": "Closing the feedback loop"
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "Upgrade plan",
+   "key": "BUTTON|Upgrade plan|1",
+   "shell": true,
+   "outcome": "navigate",
+   "to_title": "Billing"
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "icon",
+   "key": "BUTTON|icon|1",
+   "shell": true,
+   "outcome": "navigate",
+   "to_title": "Notifications"
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "Ask Mindflow AI",
+   "key": "BUTTON|Ask Mindflow AI|1",
+   "shell": true,
+   "outcome": "screen",
+   "to": "learner__dashboard/1",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "All pages",
+   "key": "BUTTON|All pages|1",
+   "shell": true,
+   "outcome": "screen",
+   "to": "learner__dashboard/2",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "Browse catalog",
+   "key": "BUTTON|Browse catalog|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/3",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "Intermediate Leadership Essentials 67% 16/24 lesso",
+   "key": "BUTTON|Intermediate Leadership Essentials 67% 16/24 lesso|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/4",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "Beginner Cybersecurity Awareness 2026 42% 5/12 les",
+   "key": "BUTTON|Beginner Cybersecurity Awareness 2026 42% 5/12 les|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/5",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "Intermediate Data Fundamentals for Managers 88% 28",
+   "key": "BUTTON|Intermediate Data Fundamentals for Managers 88% 28|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/6",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "Practice set",
+   "key": "BUTTON|Practice set|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/7",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "Why did I fail?",
+   "key": "BUTTON|Why did I fail?|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/8",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "What's next",
+   "key": "BUTTON|What's next|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/9",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/8"
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "View all",
+   "key": "BUTTON|View all|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/9"
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "67 Leadership Essentials 8 lessons left ▸",
+   "key": "BUTTON|67 Leadership Essentials 8 lessons left ▸|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/7"
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "42 Cybersecurity Awareness 2026 7 lessons left ▸",
+   "key": "BUTTON|42 Cybersecurity Awareness 2026 7 lessons left ▸|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/10",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "88 Data Fundamentals for Managers 4 lessons left ▸",
+   "key": "BUTTON|88 Data Fundamentals for Managers 4 lessons left ▸|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/7"
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "100 Anti-Bribery & Corruption 0 lessons left ▸",
+   "key": "BUTTON|100 Anti-Bribery & Corruption 0 lessons left ▸|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/7"
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "Join",
+   "key": "BUTTON|Join|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "Join",
+   "key": "BUTTON|Join|2",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "Join",
+   "key": "BUTTON|Join|3",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/11",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/0",
+   "control": "icon",
+   "key": "BUTTON|icon|3",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/1"
+  },
+  {
+   "from": "learner__dashboard/1",
+   "control": "Build my practice set",
+   "key": "BUTTON|Build my practice set|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/12",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/1",
+   "control": "Summarise this screen",
+   "key": "BUTTON|Summarise this screen|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/12"
+  },
+  {
+   "from": "learner__dashboard/1",
+   "control": "Who is at risk?",
+   "key": "BUTTON|Who is at risk?|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/12"
+  },
+  {
+   "from": "learner__dashboard/1",
+   "control": "icon",
+   "key": "BUTTON|icon|4",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "learner__dashboard/2",
+   "control": "My profile",
+   "key": "BUTTON|My profile|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/13",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/2",
+   "control": "Account settings",
+   "key": "BUTTON|Account settings|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/13"
+  },
+  {
+   "from": "learner__dashboard/2",
+   "control": "Notifications 4",
+   "key": "BUTTON|Notifications 4|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/14",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/2",
+   "control": "Billing & plan",
+   "key": "BUTTON|Billing & plan|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/15",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/2",
+   "control": "Help centre",
+   "key": "BUTTON|Help centre|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/16",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/8",
+   "control": "Build my practice set",
+   "key": "BUTTON|Build my practice set|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/17",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/8",
+   "control": "Summarise this screen",
+   "key": "BUTTON|Summarise this screen|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/17"
+  },
+  {
+   "from": "learner__dashboard/8",
+   "control": "Who is at risk?",
+   "key": "BUTTON|Who is at risk?|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/17"
+  },
+  {
+   "from": "learner__dashboard/8",
+   "control": "icon",
+   "key": "BUTTON|icon|4",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "learner__dashboard/9",
+   "control": "All",
+   "key": "BUTTON|All|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/3"
+  },
+  {
+   "from": "learner__dashboard/9",
+   "control": "Leadership",
+   "key": "BUTTON|Leadership|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/18",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/9",
+   "control": "Compliance",
+   "key": "BUTTON|Compliance|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/19",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/9",
+   "control": "Data & Analytics",
+   "key": "BUTTON|Data & Analytics|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/20",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/9",
+   "control": "People Ops",
+   "key": "BUTTON|People Ops|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/21",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/9",
+   "control": "Finance",
+   "key": "BUTTON|Finance|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/22",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/9",
+   "control": "Innovation",
+   "key": "BUTTON|Innovation|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/23",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/9",
+   "control": "Leadership Leadership Essentials Daniel Reyes · In",
+   "key": "BUTTON|Leadership Leadership Essentials Daniel Reyes · In|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/4"
+  },
+  {
+   "from": "learner__dashboard/9",
+   "control": "Compliance Cybersecurity Awareness 2026 Ana Whitfi",
+   "key": "BUTTON|Compliance Cybersecurity Awareness 2026 Ana Whitfi|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/5"
+  },
+  {
+   "from": "learner__dashboard/9",
+   "control": "Data & Analytics Data Fundamentals for Managers Ma",
+   "key": "BUTTON|Data & Analytics Data Fundamentals for Managers Ma|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/6"
+  },
+  {
+   "from": "learner__dashboard/9",
+   "control": "People Ops Inclusive Hiring Practices Sofia Marin ",
+   "key": "BUTTON|People Ops Inclusive Hiring Practices Sofia Marin |1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/24",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/9",
+   "control": "Finance Advanced Financial Modelling Ken Ohara · A",
+   "key": "BUTTON|Finance Advanced Financial Modelling Ken Ohara · A|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/25",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/9",
+   "control": "Compliance Anti-Bribery & Corruption Ana Whitfield",
+   "key": "BUTTON|Compliance Anti-Bribery & Corruption Ana Whitfield|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/26",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/9",
+   "control": "Innovation Design Thinking Sprint Priya Raman · In",
+   "key": "BUTTON|Innovation Design Thinking Sprint Priya Raman · In|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/27",
+   "new": true
+  },
+  {
+   "from": "learner__dashboard/9",
+   "control": "Leadership Difficult Conversations Daniel Reyes · ",
+   "key": "BUTTON|Leadership Difficult Conversations Daniel Reyes · |1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/28",
+   "new": true
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "Find me a path",
+   "key": "BUTTON|Find me a path|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__course-catalog/1",
+   "new": true
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "Add both",
+   "key": "BUTTON|Add both|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "All",
+   "key": "BUTTON|All|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "Leadership",
+   "key": "BUTTON|Leadership|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/18"
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "Compliance",
+   "key": "BUTTON|Compliance|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/19"
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "Data & Analytics",
+   "key": "BUTTON|Data & Analytics|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/20"
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "People Ops",
+   "key": "BUTTON|People Ops|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/21"
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "Finance",
+   "key": "BUTTON|Finance|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/22"
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "Innovation",
+   "key": "BUTTON|Innovation|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/23"
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "Leadership Leadership Essentials Daniel Reyes · In",
+   "key": "BUTTON|Leadership Leadership Essentials Daniel Reyes · In|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/4"
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "Compliance Cybersecurity Awareness 2026 Ana Whitfi",
+   "key": "BUTTON|Compliance Cybersecurity Awareness 2026 Ana Whitfi|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/5"
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "Data & Analytics Data Fundamentals for Managers Ma",
+   "key": "BUTTON|Data & Analytics Data Fundamentals for Managers Ma|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/6"
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "People Ops Inclusive Hiring Practices Sofia Marin ",
+   "key": "BUTTON|People Ops Inclusive Hiring Practices Sofia Marin |1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/24"
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "Finance Advanced Financial Modelling Ken Ohara · A",
+   "key": "BUTTON|Finance Advanced Financial Modelling Ken Ohara · A|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/25"
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "Compliance Anti-Bribery & Corruption Ana Whitfield",
+   "key": "BUTTON|Compliance Anti-Bribery & Corruption Ana Whitfield|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/26"
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "Innovation Design Thinking Sprint Priya Raman · In",
+   "key": "BUTTON|Innovation Design Thinking Sprint Priya Raman · In|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/27"
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "Leadership Difficult Conversations Daniel Reyes · ",
+   "key": "BUTTON|Leadership Difficult Conversations Daniel Reyes · |1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/28"
+  },
+  {
+   "from": "learner__course-catalog/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__course-catalog/1"
+  },
+  {
+   "from": "learner__my-lessons/0",
+   "control": "Mark complete",
+   "key": "BUTTON|Mark complete|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/7"
+  },
+  {
+   "from": "learner__my-lessons/0",
+   "control": "Transcript",
+   "key": "BUTTON|Transcript|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/7"
+  },
+  {
+   "from": "learner__my-lessons/0",
+   "control": "Notes",
+   "key": "BUTTON|Notes|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/1",
+   "new": true
+  },
+  {
+   "from": "learner__my-lessons/0",
+   "control": "Quiz",
+   "key": "BUTTON|Quiz|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/2",
+   "new": true
+  },
+  {
+   "from": "learner__my-lessons/0",
+   "control": "Resources",
+   "key": "BUTTON|Resources|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/3",
+   "new": true
+  },
+  {
+   "from": "learner__my-lessons/0",
+   "control": "✓ Why feedback fails 6:20",
+   "key": "BUTTON|✓ Why feedback fails 6:20|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "learner__my-lessons/0",
+   "control": "✓ Psychological safety basics 9:05",
+   "key": "BUTTON|✓ Psychological safety basics 9:05|1",
+   "shell": false,
+   "outcome": "missing"
+  },
+  {
+   "from": "learner__my-lessons/0",
+   "control": "✓ The SBI model 11:40",
+   "key": "BUTTON|✓ The SBI model 11:40|1",
+   "shell": false,
+   "outcome": "missing"
+  },
+  {
+   "from": "learner__my-lessons/0",
+   "control": "Explain it simply",
+   "key": "BUTTON|Explain it simply|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/4",
+   "new": true
+  },
+  {
+   "from": "learner__my-lessons/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/5",
+   "new": true
+  },
+  {
+   "from": "learner__my-lessons/5",
+   "control": "Build my practice set",
+   "key": "BUTTON|Build my practice set|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/17"
+  },
+  {
+   "from": "learner__my-lessons/5",
+   "control": "Summarise this screen",
+   "key": "BUTTON|Summarise this screen|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/17"
+  },
+  {
+   "from": "learner__my-lessons/5",
+   "control": "Who is at risk?",
+   "key": "BUTTON|Who is at risk?|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/17"
+  },
+  {
+   "from": "learner__my-lessons/5",
+   "control": "icon",
+   "key": "BUTTON|icon|3",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/6",
+   "new": true
+  },
+  {
+   "from": "learner__community/0",
+   "control": "New thread",
+   "key": "BUTTON|New thread|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "learner__community/0",
+   "control": "Leadership 12m ago How do you close the loop when ",
+   "key": "BUTTON|Leadership 12m ago How do you close the loop when |1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "learner__community/0",
+   "control": "Compliance 1h ago Anti-bribery module: does the gi",
+   "key": "BUTTON|Compliance 1h ago Anti-bribery module: does the gi|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "learner__community/0",
+   "control": "Leadership 4h ago Share your best one-to-one agend",
+   "key": "BUTTON|Leadership 4h ago Share your best one-to-one agend|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__community/1",
+   "new": true
+  },
+  {
+   "from": "learner__community/0",
+   "control": "Unanswered 6h ago Struggling with the cohort dashb",
+   "key": "BUTTON|Unanswered 6h ago Struggling with the cohort dashb|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__community/1"
+  },
+  {
+   "from": "learner__community/0",
+   "control": "Post",
+   "key": "BUTTON|Post|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__community/1"
+  },
+  {
+   "from": "learner__community/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__community/2",
+   "new": true
+  },
+  {
+   "from": "learner__community/2",
+   "control": "Build my practice set",
+   "key": "BUTTON|Build my practice set|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/17"
+  },
+  {
+   "from": "learner__community/2",
+   "control": "Summarise this screen",
+   "key": "BUTTON|Summarise this screen|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/17"
+  },
+  {
+   "from": "learner__community/2",
+   "control": "Who is at risk?",
+   "key": "BUTTON|Who is at risk?|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/17"
+  },
+  {
+   "from": "learner__community/2",
+   "control": "icon",
+   "key": "BUTTON|icon|3",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/6"
+  },
+  {
+   "from": "learner__notifications/0",
+   "control": "Mark all read",
+   "key": "BUTTON|Mark all read|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "learner__notifications/0",
+   "control": "All",
+   "key": "BUTTON|All|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "learner__notifications/0",
+   "control": "Deadline",
+   "key": "BUTTON|Deadline|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/1",
+   "new": true
+  },
+  {
+   "from": "learner__notifications/0",
+   "control": "Grade",
+   "key": "BUTTON|Grade|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/2",
+   "new": true
+  },
+  {
+   "from": "learner__notifications/0",
+   "control": "AI",
+   "key": "BUTTON|AI|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/3",
+   "new": true
+  },
+  {
+   "from": "learner__notifications/0",
+   "control": "Community",
+   "key": "BUTTON|Community|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/4",
+   "new": true
+  },
+  {
+   "from": "learner__notifications/0",
+   "control": "Billing",
+   "key": "BUTTON|Billing|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/5",
+   "new": true
+  },
+  {
+   "from": "learner__notifications/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/6",
+   "new": true
+  },
+  {
+   "from": "learner__notifications/6",
+   "control": "Build my practice set",
+   "key": "BUTTON|Build my practice set|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/17"
+  },
+  {
+   "from": "learner__notifications/6",
+   "control": "Summarise this screen",
+   "key": "BUTTON|Summarise this screen|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/17"
+  },
+  {
+   "from": "learner__notifications/6",
+   "control": "Who is at risk?",
+   "key": "BUTTON|Who is at risk?|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/17"
+  },
+  {
+   "from": "learner__notifications/6",
+   "control": "icon",
+   "key": "BUTTON|icon|3",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/6"
+  },
+  {
+   "from": "learner__settings/0",
+   "control": "Change photo",
+   "key": "BUTTON|Change photo|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "learner__settings/0",
+   "control": "Export",
+   "key": "BUTTON|Export|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__settings/1",
+   "new": true
+  },
+  {
+   "from": "learner__settings/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__settings/2",
+   "new": true
+  },
+  {
+   "from": "learner__settings/2",
+   "control": "Build my practice set",
+   "key": "BUTTON|Build my practice set|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/17"
+  },
+  {
+   "from": "learner__settings/2",
+   "control": "Summarise this screen",
+   "key": "BUTTON|Summarise this screen|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/17"
+  },
+  {
+   "from": "learner__settings/2",
+   "control": "Who is at risk?",
+   "key": "BUTTON|Who is at risk?|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/17"
+  },
+  {
+   "from": "learner__settings/2",
+   "control": "icon",
+   "key": "BUTTON|icon|3",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/6"
+  },
+  {
+   "from": "learner__help-center/0",
+   "control": "Ask Mindflow AI Context-aware answers about the sc",
+   "key": "BUTTON|Ask Mindflow AI Context-aware answers about the sc|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__help-center/1",
+   "new": true
+  },
+  {
+   "from": "learner__help-center/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__help-center/1"
+  },
+  {
+   "from": "instructor__dashboard/0",
+   "control": "Browse catalog",
+   "key": "BUTTON|Browse catalog|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__course-catalog/0"
+  },
+  {
+   "from": "instructor__dashboard/0",
+   "control": "Intermediate Leadership Essentials 67% 16/24 lesso",
+   "key": "BUTTON|Intermediate Leadership Essentials 67% 16/24 lesso|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/4"
+  },
+  {
+   "from": "instructor__dashboard/0",
+   "control": "Beginner Cybersecurity Awareness 2026 42% 5/12 les",
+   "key": "BUTTON|Beginner Cybersecurity Awareness 2026 42% 5/12 les|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/5"
+  },
+  {
+   "from": "instructor__dashboard/0",
+   "control": "Intermediate Data Fundamentals for Managers 88% 28",
+   "key": "BUTTON|Intermediate Data Fundamentals for Managers 88% 28|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/6"
+  },
+  {
+   "from": "instructor__dashboard/0",
+   "control": "Practice set",
+   "key": "BUTTON|Practice set|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/0"
+  },
+  {
+   "from": "instructor__dashboard/0",
+   "control": "Why did I fail?",
+   "key": "BUTTON|Why did I fail?|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/8"
+  },
+  {
+   "from": "instructor__dashboard/0",
+   "control": "What's next",
+   "key": "BUTTON|What's next|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/9"
+  },
+  {
+   "from": "instructor__dashboard/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/8"
+  },
+  {
+   "from": "instructor__dashboard/0",
+   "control": "View all",
+   "key": "BUTTON|View all|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/9"
+  },
+  {
+   "from": "instructor__dashboard/0",
+   "control": "67 Leadership Essentials 8 lessons left ▸",
+   "key": "BUTTON|67 Leadership Essentials 8 lessons left ▸|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/7"
+  },
+  {
+   "from": "instructor__dashboard/0",
+   "control": "42 Cybersecurity Awareness 2026 7 lessons left ▸",
+   "key": "BUTTON|42 Cybersecurity Awareness 2026 7 lessons left ▸|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/0"
+  },
+  {
+   "from": "instructor__dashboard/0",
+   "control": "88 Data Fundamentals for Managers 4 lessons left ▸",
+   "key": "BUTTON|88 Data Fundamentals for Managers 4 lessons left ▸|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/0"
+  },
+  {
+   "from": "instructor__dashboard/0",
+   "control": "100 Anti-Bribery & Corruption 0 lessons left ▸",
+   "key": "BUTTON|100 Anti-Bribery & Corruption 0 lessons left ▸|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/0"
+  },
+  {
+   "from": "instructor__dashboard/0",
+   "control": "Join",
+   "key": "BUTTON|Join|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "instructor__dashboard/0",
+   "control": "Join",
+   "key": "BUTTON|Join|2",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "instructor__dashboard/0",
+   "control": "Join",
+   "key": "BUTTON|Join|3",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/11"
+  },
+  {
+   "from": "instructor__dashboard/0",
+   "control": "icon",
+   "key": "BUTTON|icon|3",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/1"
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "Find me a path",
+   "key": "BUTTON|Find me a path|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__course-catalog/1"
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "Add both",
+   "key": "BUTTON|Add both|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "All",
+   "key": "BUTTON|All|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "Leadership",
+   "key": "BUTTON|Leadership|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/18"
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "Compliance",
+   "key": "BUTTON|Compliance|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/19"
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "Data & Analytics",
+   "key": "BUTTON|Data & Analytics|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/20"
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "People Ops",
+   "key": "BUTTON|People Ops|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/21"
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "Finance",
+   "key": "BUTTON|Finance|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/22"
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "Innovation",
+   "key": "BUTTON|Innovation|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/23"
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "Leadership Leadership Essentials Daniel Reyes · In",
+   "key": "BUTTON|Leadership Leadership Essentials Daniel Reyes · In|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/4"
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "Compliance Cybersecurity Awareness 2026 Ana Whitfi",
+   "key": "BUTTON|Compliance Cybersecurity Awareness 2026 Ana Whitfi|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/5"
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "Data & Analytics Data Fundamentals for Managers Ma",
+   "key": "BUTTON|Data & Analytics Data Fundamentals for Managers Ma|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/6"
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "People Ops Inclusive Hiring Practices Sofia Marin ",
+   "key": "BUTTON|People Ops Inclusive Hiring Practices Sofia Marin |1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/24"
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "Finance Advanced Financial Modelling Ken Ohara · A",
+   "key": "BUTTON|Finance Advanced Financial Modelling Ken Ohara · A|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/25"
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "Compliance Anti-Bribery & Corruption Ana Whitfield",
+   "key": "BUTTON|Compliance Anti-Bribery & Corruption Ana Whitfield|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/26"
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "Innovation Design Thinking Sprint Priya Raman · In",
+   "key": "BUTTON|Innovation Design Thinking Sprint Priya Raman · In|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/27"
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "Leadership Difficult Conversations Daniel Reyes · ",
+   "key": "BUTTON|Leadership Difficult Conversations Daniel Reyes · |1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/28"
+  },
+  {
+   "from": "instructor__course-catalog/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__course-catalog/1"
+  },
+  {
+   "from": "instructor__my-lessons/0",
+   "control": "Mark complete",
+   "key": "BUTTON|Mark complete|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/7"
+  },
+  {
+   "from": "instructor__my-lessons/0",
+   "control": "Transcript",
+   "key": "BUTTON|Transcript|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/7"
+  },
+  {
+   "from": "instructor__my-lessons/0",
+   "control": "Notes",
+   "key": "BUTTON|Notes|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/1"
+  },
+  {
+   "from": "instructor__my-lessons/0",
+   "control": "Quiz",
+   "key": "BUTTON|Quiz|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/2"
+  },
+  {
+   "from": "instructor__my-lessons/0",
+   "control": "Resources",
+   "key": "BUTTON|Resources|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/3"
+  },
+  {
+   "from": "instructor__my-lessons/0",
+   "control": "✓ Why feedback fails 6:20",
+   "key": "BUTTON|✓ Why feedback fails 6:20|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "instructor__my-lessons/0",
+   "control": "✓ Psychological safety basics 9:05",
+   "key": "BUTTON|✓ Psychological safety basics 9:05|1",
+   "shell": false,
+   "outcome": "missing"
+  },
+  {
+   "from": "instructor__my-lessons/0",
+   "control": "✓ The SBI model 11:40",
+   "key": "BUTTON|✓ The SBI model 11:40|1",
+   "shell": false,
+   "outcome": "missing"
+  },
+  {
+   "from": "instructor__my-lessons/0",
+   "control": "Explain it simply",
+   "key": "BUTTON|Explain it simply|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/4"
+  },
+  {
+   "from": "instructor__my-lessons/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/5"
+  },
+  {
+   "from": "instructor__community/0",
+   "control": "New thread",
+   "key": "BUTTON|New thread|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "instructor__community/0",
+   "control": "Leadership 12m ago How do you close the loop when ",
+   "key": "BUTTON|Leadership 12m ago How do you close the loop when |1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "instructor__community/0",
+   "control": "Compliance 1h ago Anti-bribery module: does the gi",
+   "key": "BUTTON|Compliance 1h ago Anti-bribery module: does the gi|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "instructor__community/0",
+   "control": "Leadership 4h ago Share your best one-to-one agend",
+   "key": "BUTTON|Leadership 4h ago Share your best one-to-one agend|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__community/1"
+  },
+  {
+   "from": "instructor__community/0",
+   "control": "Unanswered 6h ago Struggling with the cohort dashb",
+   "key": "BUTTON|Unanswered 6h ago Struggling with the cohort dashb|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__community/1"
+  },
+  {
+   "from": "instructor__community/0",
+   "control": "Post",
+   "key": "BUTTON|Post|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__community/1"
+  },
+  {
+   "from": "instructor__community/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__community/2"
+  },
+  {
+   "from": "instructor__notifications/0",
+   "control": "Mark all read",
+   "key": "BUTTON|Mark all read|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "instructor__notifications/0",
+   "control": "All",
+   "key": "BUTTON|All|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "instructor__notifications/0",
+   "control": "Deadline",
+   "key": "BUTTON|Deadline|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/1"
+  },
+  {
+   "from": "instructor__notifications/0",
+   "control": "Grade",
+   "key": "BUTTON|Grade|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/2"
+  },
+  {
+   "from": "instructor__notifications/0",
+   "control": "AI",
+   "key": "BUTTON|AI|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/3"
+  },
+  {
+   "from": "instructor__notifications/0",
+   "control": "Community",
+   "key": "BUTTON|Community|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/4"
+  },
+  {
+   "from": "instructor__notifications/0",
+   "control": "Billing",
+   "key": "BUTTON|Billing|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/5"
+  },
+  {
+   "from": "instructor__notifications/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/6"
+  },
+  {
+   "from": "instructor__settings/0",
+   "control": "Change photo",
+   "key": "BUTTON|Change photo|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "instructor__settings/0",
+   "control": "Export",
+   "key": "BUTTON|Export|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__settings/1"
+  },
+  {
+   "from": "instructor__settings/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__settings/2"
+  },
+  {
+   "from": "instructor__help-center/0",
+   "control": "Ask Mindflow AI Context-aware answers about the sc",
+   "key": "BUTTON|Ask Mindflow AI Context-aware answers about the sc|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__help-center/1"
+  },
+  {
+   "from": "instructor__help-center/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__help-center/1"
+  },
+  {
+   "from": "admin__dashboard/0",
+   "control": "Browse catalog",
+   "key": "BUTTON|Browse catalog|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "instructor__course-catalog/0"
+  },
+  {
+   "from": "admin__dashboard/0",
+   "control": "Intermediate Leadership Essentials 67% 16/24 lesso",
+   "key": "BUTTON|Intermediate Leadership Essentials 67% 16/24 lesso|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/4"
+  },
+  {
+   "from": "admin__dashboard/0",
+   "control": "Beginner Cybersecurity Awareness 2026 42% 5/12 les",
+   "key": "BUTTON|Beginner Cybersecurity Awareness 2026 42% 5/12 les|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/5"
+  },
+  {
+   "from": "admin__dashboard/0",
+   "control": "Intermediate Data Fundamentals for Managers 88% 28",
+   "key": "BUTTON|Intermediate Data Fundamentals for Managers 88% 28|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/6"
+  },
+  {
+   "from": "admin__dashboard/0",
+   "control": "Practice set",
+   "key": "BUTTON|Practice set|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/7"
+  },
+  {
+   "from": "admin__dashboard/0",
+   "control": "Why did I fail?",
+   "key": "BUTTON|Why did I fail?|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/8"
+  },
+  {
+   "from": "admin__dashboard/0",
+   "control": "What's next",
+   "key": "BUTTON|What's next|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/9"
+  },
+  {
+   "from": "admin__dashboard/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/8"
+  },
+  {
+   "from": "admin__dashboard/0",
+   "control": "View all",
+   "key": "BUTTON|View all|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/9"
+  },
+  {
+   "from": "admin__dashboard/0",
+   "control": "67 Leadership Essentials 8 lessons left ▸",
+   "key": "BUTTON|67 Leadership Essentials 8 lessons left ▸|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/7"
+  },
+  {
+   "from": "admin__dashboard/0",
+   "control": "42 Cybersecurity Awareness 2026 7 lessons left ▸",
+   "key": "BUTTON|42 Cybersecurity Awareness 2026 7 lessons left ▸|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "instructor__my-lessons/0"
+  },
+  {
+   "from": "admin__dashboard/0",
+   "control": "88 Data Fundamentals for Managers 4 lessons left ▸",
+   "key": "BUTTON|88 Data Fundamentals for Managers 4 lessons left ▸|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "instructor__my-lessons/0"
+  },
+  {
+   "from": "admin__dashboard/0",
+   "control": "100 Anti-Bribery & Corruption 0 lessons left ▸",
+   "key": "BUTTON|100 Anti-Bribery & Corruption 0 lessons left ▸|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "instructor__my-lessons/0"
+  },
+  {
+   "from": "admin__dashboard/0",
+   "control": "Join",
+   "key": "BUTTON|Join|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "admin__dashboard/0",
+   "control": "Join",
+   "key": "BUTTON|Join|2",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "admin__dashboard/0",
+   "control": "Join",
+   "key": "BUTTON|Join|3",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/11"
+  },
+  {
+   "from": "admin__dashboard/0",
+   "control": "icon",
+   "key": "BUTTON|icon|3",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/1"
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "Find me a path",
+   "key": "BUTTON|Find me a path|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__course-catalog/1"
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "Add both",
+   "key": "BUTTON|Add both|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "All",
+   "key": "BUTTON|All|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "Leadership",
+   "key": "BUTTON|Leadership|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/18"
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "Compliance",
+   "key": "BUTTON|Compliance|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/19"
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "Data & Analytics",
+   "key": "BUTTON|Data & Analytics|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/20"
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "People Ops",
+   "key": "BUTTON|People Ops|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/21"
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "Finance",
+   "key": "BUTTON|Finance|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/22"
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "Innovation",
+   "key": "BUTTON|Innovation|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/23"
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "Leadership Leadership Essentials Daniel Reyes · In",
+   "key": "BUTTON|Leadership Leadership Essentials Daniel Reyes · In|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/4"
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "Compliance Cybersecurity Awareness 2026 Ana Whitfi",
+   "key": "BUTTON|Compliance Cybersecurity Awareness 2026 Ana Whitfi|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/5"
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "Data & Analytics Data Fundamentals for Managers Ma",
+   "key": "BUTTON|Data & Analytics Data Fundamentals for Managers Ma|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/6"
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "People Ops Inclusive Hiring Practices Sofia Marin ",
+   "key": "BUTTON|People Ops Inclusive Hiring Practices Sofia Marin |1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/24"
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "Finance Advanced Financial Modelling Ken Ohara · A",
+   "key": "BUTTON|Finance Advanced Financial Modelling Ken Ohara · A|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/25"
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "Compliance Anti-Bribery & Corruption Ana Whitfield",
+   "key": "BUTTON|Compliance Anti-Bribery & Corruption Ana Whitfield|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/26"
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "Innovation Design Thinking Sprint Priya Raman · In",
+   "key": "BUTTON|Innovation Design Thinking Sprint Priya Raman · In|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/27"
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "Leadership Difficult Conversations Daniel Reyes · ",
+   "key": "BUTTON|Leadership Difficult Conversations Daniel Reyes · |1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/28"
+  },
+  {
+   "from": "admin__course-catalog/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__course-catalog/1"
+  },
+  {
+   "from": "admin__my-lessons/0",
+   "control": "Mark complete",
+   "key": "BUTTON|Mark complete|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/7"
+  },
+  {
+   "from": "admin__my-lessons/0",
+   "control": "Transcript",
+   "key": "BUTTON|Transcript|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__dashboard/7"
+  },
+  {
+   "from": "admin__my-lessons/0",
+   "control": "Notes",
+   "key": "BUTTON|Notes|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/1"
+  },
+  {
+   "from": "admin__my-lessons/0",
+   "control": "Quiz",
+   "key": "BUTTON|Quiz|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/2"
+  },
+  {
+   "from": "admin__my-lessons/0",
+   "control": "Resources",
+   "key": "BUTTON|Resources|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/3"
+  },
+  {
+   "from": "admin__my-lessons/0",
+   "control": "✓ Why feedback fails 6:20",
+   "key": "BUTTON|✓ Why feedback fails 6:20|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "admin__my-lessons/0",
+   "control": "✓ Psychological safety basics 9:05",
+   "key": "BUTTON|✓ Psychological safety basics 9:05|1",
+   "shell": false,
+   "outcome": "missing"
+  },
+  {
+   "from": "admin__my-lessons/0",
+   "control": "✓ The SBI model 11:40",
+   "key": "BUTTON|✓ The SBI model 11:40|1",
+   "shell": false,
+   "outcome": "missing"
+  },
+  {
+   "from": "admin__my-lessons/0",
+   "control": "Explain it simply",
+   "key": "BUTTON|Explain it simply|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/4"
+  },
+  {
+   "from": "admin__my-lessons/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__my-lessons/5"
+  },
+  {
+   "from": "admin__community/0",
+   "control": "New thread",
+   "key": "BUTTON|New thread|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "admin__community/0",
+   "control": "Leadership 12m ago How do you close the loop when ",
+   "key": "BUTTON|Leadership 12m ago How do you close the loop when |1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "admin__community/0",
+   "control": "Compliance 1h ago Anti-bribery module: does the gi",
+   "key": "BUTTON|Compliance 1h ago Anti-bribery module: does the gi|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "admin__community/0",
+   "control": "Leadership 4h ago Share your best one-to-one agend",
+   "key": "BUTTON|Leadership 4h ago Share your best one-to-one agend|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__community/1"
+  },
+  {
+   "from": "admin__community/0",
+   "control": "Unanswered 6h ago Struggling with the cohort dashb",
+   "key": "BUTTON|Unanswered 6h ago Struggling with the cohort dashb|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__community/1"
+  },
+  {
+   "from": "admin__community/0",
+   "control": "Post",
+   "key": "BUTTON|Post|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__community/1"
+  },
+  {
+   "from": "admin__community/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__community/2"
+  },
+  {
+   "from": "admin__notifications/0",
+   "control": "Mark all read",
+   "key": "BUTTON|Mark all read|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "admin__notifications/0",
+   "control": "All",
+   "key": "BUTTON|All|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "admin__notifications/0",
+   "control": "Deadline",
+   "key": "BUTTON|Deadline|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/1"
+  },
+  {
+   "from": "admin__notifications/0",
+   "control": "Grade",
+   "key": "BUTTON|Grade|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/2"
+  },
+  {
+   "from": "admin__notifications/0",
+   "control": "AI",
+   "key": "BUTTON|AI|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/3"
+  },
+  {
+   "from": "admin__notifications/0",
+   "control": "Community",
+   "key": "BUTTON|Community|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/4"
+  },
+  {
+   "from": "admin__notifications/0",
+   "control": "Billing",
+   "key": "BUTTON|Billing|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/5"
+  },
+  {
+   "from": "admin__notifications/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__notifications/6"
+  },
+  {
+   "from": "admin__settings/0",
+   "control": "Change photo",
+   "key": "BUTTON|Change photo|1",
+   "shell": false,
+   "outcome": "no-change",
+   "shows": null
+  },
+  {
+   "from": "admin__settings/0",
+   "control": "Export",
+   "key": "BUTTON|Export|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__settings/1"
+  },
+  {
+   "from": "admin__settings/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__settings/2"
+  },
+  {
+   "from": "admin__help-center/0",
+   "control": "Ask Mindflow AI Context-aware answers about the sc",
+   "key": "BUTTON|Ask Mindflow AI Context-aware answers about the sc|1",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__help-center/1"
+  },
+  {
+   "from": "admin__help-center/0",
+   "control": "icon",
+   "key": "BUTTON|icon|2",
+   "shell": false,
+   "outcome": "screen",
+   "to": "learner__help-center/1"
+  }
+ ],
+ "roots_done": [
+  "learner__dashboard",
+  "learner__course-catalog",
+  "learner__my-lessons",
+  "learner__community",
+  "learner__notifications",
+  "learner__settings",
+  "learner__help-center",
+  "instructor__dashboard",
+  "instructor__course-catalog",
+  "instructor__my-lessons",
+  "instructor__community",
+  "instructor__notifications",
+  "instructor__settings",
+  "instructor__help-center",
+  "admin__dashboard",
+  "admin__course-catalog",
+  "admin__my-lessons",
+  "admin__community",
+  "admin__notifications",
+  "admin__settings",
+  "admin__help-center"
+ ]
+}

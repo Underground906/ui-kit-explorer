@@ -12,6 +12,9 @@ on:
       max_new_roots:
         description: cap on new pages added per discovery round (live sites)
         default: "20"
+      mode:
+        description: explore (find screens) or harvest (replay recorded screens, measure component styles)
+        default: explore
 
 jobs:
   explore:
@@ -37,6 +40,7 @@ jobs:
           PW_CHANNEL: ""
           PYTHONUNBUFFERED: "1"
           MAX_NEW_ROOTS: ${{ inputs.max_new_roots }}
+          MODE: ${{ inputs.mode }}
         run: bash run_kit.sh ${{ matrix.kit }} 2>&1 | tee kits/${{ matrix.kit }}/explore.log
       - name: Results
         if: always()
@@ -49,5 +53,6 @@ jobs:
             kits/${{ matrix.kit }}/states.json
             kits/${{ matrix.kit }}/source/app_styles.css
             kits/${{ matrix.kit }}/explore.log
+            kits/${{ matrix.kit }}/components.json
           retention-days: 30
           if-no-files-found: warn

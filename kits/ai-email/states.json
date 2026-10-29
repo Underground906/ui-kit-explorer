@@ -1,0 +1,460 @@
+[
+{
+"id": "dashboard",
+"q": "s=dashboard",
+"full": true
+},
+{
+"id": "queue",
+"q": "s=queue",
+"full": true
+},
+{
+"id": "campaigns",
+"q": "s=campaigns",
+"full": true
+},
+{
+"id": "email",
+"q": "s=email",
+"full": true
+},
+{
+"id": "sms",
+"q": "s=sms",
+"full": true
+},
+{
+"id": "automations",
+"q": "s=automations",
+"full": true
+},
+{
+"id": "contacts",
+"q": "s=contacts",
+"full": true
+},
+{
+"id": "segments",
+"q": "s=segments",
+"full": true
+},
+{
+"id": "forms",
+"q": "s=forms",
+"full": true
+},
+{
+"id": "analytics",
+"q": "s=analytics",
+"full": true
+},
+{
+"id": "team",
+"q": "s=team",
+"full": true
+},
+{
+"id": "billing",
+"q": "s=billing",
+"full": true
+},
+{
+"id": "domain",
+"q": "s=domain",
+"full": true
+},
+{
+"id": "login",
+"q": "s=login",
+"full": true
+},
+{
+"id": "signup",
+"q": "s=signup",
+"full": true
+},
+{
+"id": "verify",
+"q": "s=verify",
+"full": true
+},
+{
+"id": "forgot",
+"q": "s=forgot",
+"full": true
+},
+{
+"id": "reset",
+"q": "s=reset",
+"full": true
+},
+{
+"id": "2fa",
+"q": "s=2fa",
+"full": true
+},
+{
+"id": "challenge",
+"q": "s=challenge",
+"full": true
+},
+{
+"id": "invite",
+"q": "s=invite",
+"full": true
+},
+{
+"id": "connect",
+"q": "s=connect",
+"full": true
+},
+{
+"id": "brandkit",
+"q": "s=brandkit",
+"full": true
+},
+{
+"id": "checklist",
+"q": "s=checklist",
+"full": true
+},
+{
+"id": "dashboard__mobile",
+"q": "s=dashboard",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "queue__mobile",
+"q": "s=queue",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "campaigns__mobile",
+"q": "s=campaigns",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "email__mobile",
+"q": "s=email",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "sms__mobile",
+"q": "s=sms",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "automations__mobile",
+"q": "s=automations",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "contacts__mobile",
+"q": "s=contacts",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "segments__mobile",
+"q": "s=segments",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "forms__mobile",
+"q": "s=forms",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "analytics__mobile",
+"q": "s=analytics",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "team__mobile",
+"q": "s=team",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "billing__mobile",
+"q": "s=billing",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "domain__mobile",
+"q": "s=domain",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "login__mobile",
+"q": "s=login",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "signup__mobile",
+"q": "s=signup",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "verify__mobile",
+"q": "s=verify",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "forgot__mobile",
+"q": "s=forgot",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "reset__mobile",
+"q": "s=reset",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "2fa__mobile",
+"q": "s=2fa",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "challenge__mobile",
+"q": "s=challenge",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "invite__mobile",
+"q": "s=invite",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "connect__mobile",
+"q": "s=connect",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "brandkit__mobile",
+"q": "s=brandkit",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "checklist__mobile",
+"q": "s=checklist",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "dashboard__compact",
+"q": "s=dashboard&d=compact",
+"full": true
+},
+{
+"id": "queue__compact",
+"q": "s=queue&d=compact",
+"full": true
+},
+{
+"id": "campaigns__compact",
+"q": "s=campaigns&d=compact",
+"full": true
+},
+{
+"id": "email__compact",
+"q": "s=email&d=compact",
+"full": true
+},
+{
+"id": "sms__compact",
+"q": "s=sms&d=compact",
+"full": true
+},
+{
+"id": "automations__compact",
+"q": "s=automations&d=compact",
+"full": true
+},
+{
+"id": "contacts__compact",
+"q": "s=contacts&d=compact",
+"full": true
+},
+{
+"id": "segments__compact",
+"q": "s=segments&d=compact",
+"full": true
+},
+{
+"id": "forms__compact",
+"q": "s=forms&d=compact",
+"full": true
+},
+{
+"id": "analytics__compact",
+"q": "s=analytics&d=compact",
+"full": true
+},
+{
+"id": "team__compact",
+"q": "s=team&d=compact",
+"full": true
+},
+{
+"id": "billing__compact",
+"q": "s=billing&d=compact",
+"full": true
+},
+{
+"id": "domain__compact",
+"q": "s=domain&d=compact",
+"full": true
+},
+{
+"id": "dashboard__menu-ws",
+"q": "s=dashboard&m=ws"
+},
+{
+"id": "dashboard__menu-notif",
+"q": "s=dashboard&m=notif"
+},
+{
+"id": "dashboard__menu-help",
+"q": "s=dashboard&m=help"
+},
+{
+"id": "dashboard__menu-create",
+"q": "s=dashboard&m=create"
+},
+{
+"id": "dashboard__menu-profile",
+"q": "s=dashboard&m=profile"
+},
+{
+"id": "dashboard__menu-lineRange",
+"q": "s=dashboard&m=lineRange"
+},
+{
+"id": "automations__node-0",
+"q": "s=automations&n=0",
+"full": true
+},
+{
+"id": "automations__node-1",
+"q": "s=automations&n=1",
+"full": true
+},
+{
+"id": "automations__node-2",
+"q": "s=automations&n=2",
+"full": true
+},
+{
+"id": "automations__node-3",
+"q": "s=automations&n=3",
+"full": true
+},
+{
+"id": "automations__node-4",
+"q": "s=automations&n=4",
+"full": true
+},
+{
+"id": "automations__node-5",
+"q": "s=automations&n=5",
+"full": true
+},
+{
+"id": "forms__form-1",
+"q": "s=forms&f=1",
+"full": true
+},
+{
+"id": "forms__form-2",
+"q": "s=forms&f=2",
+"full": true
+},
+{
+"id": "forms__form-3",
+"q": "s=forms&f=3",
+"full": true
+},
+{
+"id": "dashboard__accent-0",
+"q": "s=dashboard&a=%23FF8537"
+},
+{
+"id": "dashboard__accent-1",
+"q": "s=dashboard&a=%234C8DFF"
+},
+{
+"id": "dashboard__accent-2",
+"q": "s=dashboard&a=%233ECF8E"
+},
+{
+"id": "dashboard__accent-3",
+"q": "s=dashboard&a=%23A78BFA"
+},
+{
+"id": "dashboard__mobile-drawer",
+"q": "s=dashboard&st=%7B%22drawer%22%3Atrue%7D",
+"vw": 390,
+"vh": 844
+},
+{
+"id": "contacts__selected",
+"q": "s=contacts&st=%7B%22contactSel%22%3A0%7D",
+"full": true
+},
+{
+"id": "queue__empty",
+"q": "s=queue&st=%7B%22queue%22%3A%5B%7B%22i%22%3A0%2C%22status%22%3A%22approved%22%2C%22checked%22%3Afalse%7D%2C%7B%22i%22%3A1%2C%22status%22%3A%22approved%22%2C%22checked%22%3Afalse%7D%2C%7B%22i%22%3A2%2C%22status%22%3A%22approved%22%2C%22checked%22%3Afalse%7D%2C%7B%22i%22%3A3%2C%22status%22%3A%22approved%22%2C%22checked%22%3Afalse%7D%5D%7D",
+"full": true
+},
+{
+"id": "dashboard__menu-autoCard",
+"q": "s=dashboard&m=autoCard"
+}
+]

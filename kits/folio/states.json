@@ -112,5 +112,26 @@
 "q": "",
 "url": "https://folio-ai-kit.vercel.app/login",
 "full": true
+},
+{
+"id": "chat-c-af83ml0",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/chat/c_af83ml0",
+"full": true,
+"found_by": "chat/0"
+},
+{
+"id": "chat-maverick",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/chat/maverick",
+"full": true,
+"found_by": "history/4"
+},
+{
+"id": "chat-rfc-failures",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/chat/rfc-failures",
+"full": true,
+"found_by": "history/6"
 }
 ]

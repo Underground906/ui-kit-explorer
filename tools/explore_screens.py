@@ -204,6 +204,31 @@ async def main():
                 await settle()
             return await pg.evaluate(PROBE)
 
+        if os.environ.get("HARVEST") == "1":   # components only: replay every recorded distinct screen, measure each control's style
+            hjs = (pathlib.Path(__file__).parent / "harvest.js").read_text(encoding="utf-8")
+            agg = {}
+            for root in ROOTS:
+                for s in [s for s in db["screens"] if s["root"] == root and not s.get("variant_of") and not s.get("template_of")]:
+                    try:
+                        if await goto(root, s["path"]) is None:
+                            continue
+                        items = await pg.evaluate(hjs)
+                    except Exception as ex:
+                        print("   harvest failed", s["id"], str(ex)[:80], flush=True)
+                        continue
+                    for it in items:
+                        k = it["kind"] + "|" + json.dumps(it["st"], sort_keys=True)
+                        a = agg.setdefault(k, {"kind": it["kind"], "style": it["st"], "count": 0, "screens": [], "examples": []})
+                        a["count"] += 1
+                        if s["id"] not in a["screens"]:
+                            a["screens"].append(s["id"])
+                        if it["label"] and it["label"] not in a["examples"] and len(a["examples"]) < 8:
+                            a["examples"].append(it["label"])
+                    print("harvested", s["id"], len(items), flush=True)
+            out = sorted(agg.values(), key=lambda a: (a["kind"], -a["count"]))
+            (KIT / "components.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
+            print(len(out), "component variants", flush=True)
+            return
         for n_root, root in enumerate(ROOTS):
             if root in db["roots_done"]:
                 continue

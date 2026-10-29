@@ -3,6 +3,12 @@
 # then data variants are marked. Kit folder: kits/<kit>/states.json (page list) and, for source bundles, source/app.html.
 set -u
 K=kits/$1
+if [ "${MODE:-explore}" = "harvest" ]; then   # components only, over the screens already recorded in screens.json
+  R=$(python -c "import json;print(' '.join(json.load(open('$K/screens.json'))['roots_done']))")
+  HARVEST=1 python tools/explore_screens.py $K $R
+  [ -s $K/components.json ] || { echo "NO COMPONENTS for $1"; exit 1; }
+  echo "KIT_DONE $1"; exit 0
+fi
 R=$(python -c "import json;print(' '.join(s['id'] for s in json.load(open('$K/states.json'))))")   # every listed page is a root
 for round in 1 2 3 4 5 6; do
   python tools/explore_screens.py $K $R

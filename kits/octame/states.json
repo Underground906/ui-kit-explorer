@@ -1,0 +1,330 @@
+[
+{
+"id": "dashboard",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22dashboard%22%7D",
+"full": true
+},
+{
+"id": "pipeline",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22pipeline%22%7D",
+"full": true
+},
+{
+"id": "clients",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22clients%22%7D",
+"full": true
+},
+{
+"id": "projects",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22projects%22%7D",
+"full": true
+},
+{
+"id": "tasks",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22tasks%22%7D",
+"full": true
+},
+{
+"id": "time",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22time%22%7D",
+"full": true
+},
+{
+"id": "invoices",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22invoices%22%7D",
+"full": true
+},
+{
+"id": "proposals",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22proposals%22%7D",
+"full": true
+},
+{
+"id": "messages",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22messages%22%7D",
+"full": true
+},
+{
+"id": "reports",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22reports%22%7D",
+"full": true
+},
+{
+"id": "settings",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22settings%22%7D",
+"full": true
+},
+{
+"id": "portal",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22portal%22%7D",
+"full": true
+},
+{
+"id": "dashboard__mobile",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22dashboard%22%7D",
+"full": true,
+"vw": 390,
+"vh": 844
+},
+{
+"id": "pipeline__mobile",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22pipeline%22%7D",
+"full": true,
+"vw": 390,
+"vh": 844
+},
+{
+"id": "clients__mobile",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22clients%22%7D",
+"full": true,
+"vw": 390,
+"vh": 844
+},
+{
+"id": "projects__mobile",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22projects%22%7D",
+"full": true,
+"vw": 390,
+"vh": 844
+},
+{
+"id": "tasks__mobile",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22tasks%22%7D",
+"full": true,
+"vw": 390,
+"vh": 844
+},
+{
+"id": "invoices__mobile",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22invoices%22%7D",
+"full": true,
+"vw": 390,
+"vh": 844
+},
+{
+"id": "messages__mobile",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22messages%22%7D",
+"full": true,
+"vw": 390,
+"vh": 844
+},
+{
+"id": "portal__mobile",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22portal%22%7D",
+"full": true,
+"vw": 390,
+"vh": 844
+},
+{
+"id": "client__overview",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22client%22%2C%22param%22%3A%22c1%22%2C%22tab%22%3A%22Overview%22%7D",
+"full": true
+},
+{
+"id": "client__deals",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22client%22%2C%22param%22%3A%22c1%22%2C%22tab%22%3A%22Deals%22%7D",
+"full": true
+},
+{
+"id": "client__projects",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22client%22%2C%22param%22%3A%22c1%22%2C%22tab%22%3A%22Projects%22%7D",
+"full": true
+},
+{
+"id": "client__invoices",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22client%22%2C%22param%22%3A%22c1%22%2C%22tab%22%3A%22Invoices%22%7D",
+"full": true
+},
+{
+"id": "client__contacts",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22client%22%2C%22param%22%3A%22c1%22%2C%22tab%22%3A%22Contacts%22%7D",
+"full": true
+},
+{
+"id": "client__activity",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22client%22%2C%22param%22%3A%22c1%22%2C%22tab%22%3A%22Activity%22%7D",
+"full": true
+},
+{
+"id": "project__overview",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22project%22%2C%22param%22%3A%22p1%22%2C%22tab%22%3A%22Overview%22%7D",
+"full": true
+},
+{
+"id": "project__tasks",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22project%22%2C%22param%22%3A%22p1%22%2C%22tab%22%3A%22Tasks%22%7D",
+"full": true
+},
+{
+"id": "project__time",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22project%22%2C%22param%22%3A%22p1%22%2C%22tab%22%3A%22Time%22%7D",
+"full": true
+},
+{
+"id": "project__team",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22project%22%2C%22param%22%3A%22p1%22%2C%22tab%22%3A%22Team%22%7D",
+"full": true
+},
+{
+"id": "project__invoices",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22project%22%2C%22param%22%3A%22p1%22%2C%22tab%22%3A%22Invoices%22%7D",
+"full": true
+},
+{
+"id": "pipeline__table",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22pipeline%22%2C%22pipeView%22%3A%22Table%22%7D",
+"full": true
+},
+{
+"id": "pipeline__deal-panel",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22pipeline%22%2C%22panelDeal%22%3A%22d1%22%7D",
+"full": true
+},
+{
+"id": "pipeline__won-dialog",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22pipeline%22%2C%22wonDeal%22%3A%22d2%22%7D",
+"full": false
+},
+{
+"id": "pipeline__lost-dialog",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22pipeline%22%2C%22lostDeal%22%3A%22d3%22%7D",
+"full": false
+},
+{
+"id": "tasks__board",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22tasks%22%2C%22taskView%22%3A%22Board%22%7D",
+"full": true
+},
+{
+"id": "tasks__task-detail",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22tasks%22%2C%22detail%22%3A%7B%22kind%22%3A%22task%22%2C%22id%22%3A%22k1%22%7D%7D",
+"full": false
+},
+{
+"id": "time__entry-detail",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22time%22%2C%22detail%22%3A%7B%22kind%22%3A%22time%22%2C%22id%22%3A%22t1%22%7D%7D",
+"full": false
+},
+{
+"id": "invoices__builder",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22builder%22%2C%22builder%22%3A%7B%22clientId%22%3A%22c1%22%2C%22lines%22%3A%5B%5D%2C%22taxRate%22%3A0.08%2C%22group%22%3Atrue%7D%7D",
+"full": true
+},
+{
+"id": "proposals__hosted",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22proposals%22%2C%22hosted%22%3A%22pr2%22%7D",
+"full": true
+},
+{
+"id": "reports__aging",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22reports%22%2C%22reportId%22%3A%22aging%22%7D",
+"full": true
+},
+{
+"id": "reports__budget",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22reports%22%2C%22reportId%22%3A%22budget%22%7D",
+"full": true
+},
+{
+"id": "reports__client",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22reports%22%2C%22reportId%22%3A%22client%22%7D",
+"full": true
+},
+{
+"id": "reports__pipeline",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22reports%22%2C%22reportId%22%3A%22pipeline%22%7D",
+"full": true
+},
+{
+"id": "settings__organisation",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22settings%22%2C%22settingsSection%22%3A%22Organisation%22%7D",
+"full": true
+},
+{
+"id": "settings__invoicing",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22settings%22%2C%22settingsSection%22%3A%22Invoicing%22%7D",
+"full": true
+},
+{
+"id": "settings__pipeline",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22settings%22%2C%22settingsSection%22%3A%22Pipeline%22%7D",
+"full": true
+},
+{
+"id": "settings__notifications",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22settings%22%2C%22settingsSection%22%3A%22Notifications%22%7D",
+"full": true
+},
+{
+"id": "form__deal",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22dashboard%22%2C%22form%22%3A%7B%22kind%22%3A%22deal%22%2C%22v%22%3A%7B%7D%2C%22error%22%3Anull%7D%7D",
+"full": false
+},
+{
+"id": "form__client",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22dashboard%22%2C%22form%22%3A%7B%22kind%22%3A%22client%22%2C%22v%22%3A%7B%7D%2C%22error%22%3Anull%7D%7D",
+"full": false
+},
+{
+"id": "form__project",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22dashboard%22%2C%22form%22%3A%7B%22kind%22%3A%22project%22%2C%22v%22%3A%7B%7D%2C%22error%22%3Anull%7D%7D",
+"full": false
+},
+{
+"id": "form__proposal",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22dashboard%22%2C%22form%22%3A%7B%22kind%22%3A%22proposal%22%2C%22v%22%3A%7B%7D%2C%22error%22%3Anull%7D%7D",
+"full": false
+},
+{
+"id": "form__task",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22dashboard%22%2C%22form%22%3A%7B%22kind%22%3A%22task%22%2C%22v%22%3A%7B%7D%2C%22error%22%3Anull%7D%7D",
+"full": false
+},
+{
+"id": "dashboard__cmd",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22dashboard%22%2C%22cmdOpen%22%3Atrue%7D",
+"full": false
+},
+{
+"id": "dashboard__notifications",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22dashboard%22%2C%22notifOpen%22%3Atrue%7D",
+"full": false
+},
+{
+"id": "dashboard__create",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22dashboard%22%2C%22createOpen%22%3Atrue%7D",
+"full": false
+},
+{
+"id": "dashboard__member",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22dashboard%22%7D&r=Member",
+"full": true
+},
+{
+"id": "dashboard__purple",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22dashboard%22%7D&a=purple",
+"full": false
+},
+{
+"id": "mobile__nav",
+"q": "st=%7B%22authed%22%3Atrue%2C%22route%22%3A%22dashboard%22%2C%22mobileNav%22%3Atrue%7D",
+"full": false,
+"vw": 390,
+"vh": 844
+},
+{
+"id": "auth__signin",
+"q": "st=%7B%22authed%22%3A%20false%2C%20%22authView%22%3A%20%22signin%22%7D",
+"full": false
+},
+{
+"id": "auth__forgot",
+"q": "st=%7B%22authed%22%3A%20false%2C%20%22authView%22%3A%20%22forgot%22%7D",
+"full": false
+},
+{
+"id": "auth__sent",
+"q": "st=%7B%22authed%22%3A%20false%2C%20%22authView%22%3A%20%22sent%22%7D",
+"full": false
+}
+]

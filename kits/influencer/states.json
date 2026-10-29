@@ -1,0 +1,72 @@
+[
+{
+"id": "overview",
+"q": "forceAuthed=1&forceDesktop=1&startScreen=overview",
+"full": true
+},
+{
+"id": "agents",
+"q": "forceAuthed=1&forceDesktop=1&startScreen=agents",
+"full": true
+},
+{
+"id": "discovery",
+"q": "forceAuthed=1&forceDesktop=1&startScreen=discovery",
+"full": true
+},
+{
+"id": "outreach",
+"q": "forceAuthed=1&forceDesktop=1&startScreen=outreach",
+"full": true
+},
+{
+"id": "approvals",
+"q": "forceAuthed=1&forceDesktop=1&startScreen=approvals",
+"full": true
+},
+{
+"id": "deals",
+"q": "forceAuthed=1&forceDesktop=1&startScreen=deals",
+"full": true
+},
+{
+"id": "content",
+"q": "forceAuthed=1&forceDesktop=1&startScreen=content",
+"full": true
+},
+{
+"id": "analytics",
+"q": "forceAuthed=1&forceDesktop=1&startScreen=analytics",
+"full": true
+},
+{
+"id": "settings",
+"q": "forceAuthed=1&forceDesktop=1&startScreen=settings",
+"full": true
+},
+{
+"id": "support",
+"q": "forceAuthed=1&forceDesktop=1&startScreen=support",
+"full": true
+},
+{
+"id": "auth__signin",
+"q": "forceDesktop=1&startAuthScreen=signin",
+"full": true
+},
+{
+"id": "auth__signup",
+"q": "forceDesktop=1&startAuthScreen=signup",
+"full": true
+},
+{
+"id": "auth__verify",
+"q": "forceDesktop=1&startAuthScreen=verify",
+"full": true
+},
+{
+"id": "auth__forgot",
+"q": "forceDesktop=1&startAuthScreen=forgot",
+"full": true
+}
+]

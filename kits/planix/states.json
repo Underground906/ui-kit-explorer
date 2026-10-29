@@ -148,5 +148,12 @@
 "q": "",
 "url": "https://planix-template.vercel.app/dashboard",
 "full": true
+},
+{
+"id": "profile",
+"q": "",
+"url": "https://planix-template.vercel.app/profile",
+"full": true,
+"found_by": "home/2"
 }
 ]

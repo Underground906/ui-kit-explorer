@@ -1,0 +1,340 @@
+[
+{
+"id": "dashboard",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/dashboard/",
+"full": true
+},
+{
+"id": "ai-agents",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/ai/agents/",
+"full": true
+},
+{
+"id": "ai-chat",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/ai/chat/",
+"full": true
+},
+{
+"id": "ai-conversations",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/ai/conversations/",
+"full": true
+},
+{
+"id": "ai-documents",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/ai/documents/",
+"full": true
+},
+{
+"id": "ai-knowledge",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/ai/knowledge/",
+"full": true
+},
+{
+"id": "ai-models",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/ai/models/",
+"full": true
+},
+{
+"id": "ai-prompts",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/ai/prompts/",
+"full": true
+},
+{
+"id": "ai-workflows",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/ai/workflows/",
+"full": true
+},
+{
+"id": "billing-api-keys",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/billing/api-keys/",
+"full": true
+},
+{
+"id": "billing-invoices",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/billing/invoices/",
+"full": true
+},
+{
+"id": "billing-overview",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/billing/overview/",
+"full": true
+},
+{
+"id": "billing-payment",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/billing/payment/",
+"full": true
+},
+{
+"id": "billing-plans",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/billing/plans/",
+"full": true
+},
+{
+"id": "billing-subscription",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/billing/subscription/",
+"full": true
+},
+{
+"id": "billing-usage",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/billing/usage/",
+"full": true
+},
+{
+"id": "help",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/help/",
+"full": true
+},
+{
+"id": "library",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/library/",
+"full": true
+},
+{
+"id": "profile",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/profile/",
+"full": true
+},
+{
+"id": "settings",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/settings/",
+"full": true
+},
+{
+"id": "workspace",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/workspace/",
+"full": true
+},
+{
+"id": "team-invitations",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/team/invitations/",
+"full": true
+},
+{
+"id": "team-members",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/team/members/",
+"full": true
+},
+{
+"id": "team-permissions",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/team/permissions/",
+"full": true
+},
+{
+"id": "team-roles",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/team/roles/",
+"full": true
+},
+{
+"id": "onboarding",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/onboarding/",
+"full": true
+},
+{
+"id": "sign-in",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/sign-in/",
+"full": true
+},
+{
+"id": "sign-up",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/sign-up/",
+"full": true
+},
+{
+"id": "forgot-password",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/forgot-password/",
+"full": true
+},
+{
+"id": "reset-password",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/reset-password/",
+"full": true
+},
+{
+"id": "verify-email",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/verify-email/",
+"full": true
+},
+{
+"id": "two-factor",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/two-factor/",
+"full": true
+},
+{
+"id": "dashboard__mobile",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/dashboard/",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "ai-chat__mobile",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/ai/chat/",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "ai-agents__mobile",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/ai/agents/",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "ai-workflows__mobile",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/ai/workflows/",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "billing-plans__mobile",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/billing/plans/",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "team-members__mobile",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/team/members/",
+"vw": 390,
+"vh": 844,
+"full": true
+},
+{
+"id": "ai-image",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/ai/image",
+"full": true,
+"found_by": "ai-agents/6"
+},
+{
+"id": "docs-api",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/docs/api",
+"full": true,
+"found_by": "ai-agents/54"
+},
+{
+"id": "help-getting-started",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/help/getting-started",
+"full": true,
+"found_by": "help/0"
+},
+{
+"id": "help-ai-tools",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/help/ai-tools",
+"full": true,
+"found_by": "help/0"
+},
+{
+"id": "help-billing",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/help/billing",
+"full": true,
+"found_by": "help/0"
+},
+{
+"id": "help-team",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/help/team",
+"full": true,
+"found_by": "help/0"
+},
+{
+"id": "help-security",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/help/security",
+"full": true,
+"found_by": "help/0"
+},
+{
+"id": "help-integrations",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/help/integrations",
+"full": true,
+"found_by": "help/0"
+},
+{
+"id": "security",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/security",
+"full": true,
+"found_by": "profile/0"
+},
+{
+"id": "api-keys",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/api-keys",
+"full": true,
+"found_by": "profile/0"
+},
+{
+"id": "billing",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/billing/",
+"full": true,
+"found_by": "profile/0"
+},
+{
+"id": "marketing",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/marketing/",
+"full": true,
+"found_by": "onboarding/0"
+},
+{
+"id": "recovery-code",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/recovery-code",
+"full": true,
+"found_by": "two-factor/0"
+},
+{
+"id": "pricing",
+"q": "",
+"url": "https://store.codervent.com/orbit-ai/pricing",
+"full": true,
+"found_by": "marketing/0"
+}
+]
