@@ -1,133 +1,119 @@
 [
-{
-"id": "dashboard",
-"q": "defaultRoute=dashboard",
-"full": true,
-"pre": [
-"Fill in",
-"press:Enter"
-]
-},
-{
-"id": "patients",
-"q": "defaultRoute=patients",
-"full": true,
-"pre": [
-"Fill in",
-"press:Enter"
-]
-},
-{
-"id": "appointment",
-"q": "defaultRoute=appointment",
-"full": true,
-"pre": [
-"Fill in",
-"press:Enter"
-]
-},
-{
-"id": "doctors",
-"q": "defaultRoute=doctors",
-"full": true,
-"pre": [
-"Fill in",
-"press:Enter"
-]
-},
-{
-"id": "departement",
-"q": "defaultRoute=departement",
-"full": true,
-"pre": [
-"Fill in",
-"press:Enter"
-]
-},
-{
-"id": "staff",
-"q": "defaultRoute=staff",
-"full": true,
-"pre": [
-"Fill in",
-"press:Enter"
-]
-},
-{
-"id": "ai",
-"q": "defaultRoute=ai",
-"full": true,
-"pre": [
-"Fill in",
-"press:Enter"
-]
-},
-{
-"id": "pharmacy",
-"q": "defaultRoute=pharmacy",
-"full": true,
-"pre": [
-"Fill in",
-"press:Enter"
-]
-},
-{
-"id": "billing",
-"q": "defaultRoute=billing",
-"full": true,
-"pre": [
-"Fill in",
-"press:Enter"
-]
-},
-{
-"id": "report",
-"q": "defaultRoute=report",
-"full": true,
-"pre": [
-"Fill in",
-"press:Enter"
-]
-},
-{
-"id": "lab",
-"q": "defaultRoute=lab",
-"full": true,
-"pre": [
-"Fill in",
-"press:Enter"
-]
-},
-{
-"id": "settings",
-"q": "defaultRoute=settings",
-"full": true,
-"pre": [
-"Fill in",
-"press:Enter"
-]
-},
-{
-"id": "support",
-"q": "defaultRoute=support",
-"full": true,
-"pre": [
-"Fill in",
-"press:Enter"
-]
-},
-{
-"id": "integration",
-"q": "defaultRoute=integration",
-"full": true,
-"pre": [
-"Fill in",
-"press:Enter"
-]
-},
-{
-"id": "signed-out",
-"q": "forceSignedOut=true",
-"full": true
-}
+ {
+  "id": "dashboard",
+  "q": "defaultRoute=dashboard",
+  "full": true,
+  "pre": [
+   "js:localStorage.setItem('mediai.session', JSON.stringify({email:'admin@mediai.health', name:'Dr. Alex Morgan', role:'Administrator'}))"
+  ]
+ },
+ {
+  "id": "patients",
+  "q": "defaultRoute=patients",
+  "full": true,
+  "pre": [
+   "js:localStorage.setItem('mediai.session', JSON.stringify({email:'admin@mediai.health', name:'Dr. Alex Morgan', role:'Administrator'}))"
+  ]
+ },
+ {
+  "id": "appointment",
+  "q": "defaultRoute=appointment",
+  "full": true,
+  "pre": [
+   "js:localStorage.setItem('mediai.session', JSON.stringify({email:'admin@mediai.health', name:'Dr. Alex Morgan', role:'Administrator'}))"
+  ]
+ },
+ {
+  "id": "doctors",
+  "q": "defaultRoute=doctors",
+  "full": true,
+  "pre": [
+   "js:localStorage.setItem('mediai.session', JSON.stringify({email:'admin@mediai.health', name:'Dr. Alex Morgan', role:'Administrator'}))"
+  ]
+ },
+ {
+  "id": "departement",
+  "q": "defaultRoute=departement",
+  "full": true,
+  "pre": [
+   "js:localStorage.setItem('mediai.session', JSON.stringify({email:'admin@mediai.health', name:'Dr. Alex Morgan', role:'Administrator'}))"
+  ]
+ },
+ {
+  "id": "staff",
+  "q": "defaultRoute=staff",
+  "full": true,
+  "pre": [
+   "js:localStorage.setItem('mediai.session', JSON.stringify({email:'admin@mediai.health', name:'Dr. Alex Morgan', role:'Administrator'}))"
+  ]
+ },
+ {
+  "id": "ai",
+  "q": "defaultRoute=ai",
+  "full": true,
+  "pre": [
+   "js:localStorage.setItem('mediai.session', JSON.stringify({email:'admin@mediai.health', name:'Dr. Alex Morgan', role:'Administrator'}))"
+  ]
+ },
+ {
+  "id": "pharmacy",
+  "q": "defaultRoute=pharmacy",
+  "full": true,
+  "pre": [
+   "js:localStorage.setItem('mediai.session', JSON.stringify({email:'admin@mediai.health', name:'Dr. Alex Morgan', role:'Administrator'}))"
+  ]
+ },
+ {
+  "id": "billing",
+  "q": "defaultRoute=billing",
+  "full": true,
+  "pre": [
+   "js:localStorage.setItem('mediai.session', JSON.stringify({email:'admin@mediai.health', name:'Dr. Alex Morgan', role:'Administrator'}))"
+  ]
+ },
+ {
+  "id": "report",
+  "q": "defaultRoute=report",
+  "full": true,
+  "pre": [
+   "js:localStorage.setItem('mediai.session', JSON.stringify({email:'admin@mediai.health', name:'Dr. Alex Morgan', role:'Administrator'}))"
+  ]
+ },
+ {
+  "id": "lab",
+  "q": "defaultRoute=lab",
+  "full": true,
+  "pre": [
+   "js:localStorage.setItem('mediai.session', JSON.stringify({email:'admin@mediai.health', name:'Dr. Alex Morgan', role:'Administrator'}))"
+  ]
+ },
+ {
+  "id": "settings",
+  "q": "defaultRoute=settings",
+  "full": true,
+  "pre": [
+   "js:localStorage.setItem('mediai.session', JSON.stringify({email:'admin@mediai.health', name:'Dr. Alex Morgan', role:'Administrator'}))"
+  ]
+ },
+ {
+  "id": "support",
+  "q": "defaultRoute=support",
+  "full": true,
+  "pre": [
+   "js:localStorage.setItem('mediai.session', JSON.stringify({email:'admin@mediai.health', name:'Dr. Alex Morgan', role:'Administrator'}))"
+  ]
+ },
+ {
+  "id": "integration",
+  "q": "defaultRoute=integration",
+  "full": true,
+  "pre": [
+   "js:localStorage.setItem('mediai.session', JSON.stringify({email:'admin@mediai.health', name:'Dr. Alex Morgan', role:'Administrator'}))"
+  ]
+ },
+ {
+  "id": "signed-out",
+  "q": "forceSignedOut=true",
+  "full": true
+ }
 ]

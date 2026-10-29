@@ -168,6 +168,11 @@ async def main():
                 await pg.reload(wait_until="load", timeout=120000)
                 for label in st.get("pre", []):   # login / setup steps: "fill:<placeholder>=<value>" or a label to click
                     try:
+                        if label.startswith("js:"):   # e.g. seed a demo session in localStorage, then reload (logins that won't take a click)
+                            await pg.evaluate("() => { " + label[3:] + " }")
+                            await pg.reload(wait_until="load", timeout=120000)
+                            await pg.wait_for_timeout(1500)
+                            continue
                         if label.startswith("press:"):   # e.g. press:Enter when a submit button is animated / unclickable
                             await pg.keyboard.press(label[6:])
                             await pg.wait_for_timeout(1500)
