@@ -1,62 +1,116 @@
 [
  {
-  "id": "home",
-  "q": "",
-  "url": "https://demos.layoutdrop.com/",
-  "full": true
- },
- {
-  "id": "nexlink-ui8-html",
-  "q": "",
-  "url": "https://demos.layoutdrop.com/nexlink/ui8.html",
-  "full": true
- },
- {
-  "id": "nexlink-demo-team-management-html",
-  "q": "",
-  "url": "https://demos.layoutdrop.com/nexlink/demo/team-management.html",
-  "full": true
- },
- {
-  "id": "nexlink-demo-index-html",
+  "id": "index",
   "q": "",
   "url": "https://demos.layoutdrop.com/nexlink/demo/index.html",
   "full": true
  },
  {
-  "id": "nexlink-demo-finance-html",
+  "id": "activities",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/activities.html",
+  "full": true
+ },
+ {
+  "id": "ai-new-chat",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/ai/new-chat.html",
+  "full": true
+ },
+ {
+  "id": "calendar",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/calendar.html",
+  "full": true
+ },
+ {
+  "id": "chat",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/chat.html",
+  "full": true
+ },
+ {
+  "id": "customers",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/customers.html",
+  "full": true
+ },
+ {
+  "id": "deals",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/deals.html",
+  "full": true
+ },
+ {
+  "id": "email-compose",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/email/compose.html",
+  "full": true
+ },
+ {
+  "id": "email-inbox",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/email/inbox.html",
+  "full": true
+ },
+ {
+  "id": "email-read-email",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/email/read-email.html",
+  "full": true
+ },
+ {
+  "id": "employee",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/employee.html",
+  "full": true
+ },
+ {
+  "id": "finance",
   "q": "",
   "url": "https://demos.layoutdrop.com/nexlink/demo/finance.html",
   "full": true
  },
  {
-  "id": "nexlink-demo-index-rtl-html",
+  "id": "profile",
   "q": "",
-  "url": "https://demos.layoutdrop.com/nexlink/demo/index-rtl.html",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/profile.html",
   "full": true
  },
  {
-  "id": "nexlink-doc-index-html",
+  "id": "review",
   "q": "",
-  "url": "https://demos.layoutdrop.com/nexlink/doc/index.html",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/review.html",
   "full": true
  },
  {
-  "id": "nexlink-demo-sales-html",
+  "id": "sales",
   "q": "",
   "url": "https://demos.layoutdrop.com/nexlink/demo/sales.html",
   "full": true
  },
  {
-  "id": "nexlink-demo-task-management-html",
+  "id": "settings",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/settings.html",
+  "full": true
+ },
+ {
+  "id": "task-management",
   "q": "",
   "url": "https://demos.layoutdrop.com/nexlink/demo/task-management.html",
   "full": true
  },
  {
-  "id": "nexlink-demo-employee-html",
+  "id": "team-management",
   "q": "",
-  "url": "https://demos.layoutdrop.com/nexlink/demo/employee.html",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/team-management.html",
+  "full": true
+ },
+ {
+  "id": "user-management",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/user-management.html",
   "full": true
  }
 ]

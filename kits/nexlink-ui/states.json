@@ -1,0 +1,266 @@
+[
+ {
+  "id": "chart-apexchart",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/chart/apexchart.html",
+  "full": true
+ },
+ {
+  "id": "chart-chartjs",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/chart/chartjs.html",
+  "full": true
+ },
+ {
+  "id": "components-accordion",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/accordion.html",
+  "full": true
+ },
+ {
+  "id": "components-alerts",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/alerts.html",
+  "full": true
+ },
+ {
+  "id": "components-badge",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/badge.html",
+  "full": true
+ },
+ {
+  "id": "components-breadcrumb",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/breadcrumb.html",
+  "full": true
+ },
+ {
+  "id": "components-button-group",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/button-group.html",
+  "full": true
+ },
+ {
+  "id": "components-buttons",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/buttons.html",
+  "full": true
+ },
+ {
+  "id": "components-card",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/card.html",
+  "full": true
+ },
+ {
+  "id": "components-carousel",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/carousel.html",
+  "full": true
+ },
+ {
+  "id": "components-collapse",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/collapse.html",
+  "full": true
+ },
+ {
+  "id": "components-dropdowns",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/dropdowns.html",
+  "full": true
+ },
+ {
+  "id": "components-list-group",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/list-group.html",
+  "full": true
+ },
+ {
+  "id": "components-modal",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/modal.html",
+  "full": true
+ },
+ {
+  "id": "components-navbar",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/navbar.html",
+  "full": true
+ },
+ {
+  "id": "components-offcanvas",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/offcanvas.html",
+  "full": true
+ },
+ {
+  "id": "components-pagination",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/pagination.html",
+  "full": true
+ },
+ {
+  "id": "components-popovers",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/popovers.html",
+  "full": true
+ },
+ {
+  "id": "components-progress",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/progress.html",
+  "full": true
+ },
+ {
+  "id": "components-scrollspy",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/scrollspy.html",
+  "full": true
+ },
+ {
+  "id": "components-spinners",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/spinners.html",
+  "full": true
+ },
+ {
+  "id": "components-tabs",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/tabs.html",
+  "full": true
+ },
+ {
+  "id": "components-toasts",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/toasts.html",
+  "full": true
+ },
+ {
+  "id": "components-tooltips",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/tooltips.html",
+  "full": true
+ },
+ {
+  "id": "components-typography",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/components/typography.html",
+  "full": true
+ },
+ {
+  "id": "extended-ui-avatar",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/extended-ui/avatar.html",
+  "full": true
+ },
+ {
+  "id": "extended-ui-card-action",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/extended-ui/card-action.html",
+  "full": true
+ },
+ {
+  "id": "extended-ui-drag-and-drop",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/extended-ui/drag-and-drop.html",
+  "full": true
+ },
+ {
+  "id": "extended-ui-simplebar",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/extended-ui/simplebar.html",
+  "full": true
+ },
+ {
+  "id": "extended-ui-swiper",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/extended-ui/swiper.html",
+  "full": true
+ },
+ {
+  "id": "forms-flatpickr",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/forms/flatpickr.html",
+  "full": true
+ },
+ {
+  "id": "forms-form-elements",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/forms/form-elements.html",
+  "full": true
+ },
+ {
+  "id": "forms-form-floating",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/forms/form-floating.html",
+  "full": true
+ },
+ {
+  "id": "forms-form-input-group",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/forms/form-input-group.html",
+  "full": true
+ },
+ {
+  "id": "forms-form-layout",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/forms/form-layout.html",
+  "full": true
+ },
+ {
+  "id": "forms-form-validation",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/forms/form-validation.html",
+  "full": true
+ },
+ {
+  "id": "forms-tagify",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/forms/tagify.html",
+  "full": true
+ },
+ {
+  "id": "icons-flaticon",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/icons/flaticon.html",
+  "full": true
+ },
+ {
+  "id": "icons-fontawesome",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/icons/fontawesome.html",
+  "full": true
+ },
+ {
+  "id": "icons-lucide",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/icons/lucide.html",
+  "full": true
+ },
+ {
+  "id": "maps-jsvectormap",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/maps/jsvectormap.html",
+  "full": true
+ },
+ {
+  "id": "maps-leaflet",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/maps/leaflet.html",
+  "full": true
+ },
+ {
+  "id": "table-tables-basic",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/table/tables-basic.html",
+  "full": true
+ },
+ {
+  "id": "table-tables-datatable",
+  "q": "",
+  "url": "https://demos.layoutdrop.com/nexlink/demo/table/tables-datatable.html",
+  "full": true
+ }
+]
