@@ -1,0 +1,52 @@
+name: explore kits
+
+# Run the screen explorer over many UI kits in parallel. Start it with:
+#   gh workflow run explore.yml -f kits='["folio","revenix"]'
+# Each kit is its own job; its screens, layouts, HTML and screens.json come back as a job artifact named kit-<name>.
+on:
+  workflow_dispatch:
+    inputs:
+      kits:
+        description: JSON list of kit folder names under kits/
+        required: true
+      max_new_roots:
+        description: cap on new pages added per discovery round (live sites)
+        default: "20"
+
+jobs:
+  explore:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        kit: ${{ fromJSON(inputs.kits) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Browser
+        run: |
+          pip install -q playwright pillow
+          python -m playwright install --with-deps chromium
+      - name: Explore
+        env:
+          PW_CHANNEL: ""
+          PYTHONUNBUFFERED: "1"
+          MAX_NEW_ROOTS: ${{ inputs.max_new_roots }}
+        run: bash run_kit.sh ${{ matrix.kit }} 2>&1 | tee kits/${{ matrix.kit }}/explore.log
+      - name: Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kit-${{ matrix.kit }}
+          path: |
+            kits/${{ matrix.kit }}/screens
+            kits/${{ matrix.kit }}/screens.json
+            kits/${{ matrix.kit }}/states.json
+            kits/${{ matrix.kit }}/source/app_styles.css
+            kits/${{ matrix.kit }}/explore.log
+          retention-days: 30
+          if-no-files-found: warn

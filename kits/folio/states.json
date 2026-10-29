@@ -1,0 +1,116 @@
+[
+{
+"id": "home",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/",
+"full": true
+},
+{
+"id": "chat",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/chat",
+"full": true
+},
+{
+"id": "support",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/support",
+"full": true
+},
+{
+"id": "insights",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/insights",
+"full": true
+},
+{
+"id": "history",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/history",
+"full": true
+},
+{
+"id": "prompts",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/prompts",
+"full": true
+},
+{
+"id": "chat-q3-revenue",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/chat/q3-revenue",
+"full": true
+},
+{
+"id": "chat-ar-overdue",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/chat/ar-overdue",
+"full": true
+},
+{
+"id": "chat-supplier-spend",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/chat/supplier-spend",
+"full": true
+},
+{
+"id": "chat-blocked-orders",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/chat/blocked-orders",
+"full": true
+},
+{
+"id": "chat-cash-forecast",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/chat/cash-forecast",
+"full": true
+},
+{
+"id": "admin-connections",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/admin/connections",
+"full": true
+},
+{
+"id": "admin-users",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/admin/users",
+"full": true
+},
+{
+"id": "admin-data-access",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/admin/data-access",
+"full": true
+},
+{
+"id": "admin-audit",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/admin/audit",
+"full": true
+},
+{
+"id": "admin-usage",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/admin/usage",
+"full": true
+},
+{
+"id": "design-system",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/design-system",
+"full": true
+},
+{
+"id": "settings",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/settings",
+"full": true
+},
+{
+"id": "login",
+"q": "",
+"url": "https://folio-ai-kit.vercel.app/login",
+"full": true
+}
+]

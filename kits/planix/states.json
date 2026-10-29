@@ -1,0 +1,152 @@
+[
+{
+"id": "home",
+"q": "",
+"url": "https://planix-template.vercel.app/",
+"full": true
+},
+{
+"id": "clients",
+"q": "",
+"url": "https://planix-template.vercel.app/clients",
+"full": true
+},
+{
+"id": "projects-tasks",
+"q": "",
+"url": "https://planix-template.vercel.app/projects/tasks",
+"full": true
+},
+{
+"id": "messages",
+"q": "",
+"url": "https://planix-template.vercel.app/messages",
+"full": true
+},
+{
+"id": "notifications",
+"q": "",
+"url": "https://planix-template.vercel.app/notifications",
+"full": true
+},
+{
+"id": "people",
+"q": "",
+"url": "https://planix-template.vercel.app/people",
+"full": true
+},
+{
+"id": "settings",
+"q": "",
+"url": "https://planix-template.vercel.app/settings",
+"full": true
+},
+{
+"id": "faq",
+"q": "",
+"url": "https://planix-template.vercel.app/faq",
+"full": true
+},
+{
+"id": "clients-client-google",
+"q": "",
+"url": "https://planix-template.vercel.app/clients/client-google",
+"full": true
+},
+{
+"id": "clients-client-apple",
+"q": "",
+"url": "https://planix-template.vercel.app/clients/client-apple",
+"full": true
+},
+{
+"id": "clients-client-nvidia",
+"q": "",
+"url": "https://planix-template.vercel.app/clients/client-nvidia",
+"full": true
+},
+{
+"id": "clients-client-figma",
+"q": "",
+"url": "https://planix-template.vercel.app/clients/client-figma",
+"full": true
+},
+{
+"id": "clients-client-stripe",
+"q": "",
+"url": "https://planix-template.vercel.app/clients/client-stripe",
+"full": true
+},
+{
+"id": "clients-client-microsoft",
+"q": "",
+"url": "https://planix-template.vercel.app/clients/client-microsoft",
+"full": true
+},
+{
+"id": "clients-client-amazon",
+"q": "",
+"url": "https://planix-template.vercel.app/clients/client-amazon",
+"full": true
+},
+{
+"id": "clients-client-openai",
+"q": "",
+"url": "https://planix-template.vercel.app/clients/client-openai",
+"full": true
+},
+{
+"id": "clients-client-shopify",
+"q": "",
+"url": "https://planix-template.vercel.app/clients/client-shopify",
+"full": true
+},
+{
+"id": "clients-client-adobe",
+"q": "",
+"url": "https://planix-template.vercel.app/clients/client-adobe",
+"full": true
+},
+{
+"id": "clients-client-hubspot",
+"q": "",
+"url": "https://planix-template.vercel.app/clients/client-hubspot",
+"full": true
+},
+{
+"id": "clients-client-atlassian",
+"q": "",
+"url": "https://planix-template.vercel.app/clients/client-atlassian",
+"full": true
+},
+{
+"id": "clients-client-airbnb",
+"q": "",
+"url": "https://planix-template.vercel.app/clients/client-airbnb",
+"full": true
+},
+{
+"id": "clients-client-slack",
+"q": "",
+"url": "https://planix-template.vercel.app/clients/client-slack",
+"full": true
+},
+{
+"id": "clients-client-notion",
+"q": "",
+"url": "https://planix-template.vercel.app/clients/client-notion",
+"full": true
+},
+{
+"id": "clients-client-salesforce",
+"q": "",
+"url": "https://planix-template.vercel.app/clients/client-salesforce",
+"full": true
+},
+{
+"id": "dashboard",
+"q": "",
+"url": "https://planix-template.vercel.app/dashboard",
+"full": true
+}
+]

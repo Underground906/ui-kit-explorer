@@ -1,0 +1,116 @@
+[
+{
+"id": "home",
+"q": "",
+"url": "https://revenix-host.netlify.app/",
+"full": true
+},
+{
+"id": "forgot-password",
+"q": "",
+"url": "https://revenix-host.netlify.app/forgot-password",
+"full": true
+},
+{
+"id": "register",
+"q": "",
+"url": "https://revenix-host.netlify.app/register",
+"full": true
+},
+{
+"id": "change-password",
+"q": "",
+"url": "https://revenix-host.netlify.app/change-password",
+"full": true
+},
+{
+"id": "dashboard",
+"q": "",
+"url": "https://revenix-host.netlify.app/dashboard",
+"full": true
+},
+{
+"id": "dashboard-account",
+"q": "",
+"url": "https://revenix-host.netlify.app/dashboard/account",
+"full": true
+},
+{
+"id": "dashboard-analytics",
+"q": "",
+"url": "https://revenix-host.netlify.app/dashboard/analytics",
+"full": true
+},
+{
+"id": "dashboard-chat",
+"q": "",
+"url": "https://revenix-host.netlify.app/dashboard/chat",
+"full": true
+},
+{
+"id": "dashboard-customers",
+"q": "",
+"url": "https://revenix-host.netlify.app/dashboard/customers",
+"full": true
+},
+{
+"id": "dashboard-email",
+"q": "",
+"url": "https://revenix-host.netlify.app/dashboard/email",
+"full": true
+},
+{
+"id": "dashboard-feedback",
+"q": "",
+"url": "https://revenix-host.netlify.app/dashboard/feedback",
+"full": true
+},
+{
+"id": "dashboard-integration",
+"q": "",
+"url": "https://revenix-host.netlify.app/dashboard/integration",
+"full": true
+},
+{
+"id": "dashboard-members",
+"q": "",
+"url": "https://revenix-host.netlify.app/dashboard/members",
+"full": true
+},
+{
+"id": "dashboard-notifications",
+"q": "",
+"url": "https://revenix-host.netlify.app/dashboard/notifications",
+"full": true
+},
+{
+"id": "dashboard-order",
+"q": "",
+"url": "https://revenix-host.netlify.app/dashboard/order",
+"full": true
+},
+{
+"id": "dashboard-performance",
+"q": "",
+"url": "https://revenix-host.netlify.app/dashboard/performance",
+"full": true
+},
+{
+"id": "dashboard-products",
+"q": "",
+"url": "https://revenix-host.netlify.app/dashboard/products",
+"full": true
+},
+{
+"id": "dashboard-settings",
+"q": "",
+"url": "https://revenix-host.netlify.app/dashboard/settings",
+"full": true
+},
+{
+"id": "otp",
+"q": "",
+"url": "https://revenix-host.netlify.app/otp",
+"full": true
+}
+]
