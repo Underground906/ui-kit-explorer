@@ -181,6 +181,10 @@ async def main():
                             await pg.keyboard.press(label[6:])
                             await pg.wait_for_timeout(1500)
                             continue
+                        if label.startswith("css:"):   # e.g. css:a[href="/analytics"] for icon-only links with no visible label
+                            await pg.locator(label[4:]).first.click(timeout=10000)
+                            await pg.wait_for_timeout(1500)
+                            continue
                         if label.startswith("fill:"):
                             ph, val = label[5:].split("=", 1)
                             await pg.get_by_placeholder(ph).first.fill(val, timeout=10000)

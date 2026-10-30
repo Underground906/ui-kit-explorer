@@ -1,13 +1,13 @@
 [
  {"id": "signin", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true},
- {"id": "forgot-password", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Forgot password?"]},
- {"id": "signup", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Create an account"]},
+ {"id": "forgot-password", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["css:a[href=\"/forgot-password\"]"]},
+ {"id": "signup", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["css:a[href=\"/signup\"]"]},
  {"id": "dashboard", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Sign in"]},
- {"id": "accounts", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Sign in", "Wallet"]},
- {"id": "analytics", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Sign in", "Analytics"]},
- {"id": "cards", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Sign in", "Cards"]},
- {"id": "activity", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Sign in", "Activity"]},
- {"id": "budgets", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Sign in", "Budgets"]},
- {"id": "settings", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Sign in", "Settings"]},
- {"id": "help", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Sign in", "Help"]}
+ {"id": "accounts", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Sign in", "css:a[href=\"/accounts\"]"]},
+ {"id": "analytics", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Sign in", "css:a[href=\"/analytics\"]"]},
+ {"id": "cards", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Sign in", "css:a[href=\"/cards\"]"]},
+ {"id": "activity", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Sign in", "css:a[href=\"/activity\"]"]},
+ {"id": "budgets", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Sign in", "css:a[href=\"/budgets\"]"]},
+ {"id": "settings", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Sign in", "css:a[href=\"/settings\"]"]},
+ {"id": "help", "q": "", "url": "https://fundra-fintech-dashboard.vercel.app/", "full": true, "spa": true, "pre": ["Sign in", "css:a[href=\"/help\"]"]}
 ]
